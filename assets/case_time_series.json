@@ -1,0 +1,4732 @@
+[
+  {
+    "Date": "30-Jan-20",
+    "Date_YMD": "30/01/2020",
+    "Daily Confirmed": 1,
+    "Total_Confirmed": 1,
+    "Daily Recovered": 0,
+    "Total Recovered": 0,
+    "Daily Deceased": 0,
+    "Total Deceased": 0
+  },
+  {
+    "Date": "31-Jan-20",
+    "Date_YMD": "31/01/2020",
+    "Daily Confirmed": 0,
+    "Total_Confirmed": 1,
+    "Daily Recovered": 0,
+    "Total Recovered": 0,
+    "Daily Deceased": 0,
+    "Total Deceased": 0
+  },
+  {
+    "Date": "01-Feb-20",
+    "Date_YMD": "01/02/2020",
+    "Daily Confirmed": 0,
+    "Total_Confirmed": 1,
+    "Daily Recovered": 0,
+    "Total Recovered": 0,
+    "Daily Deceased": 0,
+    "Total Deceased": 0
+  },
+  {
+    "Date": "02-Feb-20",
+    "Date_YMD": "02/02/2020",
+    "Daily Confirmed": 1,
+    "Total_Confirmed": 2,
+    "Daily Recovered": 0,
+    "Total Recovered": 0,
+    "Daily Deceased": 0,
+    "Total Deceased": 0
+  },
+  {
+    "Date": "03-Feb-20",
+    "Date_YMD": "03/02/2020",
+    "Daily Confirmed": 1,
+    "Total_Confirmed": 3,
+    "Daily Recovered": 0,
+    "Total Recovered": 0,
+    "Daily Deceased": 0,
+    "Total Deceased": 0
+  },
+  {
+    "Date": "04-Feb-20",
+    "Date_YMD": "04/02/2020",
+    "Daily Confirmed": 0,
+    "Total_Confirmed": 3,
+    "Daily Recovered": 0,
+    "Total Recovered": 0,
+    "Daily Deceased": 0,
+    "Total Deceased": 0
+  },
+  {
+    "Date": "05-Feb-20",
+    "Date_YMD": "05/02/2020",
+    "Daily Confirmed": 0,
+    "Total_Confirmed": 3,
+    "Daily Recovered": 0,
+    "Total Recovered": 0,
+    "Daily Deceased": 0,
+    "Total Deceased": 0
+  },
+  {
+    "Date": "06-Feb-20",
+    "Date_YMD": "06/02/2020",
+    "Daily Confirmed": 0,
+    "Total_Confirmed": 3,
+    "Daily Recovered": 0,
+    "Total Recovered": 0,
+    "Daily Deceased": 0,
+    "Total Deceased": 0
+  },
+  {
+    "Date": "07-Feb-20",
+    "Date_YMD": "07/02/2020",
+    "Daily Confirmed": 0,
+    "Total_Confirmed": 3,
+    "Daily Recovered": 0,
+    "Total Recovered": 0,
+    "Daily Deceased": 0,
+    "Total Deceased": 0
+  },
+  {
+    "Date": "08-Feb-20",
+    "Date_YMD": "08/02/2020",
+    "Daily Confirmed": 0,
+    "Total_Confirmed": 3,
+    "Daily Recovered": 0,
+    "Total Recovered": 0,
+    "Daily Deceased": 0,
+    "Total Deceased": 0
+  },
+  {
+    "Date": "09-Feb-20",
+    "Date_YMD": "09/02/2020",
+    "Daily Confirmed": 0,
+    "Total_Confirmed": 3,
+    "Daily Recovered": 0,
+    "Total Recovered": 0,
+    "Daily Deceased": 0,
+    "Total Deceased": 0
+  },
+  {
+    "Date": "10-Feb-20",
+    "Date_YMD": "10/02/2020",
+    "Daily Confirmed": 0,
+    "Total_Confirmed": 3,
+    "Daily Recovered": 0,
+    "Total Recovered": 0,
+    "Daily Deceased": 0,
+    "Total Deceased": 0
+  },
+  {
+    "Date": "11-Feb-20",
+    "Date_YMD": "11/02/2020",
+    "Daily Confirmed": 0,
+    "Total_Confirmed": 3,
+    "Daily Recovered": 0,
+    "Total Recovered": 0,
+    "Daily Deceased": 0,
+    "Total Deceased": 0
+  },
+  {
+    "Date": "12-Feb-20",
+    "Date_YMD": "12/02/2020",
+    "Daily Confirmed": 0,
+    "Total_Confirmed": 3,
+    "Daily Recovered": 0,
+    "Total Recovered": 0,
+    "Daily Deceased": 0,
+    "Total Deceased": 0
+  },
+  {
+    "Date": "13-Feb-20",
+    "Date_YMD": "13/02/2020",
+    "Daily Confirmed": 0,
+    "Total_Confirmed": 3,
+    "Daily Recovered": 1,
+    "Total Recovered": 1,
+    "Daily Deceased": 0,
+    "Total Deceased": 0
+  },
+  {
+    "Date": "14-Feb-20",
+    "Date_YMD": "14/02/2020",
+    "Daily Confirmed": 0,
+    "Total_Confirmed": 3,
+    "Daily Recovered": 0,
+    "Total Recovered": 1,
+    "Daily Deceased": 0,
+    "Total Deceased": 0
+  },
+  {
+    "Date": "15-Feb-20",
+    "Date_YMD": "15/02/2020",
+    "Daily Confirmed": 0,
+    "Total_Confirmed": 3,
+    "Daily Recovered": 0,
+    "Total Recovered": 1,
+    "Daily Deceased": 0,
+    "Total Deceased": 0
+  },
+  {
+    "Date": "16-Feb-20",
+    "Date_YMD": "16/02/2020",
+    "Daily Confirmed": 0,
+    "Total_Confirmed": 3,
+    "Daily Recovered": 1,
+    "Total Recovered": 2,
+    "Daily Deceased": 0,
+    "Total Deceased": 0
+  },
+  {
+    "Date": "17-Feb-20",
+    "Date_YMD": "17/02/2020",
+    "Daily Confirmed": 0,
+    "Total_Confirmed": 3,
+    "Daily Recovered": 0,
+    "Total Recovered": 2,
+    "Daily Deceased": 0,
+    "Total Deceased": 0
+  },
+  {
+    "Date": "18-Feb-20",
+    "Date_YMD": "18/02/2020",
+    "Daily Confirmed": 0,
+    "Total_Confirmed": 3,
+    "Daily Recovered": 0,
+    "Total Recovered": 2,
+    "Daily Deceased": 0,
+    "Total Deceased": 0
+  },
+  {
+    "Date": "19-Feb-20",
+    "Date_YMD": "19/02/2020",
+    "Daily Confirmed": 0,
+    "Total_Confirmed": 3,
+    "Daily Recovered": 0,
+    "Total Recovered": 2,
+    "Daily Deceased": 0,
+    "Total Deceased": 0
+  },
+  {
+    "Date": "20-Feb-20",
+    "Date_YMD": "20/02/2020",
+    "Daily Confirmed": 0,
+    "Total_Confirmed": 3,
+    "Daily Recovered": 1,
+    "Total Recovered": 3,
+    "Daily Deceased": 0,
+    "Total Deceased": 0
+  },
+  {
+    "Date": "21-Feb-20",
+    "Date_YMD": "21/02/2020",
+    "Daily Confirmed": 0,
+    "Total_Confirmed": 3,
+    "Daily Recovered": 0,
+    "Total Recovered": 3,
+    "Daily Deceased": 0,
+    "Total Deceased": 0
+  },
+  {
+    "Date": "22-Feb-20",
+    "Date_YMD": "22/02/2020",
+    "Daily Confirmed": 0,
+    "Total_Confirmed": 3,
+    "Daily Recovered": 0,
+    "Total Recovered": 3,
+    "Daily Deceased": 0,
+    "Total Deceased": 0
+  },
+  {
+    "Date": "23-Feb-20",
+    "Date_YMD": "23/02/2020",
+    "Daily Confirmed": 0,
+    "Total_Confirmed": 3,
+    "Daily Recovered": 0,
+    "Total Recovered": 3,
+    "Daily Deceased": 0,
+    "Total Deceased": 0
+  },
+  {
+    "Date": "24-Feb-20",
+    "Date_YMD": "24/02/2020",
+    "Daily Confirmed": 0,
+    "Total_Confirmed": 3,
+    "Daily Recovered": 0,
+    "Total Recovered": 3,
+    "Daily Deceased": 0,
+    "Total Deceased": 0
+  },
+  {
+    "Date": "25-Feb-20",
+    "Date_YMD": "25/02/2020",
+    "Daily Confirmed": 0,
+    "Total_Confirmed": 3,
+    "Daily Recovered": 0,
+    "Total Recovered": 3,
+    "Daily Deceased": 0,
+    "Total Deceased": 0
+  },
+  {
+    "Date": "26-Feb-20",
+    "Date_YMD": "26/02/2020",
+    "Daily Confirmed": 0,
+    "Total_Confirmed": 3,
+    "Daily Recovered": 0,
+    "Total Recovered": 3,
+    "Daily Deceased": 0,
+    "Total Deceased": 0
+  },
+  {
+    "Date": "27-Feb-20",
+    "Date_YMD": "27/02/2020",
+    "Daily Confirmed": 0,
+    "Total_Confirmed": 3,
+    "Daily Recovered": 0,
+    "Total Recovered": 3,
+    "Daily Deceased": 0,
+    "Total Deceased": 0
+  },
+  {
+    "Date": "28-Feb-20",
+    "Date_YMD": "28/02/2020",
+    "Daily Confirmed": 0,
+    "Total_Confirmed": 3,
+    "Daily Recovered": 0,
+    "Total Recovered": 3,
+    "Daily Deceased": 0,
+    "Total Deceased": 0
+  },
+  {
+    "Date": "29-Feb-20",
+    "Date_YMD": "29/02/2020",
+    "Daily Confirmed": 0,
+    "Total_Confirmed": 3,
+    "Daily Recovered": 0,
+    "Total Recovered": 3,
+    "Daily Deceased": 0,
+    "Total Deceased": 0
+  },
+  {
+    "Date": "01-Mar-20",
+    "Date_YMD": "01/03/2020",
+    "Daily Confirmed": 0,
+    "Total_Confirmed": 3,
+    "Daily Recovered": 0,
+    "Total Recovered": 3,
+    "Daily Deceased": 0,
+    "Total Deceased": 0
+  },
+  {
+    "Date": "02-Mar-20",
+    "Date_YMD": "02/03/2020",
+    "Daily Confirmed": 2,
+    "Total_Confirmed": 5,
+    "Daily Recovered": 0,
+    "Total Recovered": 3,
+    "Daily Deceased": 0,
+    "Total Deceased": 0
+  },
+  {
+    "Date": "03-Mar-20",
+    "Date_YMD": "03/03/2020",
+    "Daily Confirmed": 1,
+    "Total_Confirmed": 6,
+    "Daily Recovered": 0,
+    "Total Recovered": 3,
+    "Daily Deceased": 0,
+    "Total Deceased": 0
+  },
+  {
+    "Date": "04-Mar-20",
+    "Date_YMD": "04/03/2020",
+    "Daily Confirmed": 22,
+    "Total_Confirmed": 28,
+    "Daily Recovered": 0,
+    "Total Recovered": 3,
+    "Daily Deceased": 0,
+    "Total Deceased": 0
+  },
+  {
+    "Date": "05-Mar-20",
+    "Date_YMD": "05/03/2020",
+    "Daily Confirmed": 2,
+    "Total_Confirmed": 30,
+    "Daily Recovered": 0,
+    "Total Recovered": 3,
+    "Daily Deceased": 0,
+    "Total Deceased": 0
+  },
+  {
+    "Date": "06-Mar-20",
+    "Date_YMD": "06/03/2020",
+    "Daily Confirmed": 1,
+    "Total_Confirmed": 31,
+    "Daily Recovered": 0,
+    "Total Recovered": 3,
+    "Daily Deceased": 0,
+    "Total Deceased": 0
+  },
+  {
+    "Date": "07-Mar-20",
+    "Date_YMD": "07/03/2020",
+    "Daily Confirmed": 3,
+    "Total_Confirmed": 34,
+    "Daily Recovered": 0,
+    "Total Recovered": 3,
+    "Daily Deceased": 0,
+    "Total Deceased": 0
+  },
+  {
+    "Date": "08-Mar-20",
+    "Date_YMD": "08/03/2020",
+    "Daily Confirmed": 5,
+    "Total_Confirmed": 39,
+    "Daily Recovered": 0,
+    "Total Recovered": 3,
+    "Daily Deceased": 0,
+    "Total Deceased": 0
+  },
+  {
+    "Date": "09-Mar-20",
+    "Date_YMD": "09/03/2020",
+    "Daily Confirmed": 9,
+    "Total_Confirmed": 48,
+    "Daily Recovered": 0,
+    "Total Recovered": 3,
+    "Daily Deceased": 0,
+    "Total Deceased": 0
+  },
+  {
+    "Date": "10-Mar-20",
+    "Date_YMD": "10/03/2020",
+    "Daily Confirmed": 15,
+    "Total_Confirmed": 63,
+    "Daily Recovered": 1,
+    "Total Recovered": 4,
+    "Daily Deceased": 0,
+    "Total Deceased": 0
+  },
+  {
+    "Date": "11-Mar-20",
+    "Date_YMD": "11/03/2020",
+    "Daily Confirmed": 8,
+    "Total_Confirmed": 71,
+    "Daily Recovered": 0,
+    "Total Recovered": 4,
+    "Daily Deceased": 0,
+    "Total Deceased": 0
+  },
+  {
+    "Date": "12-Mar-20",
+    "Date_YMD": "12/03/2020",
+    "Daily Confirmed": 10,
+    "Total_Confirmed": 81,
+    "Daily Recovered": 0,
+    "Total Recovered": 4,
+    "Daily Deceased": 1,
+    "Total Deceased": 1
+  },
+  {
+    "Date": "13-Mar-20",
+    "Date_YMD": "13/03/2020",
+    "Daily Confirmed": 10,
+    "Total_Confirmed": 91,
+    "Daily Recovered": 6,
+    "Total Recovered": 10,
+    "Daily Deceased": 0,
+    "Total Deceased": 1
+  },
+  {
+    "Date": "14-Mar-20",
+    "Date_YMD": "14/03/2020",
+    "Daily Confirmed": 11,
+    "Total_Confirmed": 102,
+    "Daily Recovered": 0,
+    "Total Recovered": 10,
+    "Daily Deceased": 1,
+    "Total Deceased": 2
+  },
+  {
+    "Date": "15-Mar-20",
+    "Date_YMD": "15/03/2020",
+    "Daily Confirmed": 10,
+    "Total_Confirmed": 112,
+    "Daily Recovered": 3,
+    "Total Recovered": 13,
+    "Daily Deceased": 0,
+    "Total Deceased": 2
+  },
+  {
+    "Date": "16-Mar-20",
+    "Date_YMD": "16/03/2020",
+    "Daily Confirmed": 14,
+    "Total_Confirmed": 126,
+    "Daily Recovered": 1,
+    "Total Recovered": 14,
+    "Daily Deceased": 0,
+    "Total Deceased": 2
+  },
+  {
+    "Date": "17-Mar-20",
+    "Date_YMD": "17/03/2020",
+    "Daily Confirmed": 20,
+    "Total_Confirmed": 146,
+    "Daily Recovered": 1,
+    "Total Recovered": 15,
+    "Daily Deceased": 1,
+    "Total Deceased": 3
+  },
+  {
+    "Date": "18-Mar-20",
+    "Date_YMD": "18/03/2020",
+    "Daily Confirmed": 25,
+    "Total_Confirmed": 171,
+    "Daily Recovered": 0,
+    "Total Recovered": 15,
+    "Daily Deceased": 0,
+    "Total Deceased": 3
+  },
+  {
+    "Date": "19-Mar-20",
+    "Date_YMD": "19/03/2020",
+    "Daily Confirmed": 27,
+    "Total_Confirmed": 198,
+    "Daily Recovered": 5,
+    "Total Recovered": 20,
+    "Daily Deceased": 1,
+    "Total Deceased": 4
+  },
+  {
+    "Date": "20-Mar-20",
+    "Date_YMD": "20/03/2020",
+    "Daily Confirmed": 58,
+    "Total_Confirmed": 256,
+    "Daily Recovered": 3,
+    "Total Recovered": 23,
+    "Daily Deceased": 0,
+    "Total Deceased": 4
+  },
+  {
+    "Date": "21-Mar-20",
+    "Date_YMD": "21/03/2020",
+    "Daily Confirmed": 78,
+    "Total_Confirmed": 334,
+    "Daily Recovered": 0,
+    "Total Recovered": 23,
+    "Daily Deceased": 0,
+    "Total Deceased": 4
+  },
+  {
+    "Date": "22-Mar-20",
+    "Date_YMD": "22/03/2020",
+    "Daily Confirmed": 69,
+    "Total_Confirmed": 403,
+    "Daily Recovered": 0,
+    "Total Recovered": 23,
+    "Daily Deceased": 3,
+    "Total Deceased": 7
+  },
+  {
+    "Date": "23-Mar-20",
+    "Date_YMD": "23/03/2020",
+    "Daily Confirmed": 94,
+    "Total_Confirmed": 497,
+    "Daily Recovered": 2,
+    "Total Recovered": 25,
+    "Daily Deceased": 2,
+    "Total Deceased": 9
+  },
+  {
+    "Date": "24-Mar-20",
+    "Date_YMD": "24/03/2020",
+    "Daily Confirmed": 74,
+    "Total_Confirmed": 571,
+    "Daily Recovered": 15,
+    "Total Recovered": 40,
+    "Daily Deceased": 1,
+    "Total Deceased": 10
+  },
+  {
+    "Date": "25-Mar-20",
+    "Date_YMD": "25/03/2020",
+    "Daily Confirmed": 86,
+    "Total_Confirmed": 657,
+    "Daily Recovered": 3,
+    "Total Recovered": 43,
+    "Daily Deceased": 1,
+    "Total Deceased": 11
+  },
+  {
+    "Date": "26-Mar-20",
+    "Date_YMD": "26/03/2020",
+    "Daily Confirmed": 73,
+    "Total_Confirmed": 730,
+    "Daily Recovered": 7,
+    "Total Recovered": 50,
+    "Daily Deceased": 5,
+    "Total Deceased": 16
+  },
+  {
+    "Date": "27-Mar-20",
+    "Date_YMD": "27/03/2020",
+    "Daily Confirmed": 153,
+    "Total_Confirmed": 883,
+    "Daily Recovered": 25,
+    "Total Recovered": 75,
+    "Daily Deceased": 3,
+    "Total Deceased": 19
+  },
+  {
+    "Date": "28-Mar-20",
+    "Date_YMD": "28/03/2020",
+    "Daily Confirmed": 136,
+    "Total_Confirmed": 1019,
+    "Daily Recovered": 10,
+    "Total Recovered": 85,
+    "Daily Deceased": 5,
+    "Total Deceased": 24
+  },
+  {
+    "Date": "29-Mar-20",
+    "Date_YMD": "29/03/2020",
+    "Daily Confirmed": 120,
+    "Total_Confirmed": 1139,
+    "Daily Recovered": 17,
+    "Total Recovered": 102,
+    "Daily Deceased": 3,
+    "Total Deceased": 27
+  },
+  {
+    "Date": "30-Mar-20",
+    "Date_YMD": "30/03/2020",
+    "Daily Confirmed": 187,
+    "Total_Confirmed": 1326,
+    "Daily Recovered": 35,
+    "Total Recovered": 137,
+    "Daily Deceased": 14,
+    "Total Deceased": 41
+  },
+  {
+    "Date": "31-Mar-20",
+    "Date_YMD": "31/03/2020",
+    "Daily Confirmed": 309,
+    "Total_Confirmed": 1635,
+    "Daily Recovered": 13,
+    "Total Recovered": 150,
+    "Daily Deceased": 6,
+    "Total Deceased": 47
+  },
+  {
+    "Date": "01-Apr-20",
+    "Date_YMD": "01/04/2020",
+    "Daily Confirmed": 424,
+    "Total_Confirmed": 2059,
+    "Daily Recovered": 19,
+    "Total Recovered": 169,
+    "Daily Deceased": 6,
+    "Total Deceased": 53
+  },
+  {
+    "Date": "02-Apr-20",
+    "Date_YMD": "02/04/2020",
+    "Daily Confirmed": 486,
+    "Total_Confirmed": 2545,
+    "Daily Recovered": 22,
+    "Total Recovered": 191,
+    "Daily Deceased": 16,
+    "Total Deceased": 69
+  },
+  {
+    "Date": "03-Apr-20",
+    "Date_YMD": "03/04/2020",
+    "Daily Confirmed": 560,
+    "Total_Confirmed": 3105,
+    "Daily Recovered": 39,
+    "Total Recovered": 230,
+    "Daily Deceased": 14,
+    "Total Deceased": 83
+  },
+  {
+    "Date": "04-Apr-20",
+    "Date_YMD": "04/04/2020",
+    "Daily Confirmed": 579,
+    "Total_Confirmed": 3684,
+    "Daily Recovered": 56,
+    "Total Recovered": 286,
+    "Daily Deceased": 13,
+    "Total Deceased": 96
+  },
+  {
+    "Date": "05-Apr-20",
+    "Date_YMD": "05/04/2020",
+    "Daily Confirmed": 609,
+    "Total_Confirmed": 4293,
+    "Daily Recovered": 43,
+    "Total Recovered": 329,
+    "Daily Deceased": 22,
+    "Total Deceased": 118
+  },
+  {
+    "Date": "06-Apr-20",
+    "Date_YMD": "06/04/2020",
+    "Daily Confirmed": 484,
+    "Total_Confirmed": 4777,
+    "Daily Recovered": 65,
+    "Total Recovered": 394,
+    "Daily Deceased": 16,
+    "Total Deceased": 134
+  },
+  {
+    "Date": "07-Apr-20",
+    "Date_YMD": "07/04/2020",
+    "Daily Confirmed": 573,
+    "Total_Confirmed": 5350,
+    "Daily Recovered": 75,
+    "Total Recovered": 469,
+    "Daily Deceased": 27,
+    "Total Deceased": 161
+  },
+  {
+    "Date": "08-Apr-20",
+    "Date_YMD": "08/04/2020",
+    "Daily Confirmed": 565,
+    "Total_Confirmed": 5915,
+    "Daily Recovered": 96,
+    "Total Recovered": 565,
+    "Daily Deceased": 20,
+    "Total Deceased": 181
+  },
+  {
+    "Date": "09-Apr-20",
+    "Date_YMD": "09/04/2020",
+    "Daily Confirmed": 813,
+    "Total_Confirmed": 6728,
+    "Daily Recovered": 70,
+    "Total Recovered": 635,
+    "Daily Deceased": 46,
+    "Total Deceased": 227
+  },
+  {
+    "Date": "10-Apr-20",
+    "Date_YMD": "10/04/2020",
+    "Daily Confirmed": 871,
+    "Total_Confirmed": 7599,
+    "Daily Recovered": 151,
+    "Total Recovered": 786,
+    "Daily Deceased": 22,
+    "Total Deceased": 249
+  },
+  {
+    "Date": "11-Apr-20",
+    "Date_YMD": "11/04/2020",
+    "Daily Confirmed": 854,
+    "Total_Confirmed": 8453,
+    "Daily Recovered": 186,
+    "Total Recovered": 972,
+    "Daily Deceased": 41,
+    "Total Deceased": 290
+  },
+  {
+    "Date": "12-Apr-20",
+    "Date_YMD": "12/04/2020",
+    "Daily Confirmed": 758,
+    "Total_Confirmed": 9211,
+    "Daily Recovered": 114,
+    "Total Recovered": 1086,
+    "Daily Deceased": 42,
+    "Total Deceased": 332
+  },
+  {
+    "Date": "13-Apr-20",
+    "Date_YMD": "13/04/2020",
+    "Daily Confirmed": 1243,
+    "Total_Confirmed": 10454,
+    "Daily Recovered": 112,
+    "Total Recovered": 1198,
+    "Daily Deceased": 27,
+    "Total Deceased": 359
+  },
+  {
+    "Date": "14-Apr-20",
+    "Date_YMD": "14/04/2020",
+    "Daily Confirmed": 1031,
+    "Total_Confirmed": 11485,
+    "Daily Recovered": 167,
+    "Total Recovered": 1365,
+    "Daily Deceased": 37,
+    "Total Deceased": 396
+  },
+  {
+    "Date": "15-Apr-20",
+    "Date_YMD": "15/04/2020",
+    "Daily Confirmed": 886,
+    "Total_Confirmed": 12371,
+    "Daily Recovered": 144,
+    "Total Recovered": 1509,
+    "Daily Deceased": 27,
+    "Total Deceased": 423
+  },
+  {
+    "Date": "16-Apr-20",
+    "Date_YMD": "16/04/2020",
+    "Daily Confirmed": 1061,
+    "Total_Confirmed": 13432,
+    "Daily Recovered": 258,
+    "Total Recovered": 1767,
+    "Daily Deceased": 26,
+    "Total Deceased": 449
+  },
+  {
+    "Date": "17-Apr-20",
+    "Date_YMD": "17/04/2020",
+    "Daily Confirmed": 922,
+    "Total_Confirmed": 14354,
+    "Daily Recovered": 273,
+    "Total Recovered": 2040,
+    "Daily Deceased": 38,
+    "Total Deceased": 487
+  },
+  {
+    "Date": "18-Apr-20",
+    "Date_YMD": "18/04/2020",
+    "Daily Confirmed": 1371,
+    "Total_Confirmed": 15725,
+    "Daily Recovered": 426,
+    "Total Recovered": 2466,
+    "Daily Deceased": 35,
+    "Total Deceased": 522
+  },
+  {
+    "Date": "19-Apr-20",
+    "Date_YMD": "19/04/2020",
+    "Daily Confirmed": 1580,
+    "Total_Confirmed": 17305,
+    "Daily Recovered": 388,
+    "Total Recovered": 2854,
+    "Daily Deceased": 38,
+    "Total Deceased": 560
+  },
+  {
+    "Date": "20-Apr-20",
+    "Date_YMD": "20/04/2020",
+    "Daily Confirmed": 1239,
+    "Total_Confirmed": 18544,
+    "Daily Recovered": 419,
+    "Total Recovered": 3273,
+    "Daily Deceased": 33,
+    "Total Deceased": 593
+  },
+  {
+    "Date": "21-Apr-20",
+    "Date_YMD": "21/04/2020",
+    "Daily Confirmed": 1537,
+    "Total_Confirmed": 20081,
+    "Daily Recovered": 703,
+    "Total Recovered": 3976,
+    "Daily Deceased": 53,
+    "Total Deceased": 646
+  },
+  {
+    "Date": "22-Apr-20",
+    "Date_YMD": "22/04/2020",
+    "Daily Confirmed": 1292,
+    "Total_Confirmed": 21373,
+    "Daily Recovered": 394,
+    "Total Recovered": 4370,
+    "Daily Deceased": 36,
+    "Total Deceased": 682
+  },
+  {
+    "Date": "23-Apr-20",
+    "Date_YMD": "23/04/2020",
+    "Daily Confirmed": 1667,
+    "Total_Confirmed": 23040,
+    "Daily Recovered": 642,
+    "Total Recovered": 5012,
+    "Daily Deceased": 40,
+    "Total Deceased": 722
+  },
+  {
+    "Date": "24-Apr-20",
+    "Date_YMD": "24/04/2020",
+    "Daily Confirmed": 1408,
+    "Total_Confirmed": 24448,
+    "Daily Recovered": 484,
+    "Total Recovered": 5496,
+    "Daily Deceased": 59,
+    "Total Deceased": 781
+  },
+  {
+    "Date": "25-Apr-20",
+    "Date_YMD": "25/04/2020",
+    "Daily Confirmed": 1835,
+    "Total_Confirmed": 26283,
+    "Daily Recovered": 442,
+    "Total Recovered": 5938,
+    "Daily Deceased": 44,
+    "Total Deceased": 825
+  },
+  {
+    "Date": "26-Apr-20",
+    "Date_YMD": "26/04/2020",
+    "Daily Confirmed": 1607,
+    "Total_Confirmed": 27890,
+    "Daily Recovered": 585,
+    "Total Recovered": 6523,
+    "Daily Deceased": 56,
+    "Total Deceased": 881
+  },
+  {
+    "Date": "27-Apr-20",
+    "Date_YMD": "27/04/2020",
+    "Daily Confirmed": 1568,
+    "Total_Confirmed": 29458,
+    "Daily Recovered": 580,
+    "Total Recovered": 7103,
+    "Daily Deceased": 58,
+    "Total Deceased": 939
+  },
+  {
+    "Date": "28-Apr-20",
+    "Date_YMD": "28/04/2020",
+    "Daily Confirmed": 1902,
+    "Total_Confirmed": 31360,
+    "Daily Recovered": 636,
+    "Total Recovered": 7739,
+    "Daily Deceased": 69,
+    "Total Deceased": 1008
+  },
+  {
+    "Date": "29-Apr-20",
+    "Date_YMD": "29/04/2020",
+    "Daily Confirmed": 1705,
+    "Total_Confirmed": 33065,
+    "Daily Recovered": 690,
+    "Total Recovered": 8429,
+    "Daily Deceased": 71,
+    "Total Deceased": 1079
+  },
+  {
+    "Date": "30-Apr-20",
+    "Date_YMD": "30/04/2020",
+    "Daily Confirmed": 1801,
+    "Total_Confirmed": 34866,
+    "Daily Recovered": 630,
+    "Total Recovered": 9059,
+    "Daily Deceased": 75,
+    "Total Deceased": 1154
+  },
+  {
+    "Date": "01-May-20",
+    "Date_YMD": "01/05/2020",
+    "Daily Confirmed": 2396,
+    "Total_Confirmed": 37262,
+    "Daily Recovered": 962,
+    "Total Recovered": 10021,
+    "Daily Deceased": 77,
+    "Total Deceased": 1231
+  },
+  {
+    "Date": "02-May-20",
+    "Date_YMD": "02/05/2020",
+    "Daily Confirmed": 2564,
+    "Total_Confirmed": 39826,
+    "Daily Recovered": 831,
+    "Total Recovered": 10852,
+    "Daily Deceased": 92,
+    "Total Deceased": 1323
+  },
+  {
+    "Date": "03-May-20",
+    "Date_YMD": "03/05/2020",
+    "Daily Confirmed": 2952,
+    "Total_Confirmed": 42778,
+    "Daily Recovered": 911,
+    "Total Recovered": 11763,
+    "Daily Deceased": 140,
+    "Total Deceased": 1463
+  },
+  {
+    "Date": "04-May-20",
+    "Date_YMD": "04/05/2020",
+    "Daily Confirmed": 3656,
+    "Total_Confirmed": 46434,
+    "Daily Recovered": 1082,
+    "Total Recovered": 12845,
+    "Daily Deceased": 103,
+    "Total Deceased": 1566
+  },
+  {
+    "Date": "05-May-20",
+    "Date_YMD": "05/05/2020",
+    "Daily Confirmed": 2971,
+    "Total_Confirmed": 49405,
+    "Daily Recovered": 1295,
+    "Total Recovered": 14140,
+    "Daily Deceased": 128,
+    "Total Deceased": 1694
+  },
+  {
+    "Date": "06-May-20",
+    "Date_YMD": "06/05/2020",
+    "Daily Confirmed": 3602,
+    "Total_Confirmed": 53007,
+    "Daily Recovered": 1161,
+    "Total Recovered": 15301,
+    "Daily Deceased": 91,
+    "Total Deceased": 1785
+  },
+  {
+    "Date": "07-May-20",
+    "Date_YMD": "07/05/2020",
+    "Daily Confirmed": 3344,
+    "Total_Confirmed": 56351,
+    "Daily Recovered": 1475,
+    "Total Recovered": 16776,
+    "Daily Deceased": 104,
+    "Total Deceased": 1889
+  },
+  {
+    "Date": "08-May-20",
+    "Date_YMD": "08/05/2020",
+    "Daily Confirmed": 3339,
+    "Total_Confirmed": 59690,
+    "Daily Recovered": 1111,
+    "Total Recovered": 17887,
+    "Daily Deceased": 97,
+    "Total Deceased": 1986
+  },
+  {
+    "Date": "09-May-20",
+    "Date_YMD": "09/05/2020",
+    "Daily Confirmed": 3175,
+    "Total_Confirmed": 62865,
+    "Daily Recovered": 1414,
+    "Total Recovered": 19301,
+    "Daily Deceased": 115,
+    "Total Deceased": 2101
+  },
+  {
+    "Date": "10-May-20",
+    "Date_YMD": "10/05/2020",
+    "Daily Confirmed": 4311,
+    "Total_Confirmed": 67176,
+    "Daily Recovered": 1669,
+    "Total Recovered": 20970,
+    "Daily Deceased": 112,
+    "Total Deceased": 2213
+  },
+  {
+    "Date": "11-May-20",
+    "Date_YMD": "11/05/2020",
+    "Daily Confirmed": 3592,
+    "Total_Confirmed": 70768,
+    "Daily Recovered": 1579,
+    "Total Recovered": 22549,
+    "Daily Deceased": 81,
+    "Total Deceased": 2294
+  },
+  {
+    "Date": "12-May-20",
+    "Date_YMD": "12/05/2020",
+    "Daily Confirmed": 3562,
+    "Total_Confirmed": 74330,
+    "Daily Recovered": 1905,
+    "Total Recovered": 24454,
+    "Daily Deceased": 120,
+    "Total Deceased": 2414
+  },
+  {
+    "Date": "13-May-20",
+    "Date_YMD": "13/05/2020",
+    "Daily Confirmed": 3726,
+    "Total_Confirmed": 78056,
+    "Daily Recovered": 1963,
+    "Total Recovered": 26417,
+    "Daily Deceased": 137,
+    "Total Deceased": 2551
+  },
+  {
+    "Date": "14-May-20",
+    "Date_YMD": "14/05/2020",
+    "Daily Confirmed": 3991,
+    "Total_Confirmed": 82047,
+    "Daily Recovered": 1594,
+    "Total Recovered": 28011,
+    "Daily Deceased": 97,
+    "Total Deceased": 2648
+  },
+  {
+    "Date": "15-May-20",
+    "Date_YMD": "15/05/2020",
+    "Daily Confirmed": 3808,
+    "Total_Confirmed": 85855,
+    "Daily Recovered": 2234,
+    "Total Recovered": 30245,
+    "Daily Deceased": 104,
+    "Total Deceased": 2752
+  },
+  {
+    "Date": "16-May-20",
+    "Date_YMD": "16/05/2020",
+    "Daily Confirmed": 4794,
+    "Total_Confirmed": 90649,
+    "Daily Recovered": 4012,
+    "Total Recovered": 34257,
+    "Daily Deceased": 120,
+    "Total Deceased": 2872
+  },
+  {
+    "Date": "17-May-20",
+    "Date_YMD": "17/05/2020",
+    "Daily Confirmed": 5049,
+    "Total_Confirmed": 95698,
+    "Daily Recovered": 2538,
+    "Total Recovered": 36795,
+    "Daily Deceased": 152,
+    "Total Deceased": 3024
+  },
+  {
+    "Date": "18-May-20",
+    "Date_YMD": "18/05/2020",
+    "Daily Confirmed": 4628,
+    "Total_Confirmed": 100326,
+    "Daily Recovered": 2482,
+    "Total Recovered": 39277,
+    "Daily Deceased": 131,
+    "Total Deceased": 3155
+  },
+  {
+    "Date": "19-May-20",
+    "Date_YMD": "19/05/2020",
+    "Daily Confirmed": 6154,
+    "Total_Confirmed": 106480,
+    "Daily Recovered": 3032,
+    "Total Recovered": 42309,
+    "Daily Deceased": 146,
+    "Total Deceased": 3301
+  },
+  {
+    "Date": "20-May-20",
+    "Date_YMD": "20/05/2020",
+    "Daily Confirmed": 5720,
+    "Total_Confirmed": 112200,
+    "Daily Recovered": 3113,
+    "Total Recovered": 45422,
+    "Daily Deceased": 134,
+    "Total Deceased": 3435
+  },
+  {
+    "Date": "21-May-20",
+    "Date_YMD": "21/05/2020",
+    "Daily Confirmed": 6023,
+    "Total_Confirmed": 118223,
+    "Daily Recovered": 3131,
+    "Total Recovered": 48553,
+    "Daily Deceased": 148,
+    "Total Deceased": 3583
+  },
+  {
+    "Date": "22-May-20",
+    "Date_YMD": "22/05/2020",
+    "Daily Confirmed": 6536,
+    "Total_Confirmed": 124759,
+    "Daily Recovered": 3280,
+    "Total Recovered": 51833,
+    "Daily Deceased": 142,
+    "Total Deceased": 3725
+  },
+  {
+    "Date": "23-May-20",
+    "Date_YMD": "23/05/2020",
+    "Daily Confirmed": 6667,
+    "Total_Confirmed": 131424,
+    "Daily Recovered": 2576,
+    "Total Recovered": 54409,
+    "Daily Deceased": 142,
+    "Total Deceased": 3867
+  },
+  {
+    "Date": "24-May-20",
+    "Date_YMD": "24/05/2020",
+    "Daily Confirmed": 7111,
+    "Total_Confirmed": 138537,
+    "Daily Recovered": 3285,
+    "Total Recovered": 57694,
+    "Daily Deceased": 156,
+    "Total Deceased": 4023
+  },
+  {
+    "Date": "25-May-20",
+    "Date_YMD": "25/05/2020",
+    "Daily Confirmed": 6414,
+    "Total_Confirmed": 144951,
+    "Daily Recovered": 3012,
+    "Total Recovered": 60706,
+    "Daily Deceased": 150,
+    "Total Deceased": 4173
+  },
+  {
+    "Date": "26-May-20",
+    "Date_YMD": "26/05/2020",
+    "Daily Confirmed": 5907,
+    "Total_Confirmed": 150858,
+    "Daily Recovered": 3585,
+    "Total Recovered": 64291,
+    "Daily Deceased": 173,
+    "Total Deceased": 4346
+  },
+  {
+    "Date": "27-May-20",
+    "Date_YMD": "27/05/2020",
+    "Daily Confirmed": 7246,
+    "Total_Confirmed": 158104,
+    "Daily Recovered": 3434,
+    "Total Recovered": 67725,
+    "Daily Deceased": 188,
+    "Total Deceased": 4534
+  },
+  {
+    "Date": "28-May-20",
+    "Date_YMD": "28/05/2020",
+    "Daily Confirmed": 7254,
+    "Total_Confirmed": 165358,
+    "Daily Recovered": 3171,
+    "Total Recovered": 70896,
+    "Daily Deceased": 176,
+    "Total Deceased": 4710
+  },
+  {
+    "Date": "29-May-20",
+    "Date_YMD": "29/05/2020",
+    "Daily Confirmed": 8138,
+    "Total_Confirmed": 173496,
+    "Daily Recovered": 11735,
+    "Total Recovered": 82631,
+    "Daily Deceased": 269,
+    "Total Deceased": 4979
+  },
+  {
+    "Date": "30-May-20",
+    "Date_YMD": "30/05/2020",
+    "Daily Confirmed": 8364,
+    "Total_Confirmed": 181860,
+    "Daily Recovered": 4303,
+    "Total Recovered": 86934,
+    "Daily Deceased": 205,
+    "Total Deceased": 5184
+  },
+  {
+    "Date": "31-May-20",
+    "Date_YMD": "31/05/2020",
+    "Daily Confirmed": 8789,
+    "Total_Confirmed": 190649,
+    "Daily Recovered": 4928,
+    "Total Recovered": 91862,
+    "Daily Deceased": 222,
+    "Total Deceased": 5406
+  },
+  {
+    "Date": "01-Jun-20",
+    "Date_YMD": "01/06/2020",
+    "Daily Confirmed": 7723,
+    "Total_Confirmed": 198372,
+    "Daily Recovered": 3882,
+    "Total Recovered": 95744,
+    "Daily Deceased": 201,
+    "Total Deceased": 5607
+  },
+  {
+    "Date": "02-Jun-20",
+    "Date_YMD": "02/06/2020",
+    "Daily Confirmed": 8812,
+    "Total_Confirmed": 207187,
+    "Daily Recovered": 4531,
+    "Total Recovered": 100275,
+    "Daily Deceased": 222,
+    "Total Deceased": 5829
+  },
+  {
+    "Date": "03-Jun-20",
+    "Date_YMD": "03/06/2020",
+    "Daily Confirmed": 9689,
+    "Total_Confirmed": 216876,
+    "Daily Recovered": 3789,
+    "Total Recovered": 104064,
+    "Daily Deceased": 259,
+    "Total Deceased": 6088
+  },
+  {
+    "Date": "04-Jun-20",
+    "Date_YMD": "04/06/2020",
+    "Daily Confirmed": 9847,
+    "Total_Confirmed": 226723,
+    "Daily Recovered": 4390,
+    "Total Recovered": 108454,
+    "Daily Deceased": 274,
+    "Total Deceased": 6362
+  },
+  {
+    "Date": "05-Jun-20",
+    "Date_YMD": "05/06/2020",
+    "Daily Confirmed": 9472,
+    "Total_Confirmed": 236195,
+    "Daily Recovered": 4770,
+    "Total Recovered": 113224,
+    "Daily Deceased": 286,
+    "Total Deceased": 6648
+  },
+  {
+    "Date": "06-Jun-20",
+    "Date_YMD": "06/06/2020",
+    "Daily Confirmed": 10408,
+    "Total_Confirmed": 246603,
+    "Daily Recovered": 5433,
+    "Total Recovered": 118657,
+    "Daily Deceased": 297,
+    "Total Deceased": 6945
+  },
+  {
+    "Date": "07-Jun-20",
+    "Date_YMD": "07/06/2020",
+    "Daily Confirmed": 10882,
+    "Total_Confirmed": 257485,
+    "Daily Recovered": 5191,
+    "Total Recovered": 123848,
+    "Daily Deceased": 261,
+    "Total Deceased": 7206
+  },
+  {
+    "Date": "08-Jun-20",
+    "Date_YMD": "08/06/2020",
+    "Daily Confirmed": 8536,
+    "Total_Confirmed": 266021,
+    "Daily Recovered": 5171,
+    "Total Recovered": 129019,
+    "Daily Deceased": 271,
+    "Total Deceased": 7477
+  },
+  {
+    "Date": "09-Jun-20",
+    "Date_YMD": "09/06/2020",
+    "Daily Confirmed": 9981,
+    "Total_Confirmed": 276002,
+    "Daily Recovered": 5634,
+    "Total Recovered": 134653,
+    "Daily Deceased": 272,
+    "Total Deceased": 7749
+  },
+  {
+    "Date": "10-Jun-20",
+    "Date_YMD": "10/06/2020",
+    "Daily Confirmed": 11156,
+    "Total_Confirmed": 287158,
+    "Daily Recovered": 6275,
+    "Total Recovered": 140928,
+    "Daily Deceased": 358,
+    "Total Deceased": 8107
+  },
+  {
+    "Date": "11-Jun-20",
+    "Date_YMD": "11/06/2020",
+    "Daily Confirmed": 11135,
+    "Total_Confirmed": 298293,
+    "Daily Recovered": 6044,
+    "Total Recovered": 146972,
+    "Daily Deceased": 394,
+    "Total Deceased": 8501
+  },
+  {
+    "Date": "12-Jun-20",
+    "Date_YMD": "12/06/2020",
+    "Daily Confirmed": 11306,
+    "Total_Confirmed": 309599,
+    "Daily Recovered": 7263,
+    "Total Recovered": 154235,
+    "Daily Deceased": 388,
+    "Total Deceased": 8889
+  },
+  {
+    "Date": "13-Jun-20",
+    "Date_YMD": "13/06/2020",
+    "Daily Confirmed": 12039,
+    "Total_Confirmed": 321638,
+    "Daily Recovered": 8092,
+    "Total Recovered": 162327,
+    "Daily Deceased": 309,
+    "Total Deceased": 9198
+  },
+  {
+    "Date": "14-Jun-20",
+    "Date_YMD": "14/06/2020",
+    "Daily Confirmed": 11405,
+    "Total_Confirmed": 333043,
+    "Daily Recovered": 7358,
+    "Total Recovered": 169685,
+    "Daily Deceased": 324,
+    "Total Deceased": 9522
+  },
+  {
+    "Date": "15-Jun-20",
+    "Date_YMD": "15/06/2020",
+    "Daily Confirmed": 10032,
+    "Total_Confirmed": 343075,
+    "Daily Recovered": 10639,
+    "Total Recovered": 180324,
+    "Daily Deceased": 396,
+    "Total Deceased": 9918
+  },
+  {
+    "Date": "16-Jun-20",
+    "Date_YMD": "16/06/2020",
+    "Daily Confirmed": 11086,
+    "Total_Confirmed": 354161,
+    "Daily Recovered": 7226,
+    "Total Recovered": 187550,
+    "Daily Deceased": 2004,
+    "Total Deceased": 11922
+  },
+  {
+    "Date": "17-Jun-20",
+    "Date_YMD": "17/06/2020",
+    "Daily Confirmed": 13108,
+    "Total_Confirmed": 367269,
+    "Daily Recovered": 6890,
+    "Total Recovered": 194440,
+    "Daily Deceased": 341,
+    "Total Deceased": 12263
+  },
+  {
+    "Date": "18-Jun-20",
+    "Date_YMD": "18/06/2020",
+    "Daily Confirmed": 13829,
+    "Total_Confirmed": 381098,
+    "Daily Recovered": 10741,
+    "Total Recovered": 205181,
+    "Daily Deceased": 343,
+    "Total Deceased": 12606
+  },
+  {
+    "Date": "19-Jun-20",
+    "Date_YMD": "19/06/2020",
+    "Daily Confirmed": 14740,
+    "Total_Confirmed": 395838,
+    "Daily Recovered": 9029,
+    "Total Recovered": 214210,
+    "Daily Deceased": 364,
+    "Total Deceased": 12970
+  },
+  {
+    "Date": "20-Jun-20",
+    "Date_YMD": "20/06/2020",
+    "Daily Confirmed": 15918,
+    "Total_Confirmed": 411753,
+    "Daily Recovered": 13974,
+    "Total Recovered": 228184,
+    "Daily Deceased": 308,
+    "Total Deceased": 13278
+  },
+  {
+    "Date": "21-Jun-20",
+    "Date_YMD": "21/06/2020",
+    "Daily Confirmed": 15151,
+    "Total_Confirmed": 426904,
+    "Daily Recovered": 9075,
+    "Total Recovered": 237259,
+    "Daily Deceased": 426,
+    "Total Deceased": 13704
+  },
+  {
+    "Date": "22-Jun-20",
+    "Date_YMD": "22/06/2020",
+    "Daily Confirmed": 13560,
+    "Total_Confirmed": 440464,
+    "Daily Recovered": 10879,
+    "Total Recovered": 248138,
+    "Daily Deceased": 312,
+    "Total Deceased": 14016
+  },
+  {
+    "Date": "23-Jun-20",
+    "Date_YMD": "23/06/2020",
+    "Daily Confirmed": 15656,
+    "Total_Confirmed": 456120,
+    "Daily Recovered": 10462,
+    "Total Recovered": 258600,
+    "Daily Deceased": 468,
+    "Total Deceased": 14484
+  },
+  {
+    "Date": "24-Jun-20",
+    "Date_YMD": "24/06/2020",
+    "Daily Confirmed": 16868,
+    "Total_Confirmed": 472988,
+    "Daily Recovered": 13089,
+    "Total Recovered": 271689,
+    "Daily Deceased": 424,
+    "Total Deceased": 14908
+  },
+  {
+    "Date": "25-Jun-20",
+    "Date_YMD": "25/06/2020",
+    "Daily Confirmed": 18205,
+    "Total_Confirmed": 491193,
+    "Daily Recovered": 13983,
+    "Total Recovered": 285672,
+    "Daily Deceased": 401,
+    "Total Deceased": 15309
+  },
+  {
+    "Date": "26-Jun-20",
+    "Date_YMD": "26/06/2020",
+    "Daily Confirmed": 18255,
+    "Total_Confirmed": 509448,
+    "Daily Recovered": 10246,
+    "Total Recovered": 295918,
+    "Daily Deceased": 381,
+    "Total Deceased": 15690
+  },
+  {
+    "Date": "27-Jun-20",
+    "Date_YMD": "27/06/2020",
+    "Daily Confirmed": 20142,
+    "Total_Confirmed": 529590,
+    "Daily Recovered": 14229,
+    "Total Recovered": 310147,
+    "Daily Deceased": 414,
+    "Total Deceased": 16104
+  },
+  {
+    "Date": "28-Jun-20",
+    "Date_YMD": "28/06/2020",
+    "Daily Confirmed": 19610,
+    "Total_Confirmed": 549200,
+    "Daily Recovered": 11631,
+    "Total Recovered": 321778,
+    "Daily Deceased": 384,
+    "Total Deceased": 16488
+  },
+  {
+    "Date": "29-Jun-20",
+    "Date_YMD": "29/06/2020",
+    "Daily Confirmed": 18339,
+    "Total_Confirmed": 567539,
+    "Daily Recovered": 13497,
+    "Total Recovered": 335275,
+    "Daily Deceased": 417,
+    "Total Deceased": 16905
+  },
+  {
+    "Date": "30-Jun-20",
+    "Date_YMD": "30/06/2020",
+    "Daily Confirmed": 18256,
+    "Total_Confirmed": 585795,
+    "Daily Recovered": 12565,
+    "Total Recovered": 347840,
+    "Daily Deceased": 506,
+    "Total Deceased": 17411
+  },
+  {
+    "Date": "01-Jul-20",
+    "Date_YMD": "01/07/2020",
+    "Daily Confirmed": 19429,
+    "Total_Confirmed": 605224,
+    "Daily Recovered": 12064,
+    "Total Recovered": 359904,
+    "Daily Deceased": 438,
+    "Total Deceased": 17849
+  },
+  {
+    "Date": "02-Jul-20",
+    "Date_YMD": "02/07/2020",
+    "Daily Confirmed": 21947,
+    "Total_Confirmed": 627171,
+    "Daily Recovered": 19999,
+    "Total Recovered": 379903,
+    "Daily Deceased": 378,
+    "Total Deceased": 18227
+  },
+  {
+    "Date": "03-Jul-20",
+    "Date_YMD": "03/07/2020",
+    "Daily Confirmed": 22718,
+    "Total_Confirmed": 649889,
+    "Daily Recovered": 14417,
+    "Total Recovered": 394320,
+    "Daily Deceased": 444,
+    "Total Deceased": 18671
+  },
+  {
+    "Date": "04-Jul-20",
+    "Date_YMD": "04/07/2020",
+    "Daily Confirmed": 24018,
+    "Total_Confirmed": 673907,
+    "Daily Recovered": 14746,
+    "Total Recovered": 409066,
+    "Daily Deceased": 611,
+    "Total Deceased": 19282
+  },
+  {
+    "Date": "05-Jul-20",
+    "Date_YMD": "05/07/2020",
+    "Daily Confirmed": 23942,
+    "Total_Confirmed": 697849,
+    "Daily Recovered": 15829,
+    "Total Recovered": 424895,
+    "Daily Deceased": 421,
+    "Total Deceased": 19703
+  },
+  {
+    "Date": "06-Jul-20",
+    "Date_YMD": "06/07/2020",
+    "Daily Confirmed": 22500,
+    "Total_Confirmed": 720349,
+    "Daily Recovered": 15315,
+    "Total Recovered": 440210,
+    "Daily Deceased": 473,
+    "Total Deceased": 20176
+  },
+  {
+    "Date": "07-Jul-20",
+    "Date_YMD": "07/07/2020",
+    "Daily Confirmed": 23147,
+    "Total_Confirmed": 743496,
+    "Daily Recovered": 16836,
+    "Total Recovered": 457046,
+    "Daily Deceased": 479,
+    "Total Deceased": 20655
+  },
+  {
+    "Date": "08-Jul-20",
+    "Date_YMD": "08/07/2020",
+    "Daily Confirmed": 25561,
+    "Total_Confirmed": 769057,
+    "Daily Recovered": 19508,
+    "Total Recovered": 476554,
+    "Daily Deceased": 492,
+    "Total Deceased": 21147
+  },
+  {
+    "Date": "09-Jul-20",
+    "Date_YMD": "09/07/2020",
+    "Daily Confirmed": 25790,
+    "Total_Confirmed": 794847,
+    "Daily Recovered": 19408,
+    "Total Recovered": 495962,
+    "Daily Deceased": 479,
+    "Total Deceased": 21626
+  },
+  {
+    "Date": "10-Jul-20",
+    "Date_YMD": "10/07/2020",
+    "Daily Confirmed": 27762,
+    "Total_Confirmed": 822609,
+    "Daily Recovered": 20289,
+    "Total Recovered": 516251,
+    "Daily Deceased": 520,
+    "Total Deceased": 22146
+  },
+  {
+    "Date": "11-Jul-20",
+    "Date_YMD": "11/07/2020",
+    "Daily Confirmed": 27757,
+    "Total_Confirmed": 850366,
+    "Daily Recovered": 19981,
+    "Total Recovered": 536232,
+    "Daily Deceased": 543,
+    "Total Deceased": 22689
+  },
+  {
+    "Date": "12-Jul-20",
+    "Date_YMD": "12/07/2020",
+    "Daily Confirmed": 29106,
+    "Total_Confirmed": 879472,
+    "Daily Recovered": 18198,
+    "Total Recovered": 554430,
+    "Daily Deceased": 500,
+    "Total Deceased": 23189
+  },
+  {
+    "Date": "13-Jul-20",
+    "Date_YMD": "13/07/2020",
+    "Daily Confirmed": 28178,
+    "Total_Confirmed": 907650,
+    "Daily Recovered": 17683,
+    "Total Recovered": 572113,
+    "Daily Deceased": 541,
+    "Total Deceased": 23730
+  },
+  {
+    "Date": "14-Jul-20",
+    "Date_YMD": "14/07/2020",
+    "Daily Confirmed": 29917,
+    "Total_Confirmed": 937567,
+    "Daily Recovered": 20977,
+    "Total Recovered": 593090,
+    "Daily Deceased": 587,
+    "Total Deceased": 24317
+  },
+  {
+    "Date": "15-Jul-20",
+    "Date_YMD": "15/07/2020",
+    "Daily Confirmed": 32607,
+    "Total_Confirmed": 970174,
+    "Daily Recovered": 20646,
+    "Total Recovered": 613736,
+    "Daily Deceased": 614,
+    "Total Deceased": 24931
+  },
+  {
+    "Date": "16-Jul-20",
+    "Date_YMD": "16/07/2020",
+    "Daily Confirmed": 35468,
+    "Total_Confirmed": 1005642,
+    "Daily Recovered": 22867,
+    "Total Recovered": 636603,
+    "Daily Deceased": 680,
+    "Total Deceased": 25611
+  },
+  {
+    "Date": "17-Jul-20",
+    "Date_YMD": "17/07/2020",
+    "Daily Confirmed": 34820,
+    "Total_Confirmed": 1040462,
+    "Daily Recovered": 17476,
+    "Total Recovered": 654079,
+    "Daily Deceased": 676,
+    "Total Deceased": 26287
+  },
+  {
+    "Date": "18-Jul-20",
+    "Date_YMD": "18/07/2020",
+    "Daily Confirmed": 37411,
+    "Total_Confirmed": 1077873,
+    "Daily Recovered": 23583,
+    "Total Recovered": 677662,
+    "Daily Deceased": 543,
+    "Total Deceased": 26830
+  },
+  {
+    "Date": "19-Jul-20",
+    "Date_YMD": "19/07/2020",
+    "Daily Confirmed": 40235,
+    "Total_Confirmed": 1118108,
+    "Daily Recovered": 22730,
+    "Total Recovered": 700392,
+    "Daily Deceased": 675,
+    "Total Deceased": 27505
+  },
+  {
+    "Date": "20-Jul-20",
+    "Date_YMD": "20/07/2020",
+    "Daily Confirmed": 36806,
+    "Total_Confirmed": 1154914,
+    "Daily Recovered": 24303,
+    "Total Recovered": 724695,
+    "Daily Deceased": 596,
+    "Total Deceased": 28101
+  },
+  {
+    "Date": "21-Jul-20",
+    "Date_YMD": "21/07/2020",
+    "Daily Confirmed": 39170,
+    "Total_Confirmed": 1194084,
+    "Daily Recovered": 27589,
+    "Total Recovered": 752284,
+    "Daily Deceased": 671,
+    "Total Deceased": 28772
+  },
+  {
+    "Date": "22-Jul-20",
+    "Date_YMD": "22/07/2020",
+    "Daily Confirmed": 45601,
+    "Total_Confirmed": 1239685,
+    "Daily Recovered": 31875,
+    "Total Recovered": 784159,
+    "Daily Deceased": 1130,
+    "Total Deceased": 29902
+  },
+  {
+    "Date": "23-Jul-20",
+    "Date_YMD": "23/07/2020",
+    "Daily Confirmed": 48443,
+    "Total_Confirmed": 1288128,
+    "Daily Recovered": 33326,
+    "Total Recovered": 817485,
+    "Daily Deceased": 755,
+    "Total Deceased": 30657
+  },
+  {
+    "Date": "24-Jul-20",
+    "Date_YMD": "24/07/2020",
+    "Daily Confirmed": 48888,
+    "Total_Confirmed": 1337016,
+    "Daily Recovered": 32514,
+    "Total Recovered": 849999,
+    "Daily Deceased": 763,
+    "Total Deceased": 31420
+  },
+  {
+    "Date": "25-Jul-20",
+    "Date_YMD": "25/07/2020",
+    "Daily Confirmed": 50072,
+    "Total_Confirmed": 1387088,
+    "Daily Recovered": 37125,
+    "Total Recovered": 887124,
+    "Daily Deceased": 703,
+    "Total Deceased": 32123
+  },
+  {
+    "Date": "26-Jul-20",
+    "Date_YMD": "26/07/2020",
+    "Daily Confirmed": 48932,
+    "Total_Confirmed": 1436020,
+    "Daily Recovered": 31512,
+    "Total Recovered": 918636,
+    "Daily Deceased": 704,
+    "Total Deceased": 32827
+  },
+  {
+    "Date": "27-Jul-20",
+    "Date_YMD": "27/07/2020",
+    "Daily Confirmed": 46484,
+    "Total_Confirmed": 1482504,
+    "Daily Recovered": 34354,
+    "Total Recovered": 952990,
+    "Daily Deceased": 642,
+    "Total Deceased": 33469
+  },
+  {
+    "Date": "28-Jul-20",
+    "Date_YMD": "28/07/2020",
+    "Daily Confirmed": 49631,
+    "Total_Confirmed": 1532135,
+    "Daily Recovered": 35683,
+    "Total Recovered": 988673,
+    "Daily Deceased": 774,
+    "Total Deceased": 34243
+  },
+  {
+    "Date": "29-Jul-20",
+    "Date_YMD": "29/07/2020",
+    "Daily Confirmed": 52479,
+    "Total_Confirmed": 1584614,
+    "Daily Recovered": 32886,
+    "Total Recovered": 1021559,
+    "Daily Deceased": 775,
+    "Total Deceased": 35018
+  },
+  {
+    "Date": "30-Jul-20",
+    "Date_YMD": "30/07/2020",
+    "Daily Confirmed": 54968,
+    "Total_Confirmed": 1639582,
+    "Daily Recovered": 37425,
+    "Total Recovered": 1058984,
+    "Daily Deceased": 784,
+    "Total Deceased": 35802
+  },
+  {
+    "Date": "31-Jul-20",
+    "Date_YMD": "31/07/2020",
+    "Daily Confirmed": 57486,
+    "Total_Confirmed": 1697068,
+    "Daily Recovered": 36554,
+    "Total Recovered": 1095538,
+    "Daily Deceased": 764,
+    "Total Deceased": 36566
+  },
+  {
+    "Date": "01-Aug-20",
+    "Date_YMD": "01/08/2020",
+    "Daily Confirmed": 55117,
+    "Total_Confirmed": 1752185,
+    "Daily Recovered": 51368,
+    "Total Recovered": 1146906,
+    "Daily Deceased": 854,
+    "Total Deceased": 37420
+  },
+  {
+    "Date": "02-Aug-20",
+    "Date_YMD": "02/08/2020",
+    "Daily Confirmed": 52672,
+    "Total_Confirmed": 1804857,
+    "Daily Recovered": 40355,
+    "Total Recovered": 1187261,
+    "Daily Deceased": 760,
+    "Total Deceased": 38180
+  },
+  {
+    "Date": "03-Aug-20",
+    "Date_YMD": "03/08/2020",
+    "Daily Confirmed": 50488,
+    "Total_Confirmed": 1855345,
+    "Daily Recovered": 43070,
+    "Total Recovered": 1230331,
+    "Daily Deceased": 806,
+    "Total Deceased": 38986
+  },
+  {
+    "Date": "04-Aug-20",
+    "Date_YMD": "04/08/2020",
+    "Daily Confirmed": 51282,
+    "Total_Confirmed": 1906627,
+    "Daily Recovered": 51220,
+    "Total Recovered": 1281551,
+    "Daily Deceased": 849,
+    "Total Deceased": 39835
+  },
+  {
+    "Date": "05-Aug-20",
+    "Date_YMD": "05/08/2020",
+    "Daily Confirmed": 56626,
+    "Total_Confirmed": 1963253,
+    "Daily Recovered": 45583,
+    "Total Recovered": 1327134,
+    "Daily Deceased": 919,
+    "Total Deceased": 40754
+  },
+  {
+    "Date": "06-Aug-20",
+    "Date_YMD": "06/08/2020",
+    "Daily Confirmed": 62170,
+    "Total_Confirmed": 2025423,
+    "Daily Recovered": 50141,
+    "Total Recovered": 1377275,
+    "Daily Deceased": 899,
+    "Total Deceased": 41653
+  },
+  {
+    "Date": "07-Aug-20",
+    "Date_YMD": "07/08/2020",
+    "Daily Confirmed": 61455,
+    "Total_Confirmed": 2086878,
+    "Daily Recovered": 50387,
+    "Total Recovered": 1427662,
+    "Daily Deceased": 936,
+    "Total Deceased": 42589
+  },
+  {
+    "Date": "08-Aug-20",
+    "Date_YMD": "08/08/2020",
+    "Daily Confirmed": 65156,
+    "Total_Confirmed": 2152034,
+    "Daily Recovered": 52135,
+    "Total Recovered": 1479797,
+    "Daily Deceased": 875,
+    "Total Deceased": 43464
+  },
+  {
+    "Date": "09-Aug-20",
+    "Date_YMD": "09/08/2020",
+    "Daily Confirmed": 62117,
+    "Total_Confirmed": 2214151,
+    "Daily Recovered": 54474,
+    "Total Recovered": 1534271,
+    "Daily Deceased": 1013,
+    "Total Deceased": 44477
+  },
+  {
+    "Date": "10-Aug-20",
+    "Date_YMD": "10/08/2020",
+    "Daily Confirmed": 53016,
+    "Total_Confirmed": 2267167,
+    "Daily Recovered": 47362,
+    "Total Recovered": 1581633,
+    "Daily Deceased": 887,
+    "Total Deceased": 45364
+  },
+  {
+    "Date": "11-Aug-20",
+    "Date_YMD": "11/08/2020",
+    "Daily Confirmed": 61252,
+    "Total_Confirmed": 2328419,
+    "Daily Recovered": 56461,
+    "Total Recovered": 1638094,
+    "Daily Deceased": 835,
+    "Total Deceased": 46199
+  },
+  {
+    "Date": "12-Aug-20",
+    "Date_YMD": "12/08/2020",
+    "Daily Confirmed": 67066,
+    "Total_Confirmed": 2395485,
+    "Daily Recovered": 57759,
+    "Total Recovered": 1695853,
+    "Daily Deceased": 950,
+    "Total Deceased": 47149
+  },
+  {
+    "Date": "13-Aug-20",
+    "Date_YMD": "13/08/2020",
+    "Daily Confirmed": 64141,
+    "Total_Confirmed": 2459626,
+    "Daily Recovered": 54776,
+    "Total Recovered": 1750629,
+    "Daily Deceased": 1006,
+    "Total Deceased": 48155
+  },
+  {
+    "Date": "14-Aug-20",
+    "Date_YMD": "14/08/2020",
+    "Daily Confirmed": 65610,
+    "Total_Confirmed": 2525236,
+    "Daily Recovered": 56920,
+    "Total Recovered": 1807549,
+    "Daily Deceased": 989,
+    "Total Deceased": 49144
+  },
+  {
+    "Date": "15-Aug-20",
+    "Date_YMD": "15/08/2020",
+    "Daily Confirmed": 63986,
+    "Total_Confirmed": 2589222,
+    "Daily Recovered": 53116,
+    "Total Recovered": 1860665,
+    "Daily Deceased": 952,
+    "Total Deceased": 50096
+  },
+  {
+    "Date": "16-Aug-20",
+    "Date_YMD": "16/08/2020",
+    "Daily Confirmed": 58096,
+    "Total_Confirmed": 2647318,
+    "Daily Recovered": 57404,
+    "Total Recovered": 1918069,
+    "Daily Deceased": 952,
+    "Total Deceased": 51048
+  },
+  {
+    "Date": "17-Aug-20",
+    "Date_YMD": "17/08/2020",
+    "Daily Confirmed": 54298,
+    "Total_Confirmed": 2701616,
+    "Daily Recovered": 58172,
+    "Total Recovered": 1976241,
+    "Daily Deceased": 880,
+    "Total Deceased": 51928
+  },
+  {
+    "Date": "18-Aug-20",
+    "Date_YMD": "18/08/2020",
+    "Daily Confirmed": 65024,
+    "Total_Confirmed": 2766640,
+    "Daily Recovered": 60455,
+    "Total Recovered": 2036696,
+    "Daily Deceased": 1099,
+    "Total Deceased": 53027
+  },
+  {
+    "Date": "19-Aug-20",
+    "Date_YMD": "19/08/2020",
+    "Daily Confirmed": 69196,
+    "Total_Confirmed": 2835836,
+    "Daily Recovered": 59365,
+    "Total Recovered": 2096061,
+    "Daily Deceased": 979,
+    "Total Deceased": 54006
+  },
+  {
+    "Date": "20-Aug-20",
+    "Date_YMD": "20/08/2020",
+    "Daily Confirmed": 68518,
+    "Total_Confirmed": 2904354,
+    "Daily Recovered": 61873,
+    "Total Recovered": 2157934,
+    "Daily Deceased": 981,
+    "Total Deceased": 54987
+  },
+  {
+    "Date": "21-Aug-20",
+    "Date_YMD": "21/08/2020",
+    "Daily Confirmed": 69029,
+    "Total_Confirmed": 2973383,
+    "Daily Recovered": 62858,
+    "Total Recovered": 2220792,
+    "Daily Deceased": 953,
+    "Total Deceased": 55940
+  },
+  {
+    "Date": "22-Aug-20",
+    "Date_YMD": "22/08/2020",
+    "Daily Confirmed": 70067,
+    "Total_Confirmed": 3043450,
+    "Daily Recovered": 59101,
+    "Total Recovered": 2279893,
+    "Daily Deceased": 918,
+    "Total Deceased": 56858
+  },
+  {
+    "Date": "23-Aug-20",
+    "Date_YMD": "23/08/2020",
+    "Daily Confirmed": 61749,
+    "Total_Confirmed": 3105199,
+    "Daily Recovered": 56896,
+    "Total Recovered": 2336789,
+    "Daily Deceased": 846,
+    "Total Deceased": 57704
+  },
+  {
+    "Date": "24-Aug-20",
+    "Date_YMD": "24/08/2020",
+    "Daily Confirmed": 59696,
+    "Total_Confirmed": 3164895,
+    "Daily Recovered": 66305,
+    "Total Recovered": 2403094,
+    "Daily Deceased": 854,
+    "Total Deceased": 58558
+  },
+  {
+    "Date": "25-Aug-20",
+    "Date_YMD": "25/08/2020",
+    "Daily Confirmed": 66873,
+    "Total_Confirmed": 3231768,
+    "Daily Recovered": 64151,
+    "Total Recovered": 2467245,
+    "Daily Deceased": 1066,
+    "Total Deceased": 59624
+  },
+  {
+    "Date": "26-Aug-20",
+    "Date_YMD": "26/08/2020",
+    "Daily Confirmed": 75995,
+    "Total_Confirmed": 3307763,
+    "Daily Recovered": 56191,
+    "Total Recovered": 2523436,
+    "Daily Deceased": 1017,
+    "Total Deceased": 60641
+  },
+  {
+    "Date": "27-Aug-20",
+    "Date_YMD": "27/08/2020",
+    "Daily Confirmed": 76827,
+    "Total_Confirmed": 3384590,
+    "Daily Recovered": 59620,
+    "Total Recovered": 2583056,
+    "Daily Deceased": 1066,
+    "Total Deceased": 61707
+  },
+  {
+    "Date": "28-Aug-20",
+    "Date_YMD": "28/08/2020",
+    "Daily Confirmed": 76657,
+    "Total_Confirmed": 3461247,
+    "Daily Recovered": 64475,
+    "Total Recovered": 2647531,
+    "Daily Deceased": 1019,
+    "Total Deceased": 62726
+  },
+  {
+    "Date": "29-Aug-20",
+    "Date_YMD": "29/08/2020",
+    "Daily Confirmed": 78479,
+    "Total_Confirmed": 3539726,
+    "Daily Recovered": 64982,
+    "Total Recovered": 2712513,
+    "Daily Deceased": 943,
+    "Total Deceased": 63669
+  },
+  {
+    "Date": "30-Aug-20",
+    "Date_YMD": "30/08/2020",
+    "Daily Confirmed": 79461,
+    "Total_Confirmed": 3619187,
+    "Daily Recovered": 60422,
+    "Total Recovered": 2772935,
+    "Daily Deceased": 960,
+    "Total Deceased": 64629
+  },
+  {
+    "Date": "31-Aug-20",
+    "Date_YMD": "31/08/2020",
+    "Daily Confirmed": 68766,
+    "Total_Confirmed": 3687953,
+    "Daily Recovered": 64435,
+    "Total Recovered": 2837370,
+    "Daily Deceased": 816,
+    "Total Deceased": 65445
+  },
+  {
+    "Date": "01-Sep-20",
+    "Date_YMD": "01/09/2020",
+    "Daily Confirmed": 78168,
+    "Total_Confirmed": 3766121,
+    "Daily Recovered": 62145,
+    "Total Recovered": 2899515,
+    "Daily Deceased": 892,
+    "Total Deceased": 66337
+  },
+  {
+    "Date": "02-Sep-20",
+    "Date_YMD": "02/09/2020",
+    "Daily Confirmed": 82860,
+    "Total_Confirmed": 3848981,
+    "Daily Recovered": 67874,
+    "Total Recovered": 2967389,
+    "Daily Deceased": 913,
+    "Total Deceased": 67250
+  },
+  {
+    "Date": "03-Sep-20",
+    "Date_YMD": "03/09/2020",
+    "Daily Confirmed": 84156,
+    "Total_Confirmed": 3933137,
+    "Daily Recovered": 67491,
+    "Total Recovered": 3034880,
+    "Daily Deceased": 979,
+    "Total Deceased": 68229
+  },
+  {
+    "Date": "04-Sep-20",
+    "Date_YMD": "04/09/2020",
+    "Daily Confirmed": 87115,
+    "Total_Confirmed": 4020252,
+    "Daily Recovered": 69625,
+    "Total Recovered": 3104505,
+    "Daily Deceased": 950,
+    "Total Deceased": 69179
+  },
+  {
+    "Date": "05-Sep-20",
+    "Date_YMD": "05/09/2020",
+    "Daily Confirmed": 90600,
+    "Total_Confirmed": 4110852,
+    "Daily Recovered": 73161,
+    "Total Recovered": 3177666,
+    "Daily Deceased": 916,
+    "Total Deceased": 70095
+  },
+  {
+    "Date": "06-Sep-20",
+    "Date_YMD": "06/09/2020",
+    "Daily Confirmed": 91725,
+    "Total_Confirmed": 4202577,
+    "Daily Recovered": 69630,
+    "Total Recovered": 3247296,
+    "Daily Deceased": 1005,
+    "Total Deceased": 71100
+  },
+  {
+    "Date": "07-Sep-20",
+    "Date_YMD": "07/09/2020",
+    "Daily Confirmed": 75015,
+    "Total_Confirmed": 4277592,
+    "Daily Recovered": 74116,
+    "Total Recovered": 3321412,
+    "Daily Deceased": 1129,
+    "Total Deceased": 72229
+  },
+  {
+    "Date": "08-Sep-20",
+    "Date_YMD": "08/09/2020",
+    "Daily Confirmed": 89855,
+    "Total_Confirmed": 4367447,
+    "Daily Recovered": 74608,
+    "Total Recovered": 3396020,
+    "Daily Deceased": 1107,
+    "Total Deceased": 73336
+  },
+  {
+    "Date": "09-Sep-20",
+    "Date_YMD": "09/09/2020",
+    "Daily Confirmed": 95536,
+    "Total_Confirmed": 4462983,
+    "Daily Recovered": 73062,
+    "Total Recovered": 3469082,
+    "Daily Deceased": 1168,
+    "Total Deceased": 74504
+  },
+  {
+    "Date": "10-Sep-20",
+    "Date_YMD": "10/09/2020",
+    "Daily Confirmed": 96762,
+    "Total_Confirmed": 4559745,
+    "Daily Recovered": 70904,
+    "Total Recovered": 3539986,
+    "Daily Deceased": 1213,
+    "Total Deceased": 75717
+  },
+  {
+    "Date": "11-Sep-20",
+    "Date_YMD": "11/09/2020",
+    "Daily Confirmed": 97655,
+    "Total_Confirmed": 4657400,
+    "Daily Recovered": 81456,
+    "Total Recovered": 3621442,
+    "Daily Deceased": 1202,
+    "Total Deceased": 76919
+  },
+  {
+    "Date": "12-Sep-20",
+    "Date_YMD": "12/09/2020",
+    "Daily Confirmed": 94414,
+    "Total_Confirmed": 4751814,
+    "Daily Recovered": 77862,
+    "Total Recovered": 3699304,
+    "Daily Deceased": 1111,
+    "Total Deceased": 78030
+  },
+  {
+    "Date": "13-Sep-20",
+    "Date_YMD": "13/09/2020",
+    "Daily Confirmed": 93220,
+    "Total_Confirmed": 4845034,
+    "Daily Recovered": 77748,
+    "Total Recovered": 3777052,
+    "Daily Deceased": 1140,
+    "Total Deceased": 79170
+  },
+  {
+    "Date": "14-Sep-20",
+    "Date_YMD": "14/09/2020",
+    "Daily Confirmed": 81913,
+    "Total_Confirmed": 4926947,
+    "Daily Recovered": 79213,
+    "Total Recovered": 3856265,
+    "Daily Deceased": 1054,
+    "Total Deceased": 80224
+  },
+  {
+    "Date": "15-Sep-20",
+    "Date_YMD": "15/09/2020",
+    "Daily Confirmed": 91098,
+    "Total_Confirmed": 5018045,
+    "Daily Recovered": 82849,
+    "Total Recovered": 3939114,
+    "Daily Deceased": 1281,
+    "Total Deceased": 81505
+  },
+  {
+    "Date": "16-Sep-20",
+    "Date_YMD": "16/09/2020",
+    "Daily Confirmed": 97860,
+    "Total_Confirmed": 5115905,
+    "Daily Recovered": 82924,
+    "Total Recovered": 4022038,
+    "Daily Deceased": 1140,
+    "Total Deceased": 82645
+  },
+  {
+    "Date": "17-Sep-20",
+    "Date_YMD": "17/09/2020",
+    "Daily Confirmed": 96787,
+    "Total_Confirmed": 5212692,
+    "Daily Recovered": 87788,
+    "Total Recovered": 4109826,
+    "Daily Deceased": 1175,
+    "Total Deceased": 83820
+  },
+  {
+    "Date": "18-Sep-20",
+    "Date_YMD": "18/09/2020",
+    "Daily Confirmed": 92973,
+    "Total_Confirmed": 5305665,
+    "Daily Recovered": 95515,
+    "Total Recovered": 4205341,
+    "Daily Deceased": 1221,
+    "Total Deceased": 85041
+  },
+  {
+    "Date": "19-Sep-20",
+    "Date_YMD": "19/09/2020",
+    "Daily Confirmed": 92574,
+    "Total_Confirmed": 5398239,
+    "Daily Recovered": 94389,
+    "Total Recovered": 4299730,
+    "Daily Deceased": 1149,
+    "Total Deceased": 86190
+  },
+  {
+    "Date": "20-Sep-20",
+    "Date_YMD": "20/09/2020",
+    "Daily Confirmed": 87395,
+    "Total_Confirmed": 5485634,
+    "Daily Recovered": 92926,
+    "Total Recovered": 4392656,
+    "Daily Deceased": 1135,
+    "Total Deceased": 87325
+  },
+  {
+    "Date": "21-Sep-20",
+    "Date_YMD": "21/09/2020",
+    "Daily Confirmed": 74493,
+    "Total_Confirmed": 5560127,
+    "Daily Recovered": 102070,
+    "Total Recovered": 4494726,
+    "Daily Deceased": 1056,
+    "Total Deceased": 88381
+  },
+  {
+    "Date": "22-Sep-20",
+    "Date_YMD": "22/09/2020",
+    "Daily Confirmed": 83362,
+    "Total_Confirmed": 5643489,
+    "Daily Recovered": 89657,
+    "Total Recovered": 4584383,
+    "Daily Deceased": 1085,
+    "Total Deceased": 89466
+  },
+  {
+    "Date": "23-Sep-20",
+    "Date_YMD": "23/09/2020",
+    "Daily Confirmed": 86703,
+    "Total_Confirmed": 5730192,
+    "Daily Recovered": 87459,
+    "Total Recovered": 4671842,
+    "Daily Deceased": 1123,
+    "Total Deceased": 90589
+  },
+  {
+    "Date": "24-Sep-20",
+    "Date_YMD": "24/09/2020",
+    "Daily Confirmed": 85921,
+    "Total_Confirmed": 5816113,
+    "Daily Recovered": 81142,
+    "Total Recovered": 4752984,
+    "Daily Deceased": 1144,
+    "Total Deceased": 91733
+  },
+  {
+    "Date": "25-Sep-20",
+    "Date_YMD": "25/09/2020",
+    "Daily Confirmed": 85717,
+    "Total_Confirmed": 5901830,
+    "Daily Recovered": 93331,
+    "Total Recovered": 4846315,
+    "Daily Deceased": 1093,
+    "Total Deceased": 92826
+  },
+  {
+    "Date": "26-Sep-20",
+    "Date_YMD": "26/09/2020",
+    "Daily Confirmed": 88759,
+    "Total_Confirmed": 5990589,
+    "Daily Recovered": 92365,
+    "Total Recovered": 4938680,
+    "Daily Deceased": 1124,
+    "Total Deceased": 93950
+  },
+  {
+    "Date": "27-Sep-20",
+    "Date_YMD": "27/09/2020",
+    "Daily Confirmed": 82770,
+    "Total_Confirmed": 6073359,
+    "Daily Recovered": 74691,
+    "Total Recovered": 5013371,
+    "Daily Deceased": 1040,
+    "Total Deceased": 94990
+  },
+  {
+    "Date": "28-Sep-20",
+    "Date_YMD": "28/09/2020",
+    "Daily Confirmed": 69669,
+    "Total_Confirmed": 6143028,
+    "Daily Recovered": 85198,
+    "Total Recovered": 5098569,
+    "Daily Deceased": 775,
+    "Total Deceased": 95765
+  },
+  {
+    "Date": "29-Sep-20",
+    "Date_YMD": "29/09/2020",
+    "Daily Confirmed": 80500,
+    "Total_Confirmed": 6223528,
+    "Daily Recovered": 86150,
+    "Total Recovered": 5184719,
+    "Daily Deceased": 1178,
+    "Total Deceased": 96943
+  },
+  {
+    "Date": "30-Sep-20",
+    "Date_YMD": "30/09/2020",
+    "Daily Confirmed": 86748,
+    "Total_Confirmed": 6310276,
+    "Daily Recovered": 85274,
+    "Total Recovered": 5269993,
+    "Daily Deceased": 1179,
+    "Total Deceased": 98122
+  },
+  {
+    "Date": "01-Oct-20",
+    "Date_YMD": "01/10/2020",
+    "Daily Confirmed": 81784,
+    "Total_Confirmed": 6392060,
+    "Daily Recovered": 78731,
+    "Total Recovered": 5348724,
+    "Daily Deceased": 1099,
+    "Total Deceased": 99221
+  },
+  {
+    "Date": "02-Oct-20",
+    "Date_YMD": "02/10/2020",
+    "Daily Confirmed": 79883,
+    "Total_Confirmed": 6471943,
+    "Daily Recovered": 76339,
+    "Total Recovered": 5425063,
+    "Daily Deceased": 1068,
+    "Total Deceased": 100289
+  },
+  {
+    "Date": "03-Oct-20",
+    "Date_YMD": "03/10/2020",
+    "Daily Confirmed": 75479,
+    "Total_Confirmed": 6547422,
+    "Daily Recovered": 81655,
+    "Total Recovered": 5506718,
+    "Daily Deceased": 937,
+    "Total Deceased": 101226
+  },
+  {
+    "Date": "04-Oct-20",
+    "Date_YMD": "04/10/2020",
+    "Daily Confirmed": 74770,
+    "Total_Confirmed": 6622192,
+    "Daily Recovered": 76713,
+    "Total Recovered": 5583431,
+    "Daily Deceased": 903,
+    "Total Deceased": 102129
+  },
+  {
+    "Date": "05-Oct-20",
+    "Date_YMD": "05/10/2020",
+    "Daily Confirmed": 60130,
+    "Total_Confirmed": 6682322,
+    "Daily Recovered": 75855,
+    "Total Recovered": 5659286,
+    "Daily Deceased": 886,
+    "Total Deceased": 103015
+  },
+  {
+    "Date": "06-Oct-20",
+    "Date_YMD": "06/10/2020",
+    "Daily Confirmed": 71869,
+    "Total_Confirmed": 6754191,
+    "Daily Recovered": 81945,
+    "Total Recovered": 5741231,
+    "Daily Deceased": 990,
+    "Total Deceased": 104005
+  },
+  {
+    "Date": "07-Oct-20",
+    "Date_YMD": "07/10/2020",
+    "Daily Confirmed": 78809,
+    "Total_Confirmed": 6833000,
+    "Daily Recovered": 83209,
+    "Total Recovered": 5824440,
+    "Daily Deceased": 963,
+    "Total Deceased": 104968
+  },
+  {
+    "Date": "08-Oct-20",
+    "Date_YMD": "08/10/2020",
+    "Daily Confirmed": 70797,
+    "Total_Confirmed": 6903797,
+    "Daily Recovered": 78745,
+    "Total Recovered": 5903185,
+    "Daily Deceased": 967,
+    "Total Deceased": 105935
+  },
+  {
+    "Date": "09-Oct-20",
+    "Date_YMD": "09/10/2020",
+    "Daily Confirmed": 73305,
+    "Total_Confirmed": 6977102,
+    "Daily Recovered": 82628,
+    "Total Recovered": 5985813,
+    "Daily Deceased": 929,
+    "Total Deceased": 106864
+  },
+  {
+    "Date": "10-Oct-20",
+    "Date_YMD": "10/10/2020",
+    "Daily Confirmed": 74418,
+    "Total_Confirmed": 7051520,
+    "Daily Recovered": 89024,
+    "Total Recovered": 6074837,
+    "Daily Deceased": 921,
+    "Total Deceased": 107785
+  },
+  {
+    "Date": "11-Oct-20",
+    "Date_YMD": "11/10/2020",
+    "Daily Confirmed": 67789,
+    "Total_Confirmed": 7119309,
+    "Daily Recovered": 71565,
+    "Total Recovered": 6146402,
+    "Daily Deceased": 813,
+    "Total Deceased": 108598
+  },
+  {
+    "Date": "12-Oct-20",
+    "Date_YMD": "12/10/2020",
+    "Daily Confirmed": 54262,
+    "Total_Confirmed": 7173571,
+    "Daily Recovered": 78365,
+    "Total Recovered": 6224767,
+    "Daily Deceased": 710,
+    "Total Deceased": 109308
+  },
+  {
+    "Date": "13-Oct-20",
+    "Date_YMD": "13/10/2020",
+    "Daily Confirmed": 63717,
+    "Total_Confirmed": 7237288,
+    "Daily Recovered": 74079,
+    "Total Recovered": 6298846,
+    "Daily Deceased": 727,
+    "Total Deceased": 110035
+  },
+  {
+    "Date": "14-Oct-20",
+    "Date_YMD": "14/10/2020",
+    "Daily Confirmed": 67811,
+    "Total_Confirmed": 7305099,
+    "Daily Recovered": 81582,
+    "Total Recovered": 6380428,
+    "Daily Deceased": 690,
+    "Total Deceased": 110725
+  },
+  {
+    "Date": "15-Oct-20",
+    "Date_YMD": "15/10/2020",
+    "Daily Confirmed": 63441,
+    "Total_Confirmed": 7368540,
+    "Daily Recovered": 70792,
+    "Total Recovered": 6451220,
+    "Daily Deceased": 882,
+    "Total Deceased": 111607
+  },
+  {
+    "Date": "16-Oct-20",
+    "Date_YMD": "16/10/2020",
+    "Daily Confirmed": 62304,
+    "Total_Confirmed": 7430844,
+    "Daily Recovered": 70568,
+    "Total Recovered": 6521788,
+    "Daily Deceased": 840,
+    "Total Deceased": 112447
+  },
+  {
+    "Date": "17-Oct-20",
+    "Date_YMD": "17/10/2020",
+    "Daily Confirmed": 61893,
+    "Total_Confirmed": 7492737,
+    "Daily Recovered": 72583,
+    "Total Recovered": 6594371,
+    "Daily Deceased": 1032,
+    "Total Deceased": 113479
+  },
+  {
+    "Date": "18-Oct-20",
+    "Date_YMD": "18/10/2020",
+    "Daily Confirmed": 56519,
+    "Total_Confirmed": 7549256,
+    "Daily Recovered": 66418,
+    "Total Recovered": 6660789,
+    "Daily Deceased": 582,
+    "Total Deceased": 114061
+  },
+  {
+    "Date": "19-Oct-20",
+    "Date_YMD": "19/10/2020",
+    "Daily Confirmed": 45506,
+    "Total_Confirmed": 7594762,
+    "Daily Recovered": 69800,
+    "Total Recovered": 6730589,
+    "Daily Deceased": 589,
+    "Total Deceased": 114650
+  },
+  {
+    "Date": "20-Oct-20",
+    "Date_YMD": "20/10/2020",
+    "Daily Confirmed": 54348,
+    "Total_Confirmed": 7649110,
+    "Daily Recovered": 61828,
+    "Total Recovered": 6792417,
+    "Daily Deceased": 714,
+    "Total Deceased": 115364
+  },
+  {
+    "Date": "21-Oct-20",
+    "Date_YMD": "21/10/2020",
+    "Daily Confirmed": 56264,
+    "Total_Confirmed": 7705374,
+    "Daily Recovered": 79561,
+    "Total Recovered": 6871978,
+    "Daily Deceased": 701,
+    "Total Deceased": 116065
+  },
+  {
+    "Date": "22-Oct-20",
+    "Date_YMD": "22/10/2020",
+    "Daily Confirmed": 54371,
+    "Total_Confirmed": 7759745,
+    "Daily Recovered": 74569,
+    "Total Recovered": 6946547,
+    "Daily Deceased": 686,
+    "Total Deceased": 116751
+  },
+  {
+    "Date": "23-Oct-20",
+    "Date_YMD": "23/10/2020",
+    "Daily Confirmed": 53931,
+    "Total_Confirmed": 7813676,
+    "Daily Recovered": 66994,
+    "Total Recovered": 7013541,
+    "Daily Deceased": 655,
+    "Total Deceased": 117406
+  },
+  {
+    "Date": "24-Oct-20",
+    "Date_YMD": "24/10/2020",
+    "Daily Confirmed": 50366,
+    "Total_Confirmed": 7864042,
+    "Daily Recovered": 62270,
+    "Total Recovered": 7075811,
+    "Daily Deceased": 578,
+    "Total Deceased": 117984
+  },
+  {
+    "Date": "25-Oct-20",
+    "Date_YMD": "25/10/2020",
+    "Daily Confirmed": 45922,
+    "Total_Confirmed": 7909964,
+    "Daily Recovered": 59304,
+    "Total Recovered": 7135115,
+    "Daily Deceased": 483,
+    "Total Deceased": 118467
+  },
+  {
+    "Date": "26-Oct-20",
+    "Date_YMD": "26/10/2020",
+    "Daily Confirmed": 36019,
+    "Total_Confirmed": 7945983,
+    "Daily Recovered": 63734,
+    "Total Recovered": 7198849,
+    "Daily Deceased": 485,
+    "Total Deceased": 118952
+  },
+  {
+    "Date": "27-Oct-20",
+    "Date_YMD": "27/10/2020",
+    "Daily Confirmed": 43036,
+    "Total_Confirmed": 7989019,
+    "Daily Recovered": 58429,
+    "Total Recovered": 7257278,
+    "Daily Deceased": 511,
+    "Total Deceased": 119463
+  },
+  {
+    "Date": "28-Oct-20",
+    "Date_YMD": "28/10/2020",
+    "Daily Confirmed": 50188,
+    "Total_Confirmed": 8039207,
+    "Daily Recovered": 56594,
+    "Total Recovered": 7313872,
+    "Daily Deceased": 515,
+    "Total Deceased": 119978
+  },
+  {
+    "Date": "29-Oct-20",
+    "Date_YMD": "29/10/2020",
+    "Daily Confirmed": 48765,
+    "Total_Confirmed": 8087972,
+    "Daily Recovered": 57867,
+    "Total Recovered": 7371739,
+    "Daily Deceased": 562,
+    "Total Deceased": 120540
+  },
+  {
+    "Date": "30-Oct-20",
+    "Date_YMD": "30/10/2020",
+    "Daily Confirmed": 48117,
+    "Total_Confirmed": 8136089,
+    "Daily Recovered": 59005,
+    "Total Recovered": 7430744,
+    "Daily Deceased": 550,
+    "Total Deceased": 121090
+  },
+  {
+    "Date": "31-Oct-20",
+    "Date_YMD": "31/10/2020",
+    "Daily Confirmed": 47228,
+    "Total_Confirmed": 8183317,
+    "Daily Recovered": 58682,
+    "Total Recovered": 7489426,
+    "Daily Deceased": 469,
+    "Total Deceased": 121559
+  },
+  {
+    "Date": "01-Nov-20",
+    "Date_YMD": "01/11/2020",
+    "Daily Confirmed": 45928,
+    "Total_Confirmed": 8229245,
+    "Daily Recovered": 53312,
+    "Total Recovered": 7542738,
+    "Daily Deceased": 491,
+    "Total Deceased": 122050
+  },
+  {
+    "Date": "02-Nov-20",
+    "Date_YMD": "02/11/2020",
+    "Daily Confirmed": 37592,
+    "Total_Confirmed": 8266837,
+    "Daily Recovered": 58524,
+    "Total Recovered": 7601262,
+    "Daily Deceased": 498,
+    "Total Deceased": 122548
+  },
+  {
+    "Date": "03-Nov-20",
+    "Date_YMD": "03/11/2020",
+    "Daily Confirmed": 46027,
+    "Total_Confirmed": 8312864,
+    "Daily Recovered": 53328,
+    "Total Recovered": 7654590,
+    "Daily Deceased": 510,
+    "Total Deceased": 123058
+  },
+  {
+    "Date": "04-Nov-20",
+    "Date_YMD": "04/11/2020",
+    "Daily Confirmed": 50465,
+    "Total_Confirmed": 8363329,
+    "Daily Recovered": 55873,
+    "Total Recovered": 7710463,
+    "Daily Deceased": 707,
+    "Total Deceased": 123765
+  },
+  {
+    "Date": "05-Nov-20",
+    "Date_YMD": "05/11/2020",
+    "Daily Confirmed": 47628,
+    "Total_Confirmed": 8410957,
+    "Daily Recovered": 54133,
+    "Total Recovered": 7764596,
+    "Daily Deceased": 672,
+    "Total Deceased": 124437
+  },
+  {
+    "Date": "06-Nov-20",
+    "Date_YMD": "06/11/2020",
+    "Daily Confirmed": 50017,
+    "Total_Confirmed": 8460974,
+    "Daily Recovered": 53946,
+    "Total Recovered": 7818542,
+    "Daily Deceased": 577,
+    "Total Deceased": 125014
+  },
+  {
+    "Date": "07-Nov-20",
+    "Date_YMD": "07/11/2020",
+    "Daily Confirmed": 46153,
+    "Total_Confirmed": 8507127,
+    "Daily Recovered": 48582,
+    "Total Recovered": 7867124,
+    "Daily Deceased": 557,
+    "Total Deceased": 125571
+  },
+  {
+    "Date": "08-Nov-20",
+    "Date_YMD": "08/11/2020",
+    "Daily Confirmed": 46707,
+    "Total_Confirmed": 8553834,
+    "Daily Recovered": 48465,
+    "Total Recovered": 7915589,
+    "Daily Deceased": 491,
+    "Total Deceased": 126062
+  },
+  {
+    "Date": "09-Nov-20",
+    "Date_YMD": "09/11/2020",
+    "Daily Confirmed": 37119,
+    "Total_Confirmed": 8590953,
+    "Daily Recovered": 41449,
+    "Total Recovered": 7957038,
+    "Daily Deceased": 450,
+    "Total Deceased": 126512
+  },
+  {
+    "Date": "10-Nov-20",
+    "Date_YMD": "10/11/2020",
+    "Daily Confirmed": 44724,
+    "Total_Confirmed": 8635677,
+    "Daily Recovered": 54639,
+    "Total Recovered": 8011677,
+    "Daily Deceased": 511,
+    "Total Deceased": 127023
+  },
+  {
+    "Date": "11-Nov-20",
+    "Date_YMD": "11/11/2020",
+    "Daily Confirmed": 48285,
+    "Total_Confirmed": 8683962,
+    "Daily Recovered": 52704,
+    "Total Recovered": 8064381,
+    "Daily Deceased": 550,
+    "Total Deceased": 127573
+  },
+  {
+    "Date": "12-Nov-20",
+    "Date_YMD": "12/11/2020",
+    "Daily Confirmed": 44585,
+    "Total_Confirmed": 8728547,
+    "Daily Recovered": 49354,
+    "Total Recovered": 8113735,
+    "Daily Deceased": 544,
+    "Total Deceased": 128117
+  },
+  {
+    "Date": "13-Nov-20",
+    "Date_YMD": "13/11/2020",
+    "Daily Confirmed": 44620,
+    "Total_Confirmed": 8773167,
+    "Daily Recovered": 47620,
+    "Total Recovered": 8161355,
+    "Daily Deceased": 517,
+    "Total Deceased": 128634
+  },
+  {
+    "Date": "14-Nov-20",
+    "Date_YMD": "14/11/2020",
+    "Daily Confirmed": 41692,
+    "Total_Confirmed": 8814859,
+    "Daily Recovered": 42317,
+    "Total Recovered": 8203672,
+    "Daily Deceased": 450,
+    "Total Deceased": 129084
+  },
+  {
+    "Date": "15-Nov-20",
+    "Date_YMD": "15/11/2020",
+    "Daily Confirmed": 30681,
+    "Total_Confirmed": 8845540,
+    "Daily Recovered": 44111,
+    "Total Recovered": 8247783,
+    "Daily Deceased": 434,
+    "Total Deceased": 129518
+  },
+  {
+    "Date": "16-Nov-20",
+    "Date_YMD": "16/11/2020",
+    "Daily Confirmed": 28609,
+    "Total_Confirmed": 8874149,
+    "Daily Recovered": 40392,
+    "Total Recovered": 8288175,
+    "Daily Deceased": 451,
+    "Total Deceased": 129969
+  },
+  {
+    "Date": "17-Nov-20",
+    "Date_YMD": "17/11/2020",
+    "Daily Confirmed": 38548,
+    "Total_Confirmed": 8912697,
+    "Daily Recovered": 44753,
+    "Total Recovered": 8332928,
+    "Daily Deceased": 472,
+    "Total Deceased": 130441
+  },
+  {
+    "Date": "18-Nov-20",
+    "Date_YMD": "18/11/2020",
+    "Daily Confirmed": 45366,
+    "Total_Confirmed": 8958063,
+    "Daily Recovered": 48675,
+    "Total Recovered": 8381603,
+    "Daily Deceased": 586,
+    "Total Deceased": 131027
+  },
+  {
+    "Date": "19-Nov-20",
+    "Date_YMD": "19/11/2020",
+    "Daily Confirmed": 46185,
+    "Total_Confirmed": 9004248,
+    "Daily Recovered": 45246,
+    "Total Recovered": 8426849,
+    "Daily Deceased": 582,
+    "Total Deceased": 131609
+  },
+  {
+    "Date": "20-Nov-20",
+    "Date_YMD": "20/11/2020",
+    "Daily Confirmed": 46283,
+    "Total_Confirmed": 9050531,
+    "Daily Recovered": 48968,
+    "Total Recovered": 8475817,
+    "Daily Deceased": 564,
+    "Total Deceased": 132173
+  },
+  {
+    "Date": "21-Nov-20",
+    "Date_YMD": "21/11/2020",
+    "Daily Confirmed": 45301,
+    "Total_Confirmed": 9095832,
+    "Daily Recovered": 44055,
+    "Total Recovered": 8519872,
+    "Daily Deceased": 499,
+    "Total Deceased": 132672
+  },
+  {
+    "Date": "22-Nov-20",
+    "Date_YMD": "22/11/2020",
+    "Daily Confirmed": 44404,
+    "Total_Confirmed": 9140236,
+    "Daily Recovered": 41405,
+    "Total Recovered": 8561277,
+    "Daily Deceased": 510,
+    "Total Deceased": 133182
+  },
+  {
+    "Date": "23-Nov-20",
+    "Date_YMD": "23/11/2020",
+    "Daily Confirmed": 37441,
+    "Total_Confirmed": 9177677,
+    "Daily Recovered": 42195,
+    "Total Recovered": 8603472,
+    "Daily Deceased": 481,
+    "Total Deceased": 133663
+  },
+  {
+    "Date": "24-Nov-20",
+    "Date_YMD": "24/11/2020",
+    "Daily Confirmed": 44245,
+    "Total_Confirmed": 9221922,
+    "Daily Recovered": 37765,
+    "Total Recovered": 8641237,
+    "Daily Deceased": 489,
+    "Total Deceased": 134152
+  },
+  {
+    "Date": "25-Nov-20",
+    "Date_YMD": "25/11/2020",
+    "Daily Confirmed": 44699,
+    "Total_Confirmed": 9266621,
+    "Daily Recovered": 36582,
+    "Total Recovered": 8677819,
+    "Daily Deceased": 518,
+    "Total Deceased": 134670
+  },
+  {
+    "Date": "26-Nov-20",
+    "Date_YMD": "26/11/2020",
+    "Daily Confirmed": 43174,
+    "Total_Confirmed": 9309795,
+    "Daily Recovered": 39723,
+    "Total Recovered": 8717542,
+    "Daily Deceased": 491,
+    "Total Deceased": 135161
+  },
+  {
+    "Date": "27-Nov-20",
+    "Date_YMD": "27/11/2020",
+    "Daily Confirmed": 41353,
+    "Total_Confirmed": 9351148,
+    "Daily Recovered": 41177,
+    "Total Recovered": 8758719,
+    "Daily Deceased": 486,
+    "Total Deceased": 135647
+  },
+  {
+    "Date": "28-Nov-20",
+    "Date_YMD": "28/11/2020",
+    "Daily Confirmed": 41815,
+    "Total_Confirmed": 9392963,
+    "Daily Recovered": 42275,
+    "Total Recovered": 8800994,
+    "Daily Deceased": 495,
+    "Total Deceased": 136142
+  },
+  {
+    "Date": "29-Nov-20",
+    "Date_YMD": "29/11/2020",
+    "Daily Confirmed": 39036,
+    "Total_Confirmed": 9431999,
+    "Daily Recovered": 45152,
+    "Total Recovered": 8846146,
+    "Daily Deceased": 444,
+    "Total Deceased": 136586
+  },
+  {
+    "Date": "30-Nov-20",
+    "Date_YMD": "30/11/2020",
+    "Daily Confirmed": 31179,
+    "Total_Confirmed": 9463178,
+    "Daily Recovered": 42282,
+    "Total Recovered": 8888428,
+    "Daily Deceased": 482,
+    "Total Deceased": 137068
+  },
+  {
+    "Date": "01-Dec-20",
+    "Date_YMD": "01/12/2020",
+    "Daily Confirmed": 36474,
+    "Total_Confirmed": 9499652,
+    "Daily Recovered": 43208,
+    "Total Recovered": 8931636,
+    "Daily Deceased": 501,
+    "Total Deceased": 137569
+  },
+  {
+    "Date": "02-Dec-20",
+    "Date_YMD": "02/12/2020",
+    "Daily Confirmed": 35506,
+    "Total_Confirmed": 9535158,
+    "Daily Recovered": 40908,
+    "Total Recovered": 8972544,
+    "Daily Deceased": 526,
+    "Total Deceased": 138095
+  },
+  {
+    "Date": "03-Dec-20",
+    "Date_YMD": "03/12/2020",
+    "Daily Confirmed": 36574,
+    "Total_Confirmed": 9571732,
+    "Daily Recovered": 42991,
+    "Total Recovered": 9015535,
+    "Daily Deceased": 541,
+    "Total Deceased": 138636
+  },
+  {
+    "Date": "04-Dec-20",
+    "Date_YMD": "04/12/2020",
+    "Daily Confirmed": 36711,
+    "Total_Confirmed": 9608443,
+    "Daily Recovered": 42359,
+    "Total Recovered": 9057894,
+    "Daily Deceased": 511,
+    "Total Deceased": 139147
+  },
+  {
+    "Date": "05-Dec-20",
+    "Date_YMD": "05/12/2020",
+    "Daily Confirmed": 36010,
+    "Total_Confirmed": 9644453,
+    "Daily Recovered": 41885,
+    "Total Recovered": 9099779,
+    "Daily Deceased": 482,
+    "Total Deceased": 139629
+  },
+  {
+    "Date": "06-Dec-20",
+    "Date_YMD": "06/12/2020",
+    "Daily Confirmed": 33178,
+    "Total_Confirmed": 9677631,
+    "Daily Recovered": 39078,
+    "Total Recovered": 9138857,
+    "Daily Deceased": 390,
+    "Total Deceased": 140019
+  },
+  {
+    "Date": "07-Dec-20",
+    "Date_YMD": "07/12/2020",
+    "Daily Confirmed": 26227,
+    "Total_Confirmed": 9703858,
+    "Daily Recovered": 39293,
+    "Total Recovered": 9178150,
+    "Daily Deceased": 386,
+    "Total Deceased": 140405
+  },
+  {
+    "Date": "08-Dec-20",
+    "Date_YMD": "08/12/2020",
+    "Daily Confirmed": 32083,
+    "Total_Confirmed": 9735941,
+    "Daily Recovered": 36583,
+    "Total Recovered": 9214733,
+    "Daily Deceased": 402,
+    "Total Deceased": 140807
+  },
+  {
+    "Date": "09-Dec-20",
+    "Date_YMD": "09/12/2020",
+    "Daily Confirmed": 31637,
+    "Total_Confirmed": 9767578,
+    "Daily Recovered": 37693,
+    "Total Recovered": 9252426,
+    "Daily Deceased": 413,
+    "Total Deceased": 141220
+  },
+  {
+    "Date": "10-Dec-20",
+    "Date_YMD": "10/12/2020",
+    "Daily Confirmed": 29411,
+    "Total_Confirmed": 9796989,
+    "Daily Recovered": 37707,
+    "Total Recovered": 9290133,
+    "Daily Deceased": 411,
+    "Total Deceased": 141631
+  },
+  {
+    "Date": "11-Dec-20",
+    "Date_YMD": "11/12/2020",
+    "Daily Confirmed": 29961,
+    "Total_Confirmed": 9826950,
+    "Daily Recovered": 33492,
+    "Total Recovered": 9323625,
+    "Daily Deceased": 442,
+    "Total Deceased": 142073
+  },
+  {
+    "Date": "12-Dec-20",
+    "Date_YMD": "12/12/2020",
+    "Daily Confirmed": 30354,
+    "Total_Confirmed": 9857304,
+    "Daily Recovered": 33087,
+    "Total Recovered": 9356712,
+    "Daily Deceased": 391,
+    "Total Deceased": 142464
+  },
+  {
+    "Date": "13-Dec-20",
+    "Date_YMD": "13/12/2020",
+    "Daily Confirmed": 27336,
+    "Total_Confirmed": 9884640,
+    "Daily Recovered": 30640,
+    "Total Recovered": 9387352,
+    "Daily Deceased": 338,
+    "Total Deceased": 142802
+  },
+  {
+    "Date": "14-Dec-20",
+    "Date_YMD": "14/12/2020",
+    "Daily Confirmed": 21941,
+    "Total_Confirmed": 9906581,
+    "Daily Recovered": 34421,
+    "Total Recovered": 9421773,
+    "Daily Deceased": 354,
+    "Total Deceased": 143156
+  },
+  {
+    "Date": "15-Dec-20",
+    "Date_YMD": "15/12/2020",
+    "Daily Confirmed": 26251,
+    "Total_Confirmed": 9932832,
+    "Daily Recovered": 33853,
+    "Total Recovered": 9455626,
+    "Daily Deceased": 384,
+    "Total Deceased": 143540
+  },
+  {
+    "Date": "16-Dec-20",
+    "Date_YMD": "16/12/2020",
+    "Daily Confirmed": 18172,
+    "Total_Confirmed": 9951004,
+    "Daily Recovered": 33360,
+    "Total Recovered": 9488986,
+    "Daily Deceased": 356,
+    "Total Deceased": 143896
+  },
+  {
+    "Date": "17-Dec-20",
+    "Date_YMD": "17/12/2020",
+    "Daily Confirmed": 26754,
+    "Total_Confirmed": 9977758,
+    "Daily Recovered": 30891,
+    "Total Recovered": 9519877,
+    "Daily Deceased": 342,
+    "Total Deceased": 144238
+  },
+  {
+    "Date": "18-Dec-20",
+    "Date_YMD": "18/12/2020",
+    "Daily Confirmed": 26991,
+    "Total_Confirmed": 10004749,
+    "Daily Recovered": 29879,
+    "Total Recovered": 9549756,
+    "Daily Deceased": 342,
+    "Total Deceased": 144580
+  },
+  {
+    "Date": "19-Dec-20",
+    "Date_YMD": "19/12/2020",
+    "Daily Confirmed": 26834,
+    "Total_Confirmed": 10031583,
+    "Daily Recovered": 29758,
+    "Total Recovered": 9579514,
+    "Daily Deceased": 342,
+    "Total Deceased": 144922
+  },
+  {
+    "Date": "20-Dec-20",
+    "Date_YMD": "20/12/2020",
+    "Daily Confirmed": 24622,
+    "Total_Confirmed": 10056205,
+    "Daily Recovered": 25734,
+    "Total Recovered": 9605248,
+    "Daily Deceased": 332,
+    "Total Deceased": 145254
+  },
+  {
+    "Date": "21-Dec-20",
+    "Date_YMD": "21/12/2020",
+    "Daily Confirmed": 19147,
+    "Total_Confirmed": 10075352,
+    "Daily Recovered": 30250,
+    "Total Recovered": 9635498,
+    "Daily Deceased": 302,
+    "Total Deceased": 145556
+  },
+  {
+    "Date": "22-Dec-20",
+    "Date_YMD": "22/12/2020",
+    "Daily Confirmed": 23880,
+    "Total_Confirmed": 10099232,
+    "Daily Recovered": 27032,
+    "Total Recovered": 9662530,
+    "Daily Deceased": 329,
+    "Total Deceased": 145885
+  },
+  {
+    "Date": "23-Dec-20",
+    "Date_YMD": "23/12/2020",
+    "Daily Confirmed": 24716,
+    "Total_Confirmed": 10123948,
+    "Daily Recovered": 29946,
+    "Total Recovered": 9692476,
+    "Daily Deceased": 315,
+    "Total Deceased": 146200
+  },
+  {
+    "Date": "24-Dec-20",
+    "Date_YMD": "24/12/2020",
+    "Daily Confirmed": 23444,
+    "Total_Confirmed": 10147392,
+    "Daily Recovered": 24555,
+    "Total Recovered": 9717031,
+    "Daily Deceased": 337,
+    "Total Deceased": 146537
+  },
+  {
+    "Date": "25-Dec-20",
+    "Date_YMD": "25/12/2020",
+    "Daily Confirmed": 22349,
+    "Total_Confirmed": 10169741,
+    "Daily Recovered": 22184,
+    "Total Recovered": 9739215,
+    "Daily Deceased": 251,
+    "Total Deceased": 146788
+  },
+  {
+    "Date": "26-Dec-20",
+    "Date_YMD": "26/12/2020",
+    "Daily Confirmed": 18575,
+    "Total_Confirmed": 10188316,
+    "Daily Recovered": 21466,
+    "Total Recovered": 9760681,
+    "Daily Deceased": 280,
+    "Total Deceased": 147068
+  },
+  {
+    "Date": "27-Dec-20",
+    "Date_YMD": "27/12/2020",
+    "Daily Confirmed": 20333,
+    "Total_Confirmed": 10208649,
+    "Daily Recovered": 21097,
+    "Total Recovered": 9781778,
+    "Daily Deceased": 281,
+    "Total Deceased": 147349
+  },
+  {
+    "Date": "28-Dec-20",
+    "Date_YMD": "28/12/2020",
+    "Daily Confirmed": 16072,
+    "Total_Confirmed": 10224721,
+    "Daily Recovered": 24822,
+    "Total Recovered": 9806600,
+    "Daily Deceased": 250,
+    "Total Deceased": 147599
+  },
+  {
+    "Date": "29-Dec-20",
+    "Date_YMD": "29/12/2020",
+    "Daily Confirmed": 20542,
+    "Total_Confirmed": 10245263,
+    "Daily Recovered": 26589,
+    "Total Recovered": 9833189,
+    "Daily Deceased": 285,
+    "Total Deceased": 147884
+  },
+  {
+    "Date": "30-Dec-20",
+    "Date_YMD": "30/12/2020",
+    "Daily Confirmed": 21945,
+    "Total_Confirmed": 10267208,
+    "Daily Recovered": 26407,
+    "Total Recovered": 9859596,
+    "Daily Deceased": 299,
+    "Total Deceased": 148183
+  },
+  {
+    "Date": "31-Dec-20",
+    "Date_YMD": "31/12/2020",
+    "Daily Confirmed": 19026,
+    "Total_Confirmed": 10286234,
+    "Daily Recovered": 21969,
+    "Total Recovered": 9881565,
+    "Daily Deceased": 244,
+    "Total Deceased": 148427
+  },
+  {
+    "Date": "01-Jan-21",
+    "Date_YMD": "01/01/2021",
+    "Daily Confirmed": 20159,
+    "Total_Confirmed": 10306393,
+    "Daily Recovered": 23838,
+    "Total Recovered": 9905403,
+    "Daily Deceased": 237,
+    "Total Deceased": 148664
+  },
+  {
+    "Date": "02-Jan-21",
+    "Date_YMD": "02/01/2021",
+    "Daily Confirmed": 18144,
+    "Total_Confirmed": 10324537,
+    "Daily Recovered": 20903,
+    "Total Recovered": 9926306,
+    "Daily Deceased": 216,
+    "Total Deceased": 148880
+  },
+  {
+    "Date": "03-Jan-21",
+    "Date_YMD": "03/01/2021",
+    "Daily Confirmed": 16678,
+    "Total_Confirmed": 10341215,
+    "Daily Recovered": 19658,
+    "Total Recovered": 9945964,
+    "Daily Deceased": 215,
+    "Total Deceased": 149095
+  },
+  {
+    "Date": "04-Jan-21",
+    "Date_YMD": "04/01/2021",
+    "Daily Confirmed": 16278,
+    "Total_Confirmed": 10357493,
+    "Daily Recovered": 29209,
+    "Total Recovered": 9975173,
+    "Daily Deceased": 200,
+    "Total Deceased": 149295
+  },
+  {
+    "Date": "05-Jan-21",
+    "Date_YMD": "05/01/2021",
+    "Daily Confirmed": 17909,
+    "Total_Confirmed": 10375402,
+    "Daily Recovered": 21161,
+    "Total Recovered": 9996334,
+    "Daily Deceased": 265,
+    "Total Deceased": 149560
+  },
+  {
+    "Date": "06-Jan-21",
+    "Date_YMD": "06/01/2021",
+    "Daily Confirmed": 20472,
+    "Total_Confirmed": 10395874,
+    "Daily Recovered": 19689,
+    "Total Recovered": 10016023,
+    "Daily Deceased": 222,
+    "Total Deceased": 149782
+  },
+  {
+    "Date": "07-Jan-21",
+    "Date_YMD": "07/01/2021",
+    "Daily Confirmed": 18123,
+    "Total_Confirmed": 10413997,
+    "Daily Recovered": 20503,
+    "Total Recovered": 10036526,
+    "Daily Deceased": 233,
+    "Total Deceased": 150015
+  },
+  {
+    "Date": "08-Jan-21",
+    "Date_YMD": "08/01/2021",
+    "Daily Confirmed": 18453,
+    "Total_Confirmed": 10432450,
+    "Daily Recovered": 19242,
+    "Total Recovered": 10055768,
+    "Daily Deceased": 229,
+    "Total Deceased": 150244
+  },
+  {
+    "Date": "09-Jan-21",
+    "Date_YMD": "09/01/2021",
+    "Daily Confirmed": 18820,
+    "Total_Confirmed": 10451270,
+    "Daily Recovered": 19460,
+    "Total Recovered": 10075228,
+    "Daily Deceased": 213,
+    "Total Deceased": 150457
+  },
+  {
+    "Date": "10-Jan-21",
+    "Date_YMD": "10/01/2021",
+    "Daily Confirmed": 16086,
+    "Total_Confirmed": 10467356,
+    "Daily Recovered": 16737,
+    "Total Recovered": 10091965,
+    "Daily Deceased": 150,
+    "Total Deceased": 150607
+  },
+  {
+    "Date": "11-Jan-21",
+    "Date_YMD": "11/01/2021",
+    "Daily Confirmed": 12481,
+    "Total_Confirmed": 10479837,
+    "Daily Recovered": 18578,
+    "Total Recovered": 10110543,
+    "Daily Deceased": 166,
+    "Total Deceased": 150773
+  },
+  {
+    "Date": "12-Jan-21",
+    "Date_YMD": "12/01/2021",
+    "Daily Confirmed": 15903,
+    "Total_Confirmed": 10495740,
+    "Daily Recovered": 17762,
+    "Total Recovered": 10128305,
+    "Daily Deceased": 200,
+    "Total Deceased": 150973
+  },
+  {
+    "Date": "13-Jan-21",
+    "Date_YMD": "13/01/2021",
+    "Daily Confirmed": 17015,
+    "Total_Confirmed": 10512755,
+    "Daily Recovered": 17797,
+    "Total Recovered": 10146102,
+    "Daily Deceased": 201,
+    "Total Deceased": 151174
+  },
+  {
+    "Date": "14-Jan-21",
+    "Date_YMD": "14/01/2021",
+    "Daily Confirmed": 15677,
+    "Total_Confirmed": 10528432,
+    "Daily Recovered": 15943,
+    "Total Recovered": 10162045,
+    "Daily Deceased": 189,
+    "Total Deceased": 151363
+  },
+  {
+    "Date": "15-Jan-21",
+    "Date_YMD": "15/01/2021",
+    "Daily Confirmed": 15155,
+    "Total_Confirmed": 10543587,
+    "Daily Recovered": 16809,
+    "Total Recovered": 10178854,
+    "Daily Deceased": 176,
+    "Total Deceased": 151539
+  },
+  {
+    "Date": "16-Jan-21",
+    "Date_YMD": "16/01/2021",
+    "Daily Confirmed": 15050,
+    "Total_Confirmed": 10558637,
+    "Daily Recovered": 17202,
+    "Total Recovered": 10196056,
+    "Daily Deceased": 181,
+    "Total Deceased": 151720
+  },
+  {
+    "Date": "17-Jan-21",
+    "Date_YMD": "17/01/2021",
+    "Daily Confirmed": 13962,
+    "Total_Confirmed": 10572599,
+    "Daily Recovered": 14513,
+    "Total Recovered": 10210569,
+    "Daily Deceased": 145,
+    "Total Deceased": 151865
+  },
+  {
+    "Date": "18-Jan-21",
+    "Date_YMD": "18/01/2021",
+    "Daily Confirmed": 9987,
+    "Total_Confirmed": 10582586,
+    "Daily Recovered": 17127,
+    "Total Recovered": 10227696,
+    "Daily Deceased": 137,
+    "Total Deceased": 152002
+  },
+  {
+    "Date": "19-Jan-21",
+    "Date_YMD": "19/01/2021",
+    "Daily Confirmed": 13787,
+    "Total_Confirmed": 10596373,
+    "Daily Recovered": 17229,
+    "Total Recovered": 10244925,
+    "Daily Deceased": 162,
+    "Total Deceased": 152164
+  },
+  {
+    "Date": "20-Jan-21",
+    "Date_YMD": "20/01/2021",
+    "Daily Confirmed": 15279,
+    "Total_Confirmed": 10611652,
+    "Daily Recovered": 20071,
+    "Total Recovered": 10264996,
+    "Daily Deceased": 152,
+    "Total Deceased": 152316
+  },
+  {
+    "Date": "21-Jan-21",
+    "Date_YMD": "21/01/2021",
+    "Daily Confirmed": 14495,
+    "Total_Confirmed": 10626147,
+    "Daily Recovered": 17734,
+    "Total Recovered": 10282730,
+    "Daily Deceased": 161,
+    "Total Deceased": 152477
+  },
+  {
+    "Date": "22-Jan-21",
+    "Date_YMD": "22/01/2021",
+    "Daily Confirmed": 14323,
+    "Total_Confirmed": 10640470,
+    "Daily Recovered": 17166,
+    "Total Recovered": 10299896,
+    "Daily Deceased": 153,
+    "Total Deceased": 152630
+  },
+  {
+    "Date": "23-Jan-21",
+    "Date_YMD": "23/01/2021",
+    "Daily Confirmed": 14896,
+    "Total_Confirmed": 10655366,
+    "Daily Recovered": 16033,
+    "Total Recovered": 10315929,
+    "Daily Deceased": 156,
+    "Total Deceased": 152786
+  },
+  {
+    "Date": "24-Jan-21",
+    "Date_YMD": "24/01/2021",
+    "Daily Confirmed": 13232,
+    "Total_Confirmed": 10668598,
+    "Daily Recovered": 13148,
+    "Total Recovered": 10329077,
+    "Daily Deceased": 131,
+    "Total Deceased": 152917
+  },
+  {
+    "Date": "25-Jan-21",
+    "Date_YMD": "25/01/2021",
+    "Daily Confirmed": 9098,
+    "Total_Confirmed": 10677696,
+    "Daily Recovered": 16092,
+    "Total Recovered": 10345169,
+    "Daily Deceased": 116,
+    "Total Deceased": 153033
+  },
+  {
+    "Date": "26-Jan-21",
+    "Date_YMD": "26/01/2021",
+    "Daily Confirmed": 12733,
+    "Total_Confirmed": 10690429,
+    "Daily Recovered": 13250,
+    "Total Recovered": 10358419,
+    "Daily Deceased": 138,
+    "Total Deceased": 153171
+  },
+  {
+    "Date": "27-Jan-21",
+    "Date_YMD": "27/01/2021",
+    "Daily Confirmed": 11556,
+    "Total_Confirmed": 10701985,
+    "Daily Recovered": 14261,
+    "Total Recovered": 10372680,
+    "Daily Deceased": 123,
+    "Total Deceased": 153294
+  },
+  {
+    "Date": "28-Jan-21",
+    "Date_YMD": "28/01/2021",
+    "Daily Confirmed": 18912,
+    "Total_Confirmed": 10720897,
+    "Daily Recovered": 20315,
+    "Total Recovered": 10392995,
+    "Daily Deceased": 162,
+    "Total Deceased": 153456
+  },
+  {
+    "Date": "29-Jan-21",
+    "Date_YMD": "29/01/2021",
+    "Daily Confirmed": 13054,
+    "Total_Confirmed": 10733951,
+    "Daily Recovered": 14886,
+    "Total Recovered": 10407881,
+    "Daily Deceased": 137,
+    "Total Deceased": 153593
+  },
+  {
+    "Date": "30-Jan-21",
+    "Date_YMD": "30/01/2021",
+    "Daily Confirmed": 13073,
+    "Total_Confirmed": 10747024,
+    "Daily Recovered": 14077,
+    "Total Recovered": 10421958,
+    "Daily Deceased": 128,
+    "Total Deceased": 153721
+  },
+  {
+    "Date": "31-Jan-21",
+    "Date_YMD": "31/01/2021",
+    "Daily Confirmed": 11527,
+    "Total_Confirmed": 10758551,
+    "Daily Recovered": 11882,
+    "Total Recovered": 10433840,
+    "Daily Deceased": 116,
+    "Total Deceased": 153837
+  },
+  {
+    "Date": "01-Feb-21",
+    "Date_YMD": "01/02/2021",
+    "Daily Confirmed": 8579,
+    "Total_Confirmed": 10767130,
+    "Daily Recovered": 13443,
+    "Total Recovered": 10447283,
+    "Daily Deceased": 94,
+    "Total Deceased": 153931
+  },
+  {
+    "Date": "02-Feb-21",
+    "Date_YMD": "02/02/2021",
+    "Daily Confirmed": 11001,
+    "Total_Confirmed": 10778131,
+    "Daily Recovered": 14250,
+    "Total Recovered": 10461533,
+    "Daily Deceased": 113,
+    "Total Deceased": 154044
+  },
+  {
+    "Date": "03-Feb-21",
+    "Date_YMD": "03/02/2021",
+    "Daily Confirmed": 12925,
+    "Total_Confirmed": 10791056,
+    "Daily Recovered": 17813,
+    "Total Recovered": 10479346,
+    "Daily Deceased": 107,
+    "Total Deceased": 154151
+  },
+  {
+    "Date": "04-Feb-21",
+    "Date_YMD": "04/02/2021",
+    "Daily Confirmed": 12401,
+    "Total_Confirmed": 10803457,
+    "Daily Recovered": 15788,
+    "Total Recovered": 10495134,
+    "Daily Deceased": 120,
+    "Total Deceased": 154271
+  },
+  {
+    "Date": "05-Feb-21",
+    "Date_YMD": "05/02/2021",
+    "Daily Confirmed": 11711,
+    "Total_Confirmed": 10815168,
+    "Daily Recovered": 14512,
+    "Total Recovered": 10509646,
+    "Daily Deceased": 95,
+    "Total Deceased": 154366
+  },
+  {
+    "Date": "06-Feb-21",
+    "Date_YMD": "06/02/2021",
+    "Daily Confirmed": 12069,
+    "Total_Confirmed": 10827237,
+    "Daily Recovered": 11761,
+    "Total Recovered": 10521407,
+    "Daily Deceased": 75,
+    "Total Deceased": 154441
+  },
+  {
+    "Date": "07-Feb-21",
+    "Date_YMD": "07/02/2021",
+    "Daily Confirmed": 11786,
+    "Total_Confirmed": 10839023,
+    "Daily Recovered": 11756,
+    "Total Recovered": 10533163,
+    "Daily Deceased": 86,
+    "Total Deceased": 154527
+  },
+  {
+    "Date": "08-Feb-21",
+    "Date_YMD": "08/02/2021",
+    "Daily Confirmed": 8715,
+    "Total_Confirmed": 10847738,
+    "Daily Recovered": 13600,
+    "Total Recovered": 10546763,
+    "Daily Deceased": 78,
+    "Total Deceased": 154605
+  },
+  {
+    "Date": "09-Feb-21",
+    "Date_YMD": "09/02/2021",
+    "Daily Confirmed": 10731,
+    "Total_Confirmed": 10858469,
+    "Daily Recovered": 12928,
+    "Total Recovered": 10559691,
+    "Daily Deceased": 94,
+    "Total Deceased": 154699
+  },
+  {
+    "Date": "10-Feb-21",
+    "Date_YMD": "10/02/2021",
+    "Daily Confirmed": 12539,
+    "Total_Confirmed": 10871008,
+    "Daily Recovered": 11796,
+    "Total Recovered": 10571487,
+    "Daily Deceased": 110,
+    "Total Deceased": 154809
+  },
+  {
+    "Date": "11-Feb-21",
+    "Date_YMD": "11/02/2021",
+    "Daily Confirmed": 9353,
+    "Total_Confirmed": 10880361,
+    "Daily Recovered": 15722,
+    "Total Recovered": 10587209,
+    "Daily Deceased": 85,
+    "Total Deceased": 154894
+  },
+  {
+    "Date": "12-Feb-21",
+    "Date_YMD": "12/02/2021",
+    "Daily Confirmed": 12137,
+    "Total_Confirmed": 10892498,
+    "Daily Recovered": 11358,
+    "Total Recovered": 10598567,
+    "Daily Deceased": 104,
+    "Total Deceased": 154998
+  },
+  {
+    "Date": "13-Feb-21",
+    "Date_YMD": "13/02/2021",
+    "Daily Confirmed": 12198,
+    "Total_Confirmed": 10904696,
+    "Daily Recovered": 11107,
+    "Total Recovered": 10609674,
+    "Daily Deceased": 89,
+    "Total Deceased": 155087
+  },
+  {
+    "Date": "14-Feb-21",
+    "Date_YMD": "14/02/2021",
+    "Daily Confirmed": 11706,
+    "Total_Confirmed": 10916402,
+    "Daily Recovered": 9500,
+    "Total Recovered": 10619174,
+    "Daily Deceased": 91,
+    "Total Deceased": 155178
+  },
+  {
+    "Date": "15-Feb-21",
+    "Date_YMD": "15/02/2021",
+    "Daily Confirmed": 9086,
+    "Total_Confirmed": 10925488,
+    "Daily Recovered": 11793,
+    "Total Recovered": 10630967,
+    "Daily Deceased": 82,
+    "Total Deceased": 155260
+  },
+  {
+    "Date": "16-Feb-21",
+    "Date_YMD": "16/02/2021",
+    "Daily Confirmed": 11592,
+    "Total_Confirmed": 10937080,
+    "Daily Recovered": 11836,
+    "Total Recovered": 10642803,
+    "Daily Deceased": 99,
+    "Total Deceased": 155359
+  },
+  {
+    "Date": "17-Feb-21",
+    "Date_YMD": "17/02/2021",
+    "Daily Confirmed": 12862,
+    "Total_Confirmed": 10949942,
+    "Daily Recovered": 12028,
+    "Total Recovered": 10654831,
+    "Daily Deceased": 100,
+    "Total Deceased": 155459
+  },
+  {
+    "Date": "18-Feb-21",
+    "Date_YMD": "18/02/2021",
+    "Daily Confirmed": 13237,
+    "Total_Confirmed": 10963179,
+    "Daily Recovered": 10914,
+    "Total Recovered": 10665745,
+    "Daily Deceased": 100,
+    "Total Deceased": 155559
+  },
+  {
+    "Date": "19-Feb-21",
+    "Date_YMD": "19/02/2021",
+    "Daily Confirmed": 13916,
+    "Total_Confirmed": 10977095,
+    "Daily Recovered": 10214,
+    "Total Recovered": 10675959,
+    "Daily Deceased": 100,
+    "Total Deceased": 155659
+  },
+  {
+    "Date": "20-Feb-21",
+    "Date_YMD": "20/02/2021",
+    "Daily Confirmed": 13919,
+    "Total_Confirmed": 10991014,
+    "Daily Recovered": 11413,
+    "Total Recovered": 10687372,
+    "Daily Deceased": 89,
+    "Total Deceased": 155748
+  },
+  {
+    "Date": "21-Feb-21",
+    "Date_YMD": "21/02/2021",
+    "Daily Confirmed": 14278,
+    "Total_Confirmed": 11005292,
+    "Daily Recovered": 9715,
+    "Total Recovered": 10697087,
+    "Daily Deceased": 83,
+    "Total Deceased": 155831
+  },
+  {
+    "Date": "22-Feb-21",
+    "Date_YMD": "22/02/2021",
+    "Daily Confirmed": 10494,
+    "Total_Confirmed": 11015786,
+    "Daily Recovered": 13233,
+    "Total Recovered": 10710320,
+    "Daily Deceased": 76,
+    "Total Deceased": 155907
+  },
+  {
+    "Date": "23-Feb-21",
+    "Date_YMD": "23/02/2021",
+    "Daily Confirmed": 13682,
+    "Total_Confirmed": 11029468,
+    "Daily Recovered": 13969,
+    "Total Recovered": 10724289,
+    "Daily Deceased": 103,
+    "Total Deceased": 156010
+  },
+  {
+    "Date": "24-Feb-21",
+    "Date_YMD": "24/02/2021",
+    "Daily Confirmed": 16930,
+    "Total_Confirmed": 11046398,
+    "Daily Recovered": 12100,
+    "Total Recovered": 10736389,
+    "Daily Deceased": 141,
+    "Total Deceased": 156151
+  },
+  {
+    "Date": "25-Feb-21",
+    "Date_YMD": "25/02/2021",
+    "Daily Confirmed": 16599,
+    "Total_Confirmed": 11062997,
+    "Daily Recovered": 12222,
+    "Total Recovered": 10748611,
+    "Daily Deceased": 119,
+    "Total Deceased": 156270
+  },
+  {
+    "Date": "26-Feb-21",
+    "Date_YMD": "26/02/2021",
+    "Daily Confirmed": 16562,
+    "Total_Confirmed": 11079559,
+    "Daily Recovered": 12790,
+    "Total Recovered": 10761401,
+    "Daily Deceased": 114,
+    "Total Deceased": 156384
+  },
+  {
+    "Date": "27-Feb-21",
+    "Date_YMD": "27/02/2021",
+    "Daily Confirmed": 16805,
+    "Total_Confirmed": 11096364,
+    "Daily Recovered": 11709,
+    "Total Recovered": 10773110,
+    "Daily Deceased": 111,
+    "Total Deceased": 156495
+  },
+  {
+    "Date": "28-Feb-21",
+    "Date_YMD": "28/02/2021",
+    "Daily Confirmed": 15614,
+    "Total_Confirmed": 11111978,
+    "Daily Recovered": 11291,
+    "Total Recovered": 10784401,
+    "Daily Deceased": 108,
+    "Total Deceased": 156603
+  },
+  {
+    "Date": "01-Mar-21",
+    "Date_YMD": "01/03/2021",
+    "Daily Confirmed": 12270,
+    "Total_Confirmed": 11124248,
+    "Daily Recovered": 12472,
+    "Total Recovered": 10796873,
+    "Daily Deceased": 92,
+    "Total Deceased": 156695
+  },
+  {
+    "Date": "02-Mar-21",
+    "Date_YMD": "02/03/2021",
+    "Daily Confirmed": 14998,
+    "Total_Confirmed": 11139246,
+    "Daily Recovered": 13113,
+    "Total Recovered": 10809986,
+    "Daily Deceased": 98,
+    "Total Deceased": 156793
+  },
+  {
+    "Date": "03-Mar-21",
+    "Date_YMD": "03/03/2021",
+    "Daily Confirmed": 17425,
+    "Total_Confirmed": 11156671,
+    "Daily Recovered": 14071,
+    "Total Recovered": 10824057,
+    "Daily Deceased": 87,
+    "Total Deceased": 156880
+  },
+  {
+    "Date": "04-Mar-21",
+    "Date_YMD": "04/03/2021",
+    "Daily Confirmed": 16824,
+    "Total_Confirmed": 11173495,
+    "Daily Recovered": 13788,
+    "Total Recovered": 10837845,
+    "Daily Deceased": 113,
+    "Total Deceased": 156993
+  },
+  {
+    "Date": "05-Mar-21",
+    "Date_YMD": "05/03/2021",
+    "Daily Confirmed": 18324,
+    "Total_Confirmed": 11191819,
+    "Daily Recovered": 14186,
+    "Total Recovered": 10852031,
+    "Daily Deceased": 109,
+    "Total Deceased": 157102
+  },
+  {
+    "Date": "06-Mar-21",
+    "Date_YMD": "06/03/2021",
+    "Daily Confirmed": 18724,
+    "Total_Confirmed": 11210543,
+    "Daily Recovered": 14379,
+    "Total Recovered": 10866410,
+    "Daily Deceased": 100,
+    "Total Deceased": 157202
+  },
+  {
+    "Date": "07-Mar-21",
+    "Date_YMD": "07/03/2021",
+    "Daily Confirmed": 18650,
+    "Total_Confirmed": 11229193,
+    "Daily Recovered": 14303,
+    "Total Recovered": 10880713,
+    "Daily Deceased": 97,
+    "Total Deceased": 157299
+  },
+  {
+    "Date": "08-Mar-21",
+    "Date_YMD": "08/03/2021",
+    "Daily Confirmed": 15353,
+    "Total_Confirmed": 11244546,
+    "Daily Recovered": 16606,
+    "Total Recovered": 10897319,
+    "Daily Deceased": 76,
+    "Total Deceased": 157375
+  },
+  {
+    "Date": "09-Mar-21",
+    "Date_YMD": "09/03/2021",
+    "Daily Confirmed": 17873,
+    "Total_Confirmed": 11262419,
+    "Daily Recovered": 20643,
+    "Total Recovered": 10917962,
+    "Daily Deceased": 133,
+    "Total Deceased": 157508
+  },
+  {
+    "Date": "10-Mar-21",
+    "Date_YMD": "10/03/2021",
+    "Daily Confirmed": 22851,
+    "Total_Confirmed": 11285270,
+    "Daily Recovered": 18154,
+    "Total Recovered": 10936116,
+    "Daily Deceased": 125,
+    "Total Deceased": 157633
+  },
+  {
+    "Date": "11-Mar-21",
+    "Date_YMD": "11/03/2021",
+    "Daily Confirmed": 23298,
+    "Total_Confirmed": 11308568,
+    "Daily Recovered": 15092,
+    "Total Recovered": 10951208,
+    "Daily Deceased": 119,
+    "Total Deceased": 157752
+  },
+  {
+    "Date": "12-Mar-21",
+    "Date_YMD": "12/03/2021",
+    "Daily Confirmed": 24845,
+    "Total_Confirmed": 11333413,
+    "Daily Recovered": 19972,
+    "Total Recovered": 10971180,
+    "Daily Deceased": 140,
+    "Total Deceased": 157892
+  },
+  {
+    "Date": "13-Mar-21",
+    "Date_YMD": "13/03/2021",
+    "Daily Confirmed": 25154,
+    "Total_Confirmed": 11358567,
+    "Daily Recovered": 16508,
+    "Total Recovered": 10987688,
+    "Daily Deceased": 159,
+    "Total Deceased": 158051
+  },
+  {
+    "Date": "14-Mar-21",
+    "Date_YMD": "14/03/2021",
+    "Daily Confirmed": 26513,
+    "Total_Confirmed": 11385080,
+    "Daily Recovered": 17590,
+    "Total Recovered": 11005278,
+    "Daily Deceased": 120,
+    "Total Deceased": 158171
+  },
+  {
+    "Date": "15-Mar-21",
+    "Date_YMD": "15/03/2021",
+    "Daily Confirmed": 24437,
+    "Total_Confirmed": 11409517,
+    "Daily Recovered": 20186,
+    "Total Recovered": 11025464,
+    "Daily Deceased": 130,
+    "Total Deceased": 158301
+  },
+  {
+    "Date": "16-Mar-21",
+    "Date_YMD": "16/03/2021",
+    "Daily Confirmed": 28869,
+    "Total_Confirmed": 11438386,
+    "Daily Recovered": 17746,
+    "Total Recovered": 11043210,
+    "Daily Deceased": 187,
+    "Total Deceased": 158488
+  },
+  {
+    "Date": "17-Mar-21",
+    "Date_YMD": "17/03/2021",
+    "Daily Confirmed": 35838,
+    "Total_Confirmed": 11474224,
+    "Daily Recovered": 17793,
+    "Total Recovered": 11061003,
+    "Daily Deceased": 171,
+    "Total Deceased": 158659
+  },
+  {
+    "Date": "18-Mar-21",
+    "Date_YMD": "18/03/2021",
+    "Daily Confirmed": 39687,
+    "Total_Confirmed": 11513911,
+    "Daily Recovered": 20356,
+    "Total Recovered": 11081359,
+    "Daily Deceased": 156,
+    "Total Deceased": 158815
+  },
+  {
+    "Date": "19-Mar-21",
+    "Date_YMD": "19/03/2021",
+    "Daily Confirmed": 40906,
+    "Total_Confirmed": 11554817,
+    "Daily Recovered": 23623,
+    "Total Recovered": 11104982,
+    "Daily Deceased": 188,
+    "Total Deceased": 159003
+  },
+  {
+    "Date": "20-Mar-21",
+    "Date_YMD": "20/03/2021",
+    "Daily Confirmed": 43815,
+    "Total_Confirmed": 11598632,
+    "Daily Recovered": 22971,
+    "Total Recovered": 11127953,
+    "Daily Deceased": 196,
+    "Total Deceased": 159199
+  },
+  {
+    "Date": "21-Mar-21",
+    "Date_YMD": "21/03/2021",
+    "Daily Confirmed": 47009,
+    "Total_Confirmed": 11645641,
+    "Daily Recovered": 21205,
+    "Total Recovered": 11149158,
+    "Daily Deceased": 213,
+    "Total Deceased": 159412
+  },
+  {
+    "Date": "22-Mar-21",
+    "Date_YMD": "22/03/2021",
+    "Daily Confirmed": 40636,
+    "Total_Confirmed": 11686277,
+    "Daily Recovered": 29779,
+    "Total Recovered": 11178937,
+    "Daily Deceased": 197,
+    "Total Deceased": 159609
+  },
+  {
+    "Date": "23-Mar-21",
+    "Date_YMD": "23/03/2021",
+    "Daily Confirmed": 47239,
+    "Total_Confirmed": 11733516,
+    "Daily Recovered": 23913,
+    "Total Recovered": 11202850,
+    "Daily Deceased": 277,
+    "Total Deceased": 159886
+  },
+  {
+    "Date": "24-Mar-21",
+    "Date_YMD": "24/03/2021",
+    "Daily Confirmed": 53419,
+    "Total_Confirmed": 11786935,
+    "Daily Recovered": 26575,
+    "Total Recovered": 11229425,
+    "Daily Deceased": 249,
+    "Total Deceased": 160135
+  },
+  {
+    "Date": "25-Mar-21",
+    "Date_YMD": "25/03/2021",
+    "Daily Confirmed": 59083,
+    "Total_Confirmed": 11846018,
+    "Daily Recovered": 32917,
+    "Total Recovered": 11262342,
+    "Daily Deceased": 257,
+    "Total Deceased": 160392
+  },
+  {
+    "Date": "26-Mar-21",
+    "Date_YMD": "26/03/2021",
+    "Daily Confirmed": 62276,
+    "Total_Confirmed": 11908294,
+    "Daily Recovered": 30341,
+    "Total Recovered": 11292683,
+    "Daily Deceased": 292,
+    "Total Deceased": 160684
+  },
+  {
+    "Date": "27-Mar-21",
+    "Date_YMD": "27/03/2021",
+    "Daily Confirmed": 62632,
+    "Total_Confirmed": 11970926,
+    "Daily Recovered": 28728,
+    "Total Recovered": 11321411,
+    "Daily Deceased": 311,
+    "Total Deceased": 160995
+  },
+  {
+    "Date": "28-Mar-21",
+    "Date_YMD": "28/03/2021",
+    "Daily Confirmed": 68206,
+    "Total_Confirmed": 12039132,
+    "Daily Recovered": 32269,
+    "Total Recovered": 11353680,
+    "Daily Deceased": 295,
+    "Total Deceased": 161290
+  },
+  {
+    "Date": "29-Mar-21",
+    "Date_YMD": "29/03/2021",
+    "Daily Confirmed": 56152,
+    "Total_Confirmed": 12095284,
+    "Daily Recovered": 36989,
+    "Total Recovered": 11390669,
+    "Daily Deceased": 266,
+    "Total Deceased": 161556
+  },
+  {
+    "Date": "30-Mar-21",
+    "Date_YMD": "30/03/2021",
+    "Daily Confirmed": 53237,
+    "Total_Confirmed": 12148521,
+    "Daily Recovered": 41242,
+    "Total Recovered": 11431911,
+    "Daily Deceased": 355,
+    "Total Deceased": 161911
+  },
+  {
+    "Date": "31-Mar-21",
+    "Date_YMD": "31/03/2021",
+    "Daily Confirmed": 72113,
+    "Total_Confirmed": 12220634,
+    "Daily Recovered": 40423,
+    "Total Recovered": 11472334,
+    "Daily Deceased": 458,
+    "Total Deceased": 162369
+  },
+  {
+    "Date": "01-Apr-21",
+    "Date_YMD": "01/04/2021",
+    "Daily Confirmed": 81398,
+    "Total_Confirmed": 12302032,
+    "Daily Recovered": 50384,
+    "Total Recovered": 11522718,
+    "Daily Deceased": 468,
+    "Total Deceased": 162837
+  },
+  {
+    "Date": "02-Apr-21",
+    "Date_YMD": "02/04/2021",
+    "Daily Confirmed": 89023,
+    "Total_Confirmed": 12391055,
+    "Daily Recovered": 44179,
+    "Total Recovered": 11566897,
+    "Daily Deceased": 713,
+    "Total Deceased": 163550
+  },
+  {
+    "Date": "03-Apr-21",
+    "Date_YMD": "03/04/2021",
+    "Daily Confirmed": 92994,
+    "Total_Confirmed": 12484049,
+    "Daily Recovered": 60059,
+    "Total Recovered": 11626956,
+    "Daily Deceased": 514,
+    "Total Deceased": 164064
+  },
+  {
+    "Date": "04-Apr-21",
+    "Date_YMD": "04/04/2021",
+    "Daily Confirmed": 103794,
+    "Total_Confirmed": 12587843,
+    "Daily Recovered": 52840,
+    "Total Recovered": 11679796,
+    "Daily Deceased": 477,
+    "Total Deceased": 164541
+  },
+  {
+    "Date": "05-Apr-21",
+    "Date_YMD": "05/04/2021",
+    "Daily Confirmed": 96563,
+    "Total_Confirmed": 12684406,
+    "Daily Recovered": 50100,
+    "Total Recovered": 11729896,
+    "Daily Deceased": 446,
+    "Total Deceased": 164987
+  },
+  {
+    "Date": "06-Apr-21",
+    "Date_YMD": "06/04/2021",
+    "Daily Confirmed": 115312,
+    "Total_Confirmed": 12799718,
+    "Daily Recovered": 59714,
+    "Total Recovered": 11789610,
+    "Daily Deceased": 630,
+    "Total Deceased": 165617
+  },
+  {
+    "Date": "07-Apr-21",
+    "Date_YMD": "07/04/2021",
+    "Daily Confirmed": 126276,
+    "Total_Confirmed": 12925994,
+    "Daily Recovered": 59137,
+    "Total Recovered": 11848747,
+    "Daily Deceased": 684,
+    "Total Deceased": 166301
+  },
+  {
+    "Date": "08-Apr-21",
+    "Date_YMD": "08/04/2021",
+    "Daily Confirmed": 131878,
+    "Total_Confirmed": 13057872,
+    "Daily Recovered": 61829,
+    "Total Recovered": 11910576,
+    "Daily Deceased": 802,
+    "Total Deceased": 167103
+  },
+  {
+    "Date": "09-Apr-21",
+    "Date_YMD": "09/04/2021",
+    "Daily Confirmed": 144945,
+    "Total_Confirmed": 13202817,
+    "Daily Recovered": 77263,
+    "Total Recovered": 11987839,
+    "Daily Deceased": 773,
+    "Total Deceased": 167876
+  },
+  {
+    "Date": "10-Apr-21",
+    "Date_YMD": "10/04/2021",
+    "Daily Confirmed": 152565,
+    "Total_Confirmed": 13355382,
+    "Daily Recovered": 90328,
+    "Total Recovered": 12078167,
+    "Daily Deceased": 838,
+    "Total Deceased": 168714
+  },
+  {
+    "Date": "11-Apr-21",
+    "Date_YMD": "11/04/2021",
+    "Daily Confirmed": 169914,
+    "Total_Confirmed": 13525296,
+    "Daily Recovered": 75380,
+    "Total Recovered": 12153547,
+    "Daily Deceased": 904,
+    "Total Deceased": 169618
+  },
+  {
+    "Date": "12-Apr-21",
+    "Date_YMD": "12/04/2021",
+    "Daily Confirmed": 160838,
+    "Total_Confirmed": 13686134,
+    "Daily Recovered": 96746,
+    "Total Recovered": 12250293,
+    "Daily Deceased": 880,
+    "Total Deceased": 170498
+  },
+  {
+    "Date": "13-Apr-21",
+    "Date_YMD": "13/04/2021",
+    "Daily Confirmed": 185297,
+    "Total_Confirmed": 13871431,
+    "Daily Recovered": 82271,
+    "Total Recovered": 12332564,
+    "Daily Deceased": 1026,
+    "Total Deceased": 171524
+  },
+  {
+    "Date": "14-Apr-21",
+    "Date_YMD": "14/04/2021",
+    "Daily Confirmed": 199584,
+    "Total_Confirmed": 14071015,
+    "Daily Recovered": 93425,
+    "Total Recovered": 12425989,
+    "Daily Deceased": 1038,
+    "Total Deceased": 172562
+  },
+  {
+    "Date": "15-Apr-21",
+    "Date_YMD": "15/04/2021",
+    "Daily Confirmed": 216828,
+    "Total_Confirmed": 14287843,
+    "Daily Recovered": 117897,
+    "Total Recovered": 12543886,
+    "Daily Deceased": 1184,
+    "Total Deceased": 173746
+  },
+  {
+    "Date": "16-Apr-21",
+    "Date_YMD": "16/04/2021",
+    "Daily Confirmed": 234002,
+    "Total_Confirmed": 14521845,
+    "Daily Recovered": 122886,
+    "Total Recovered": 12666772,
+    "Daily Deceased": 1338,
+    "Total Deceased": 175084
+  },
+  {
+    "Date": "17-Apr-21",
+    "Date_YMD": "17/04/2021",
+    "Daily Confirmed": 260895,
+    "Total_Confirmed": 14782740,
+    "Daily Recovered": 138209,
+    "Total Recovered": 12804981,
+    "Daily Deceased": 1498,
+    "Total Deceased": 176582
+  },
+  {
+    "Date": "18-Apr-21",
+    "Date_YMD": "18/04/2021",
+    "Daily Confirmed": 275063,
+    "Total_Confirmed": 15057803,
+    "Daily Recovered": 143839,
+    "Total Recovered": 12948820,
+    "Daily Deceased": 1620,
+    "Total Deceased": 178202
+  },
+  {
+    "Date": "19-Apr-21",
+    "Date_YMD": "19/04/2021",
+    "Daily Confirmed": 257003,
+    "Total_Confirmed": 15314806,
+    "Daily Recovered": 154357,
+    "Total Recovered": 13103177,
+    "Daily Deceased": 1757,
+    "Total Deceased": 179959
+  },
+  {
+    "Date": "20-Apr-21",
+    "Date_YMD": "20/04/2021",
+    "Daily Confirmed": 294365,
+    "Total_Confirmed": 15609171,
+    "Daily Recovered": 166656,
+    "Total Recovered": 13269833,
+    "Daily Deceased": 2021,
+    "Total Deceased": 181980
+  },
+  {
+    "Date": "21-Apr-21",
+    "Date_YMD": "21/04/2021",
+    "Daily Confirmed": 315752,
+    "Total_Confirmed": 15924923,
+    "Daily Recovered": 179434,
+    "Total Recovered": 13449267,
+    "Daily Deceased": 2101,
+    "Total Deceased": 184081
+  },
+  {
+    "Date": "22-Apr-21",
+    "Date_YMD": "22/04/2021",
+    "Daily Confirmed": 332531,
+    "Total_Confirmed": 16257454,
+    "Daily Recovered": 192317,
+    "Total Recovered": 13641584,
+    "Daily Deceased": 2257,
+    "Total Deceased": 186338
+  },
+  {
+    "Date": "23-Apr-21",
+    "Date_YMD": "23/04/2021",
+    "Daily Confirmed": 345296,
+    "Total_Confirmed": 16602750,
+    "Daily Recovered": 220545,
+    "Total Recovered": 13862129,
+    "Daily Deceased": 2620,
+    "Total Deceased": 188958
+  },
+  {
+    "Date": "24-Apr-21",
+    "Date_YMD": "24/04/2021",
+    "Daily Confirmed": 348996,
+    "Total_Confirmed": 16951746,
+    "Daily Recovered": 215809,
+    "Total Recovered": 14077938,
+    "Daily Deceased": 2761,
+    "Total Deceased": 191719
+  },
+  {
+    "Date": "25-Apr-21",
+    "Date_YMD": "25/04/2021",
+    "Daily Confirmed": 354658,
+    "Total_Confirmed": 17306404,
+    "Daily Recovered": 218626,
+    "Total Recovered": 14296564,
+    "Daily Deceased": 2808,
+    "Total Deceased": 194527
+  },
+  {
+    "Date": "26-Apr-21",
+    "Date_YMD": "26/04/2021",
+    "Daily Confirmed": 319471,
+    "Total_Confirmed": 17625875,
+    "Daily Recovered": 249009,
+    "Total Recovered": 14545573,
+    "Daily Deceased": 2762,
+    "Total Deceased": 197289
+  },
+  {
+    "Date": "27-Apr-21",
+    "Date_YMD": "27/04/2021",
+    "Daily Confirmed": 362913,
+    "Total_Confirmed": 17988788,
+    "Daily Recovered": 262349,
+    "Total Recovered": 14807922,
+    "Daily Deceased": 3286,
+    "Total Deceased": 200575
+  },
+  {
+    "Date": "28-Apr-21",
+    "Date_YMD": "28/04/2021",
+    "Daily Confirmed": 379404,
+    "Total_Confirmed": 18368192,
+    "Daily Recovered": 274171,
+    "Total Recovered": 15082093,
+    "Daily Deceased": 3646,
+    "Total Deceased": 204221
+  },
+  {
+    "Date": "29-Apr-21",
+    "Date_YMD": "29/04/2021",
+    "Daily Confirmed": 386773,
+    "Total_Confirmed": 18754965,
+    "Daily Recovered": 291727,
+    "Total Recovered": 15373820,
+    "Daily Deceased": 3502,
+    "Total Deceased": 207723
+  },
+  {
+    "Date": "30-Apr-21",
+    "Date_YMD": "30/04/2021",
+    "Daily Confirmed": 402014,
+    "Total_Confirmed": 19156979,
+    "Daily Recovered": 299198,
+    "Total Recovered": 15673018,
+    "Daily Deceased": 3525,
+    "Total Deceased": 211248
+  },
+  {
+    "Date": "01-May-21",
+    "Date_YMD": "01/05/2021",
+    "Daily Confirmed": 392576,
+    "Total_Confirmed": 19549555,
+    "Daily Recovered": 308688,
+    "Total Recovered": 15981706,
+    "Daily Deceased": 3685,
+    "Total Deceased": 214933
+  },
+  {
+    "Date": "02-May-21",
+    "Date_YMD": "02/05/2021",
+    "Daily Confirmed": 370090,
+    "Total_Confirmed": 19919645,
+    "Daily Recovered": 300004,
+    "Total Recovered": 16281710,
+    "Daily Deceased": 3423,
+    "Total Deceased": 218356
+  },
+  {
+    "Date": "03-May-21",
+    "Date_YMD": "03/05/2021",
+    "Daily Confirmed": 355769,
+    "Total_Confirmed": 20275414,
+    "Daily Recovered": 318910,
+    "Total Recovered": 16600620,
+    "Daily Deceased": 3439,
+    "Total Deceased": 221795
+  },
+  {
+    "Date": "04-May-21",
+    "Date_YMD": "04/05/2021",
+    "Daily Confirmed": 382847,
+    "Total_Confirmed": 20658261,
+    "Daily Recovered": 337699,
+    "Total Recovered": 16938319,
+    "Daily Deceased": 3786,
+    "Total Deceased": 225581
+  },
+  {
+    "Date": "05-May-21",
+    "Date_YMD": "05/05/2021",
+    "Daily Confirmed": 412624,
+    "Total_Confirmed": 21070885,
+    "Daily Recovered": 330718,
+    "Total Recovered": 17269037,
+    "Daily Deceased": 3979,
+    "Total Deceased": 229560
+  },
+  {
+    "Date": "06-May-21",
+    "Date_YMD": "06/05/2021",
+    "Daily Confirmed": 414280,
+    "Total_Confirmed": 21485165,
+    "Daily Recovered": 328349,
+    "Total Recovered": 17597386,
+    "Daily Deceased": 3923,
+    "Total Deceased": 233483
+  },
+  {
+    "Date": "07-May-21",
+    "Date_YMD": "07/05/2021",
+    "Daily Confirmed": 406901,
+    "Total_Confirmed": 21892066,
+    "Daily Recovered": 327675,
+    "Total Recovered": 17925061,
+    "Daily Deceased": 4233,
+    "Total Deceased": 237716
+  },
+  {
+    "Date": "08-May-21",
+    "Date_YMD": "08/05/2021",
+    "Daily Confirmed": 403808,
+    "Total_Confirmed": 22295874,
+    "Daily Recovered": 386395,
+    "Total Recovered": 18311456,
+    "Daily Deceased": 4092,
+    "Total Deceased": 241808
+  },
+  {
+    "Date": "09-May-21",
+    "Date_YMD": "09/05/2021",
+    "Daily Confirmed": 366455,
+    "Total_Confirmed": 22662329,
+    "Daily Recovered": 353777,
+    "Total Recovered": 18665233,
+    "Daily Deceased": 3749,
+    "Total Deceased": 245557
+  },
+  {
+    "Date": "10-May-21",
+    "Date_YMD": "10/05/2021",
+    "Daily Confirmed": 329491,
+    "Total_Confirmed": 22991820,
+    "Daily Recovered": 355930,
+    "Total Recovered": 19021163,
+    "Daily Deceased": 3879,
+    "Total Deceased": 249436
+  },
+  {
+    "Date": "11-May-21",
+    "Date_YMD": "11/05/2021",
+    "Daily Confirmed": 348555,
+    "Total_Confirmed": 23340375,
+    "Daily Recovered": 355398,
+    "Total Recovered": 19376561,
+    "Daily Deceased": 4198,
+    "Total Deceased": 253634
+  },
+  {
+    "Date": "12-May-21",
+    "Date_YMD": "12/05/2021",
+    "Daily Confirmed": 362632,
+    "Total_Confirmed": 23703007,
+    "Daily Recovered": 352005,
+    "Total Recovered": 19728566,
+    "Daily Deceased": 4128,
+    "Total Deceased": 257762
+  },
+  {
+    "Date": "13-May-21",
+    "Date_YMD": "13/05/2021",
+    "Daily Confirmed": 343005,
+    "Total_Confirmed": 24046012,
+    "Daily Recovered": 344676,
+    "Total Recovered": 20073242,
+    "Daily Deceased": 4000,
+    "Total Deceased": 261762
+  },
+  {
+    "Date": "14-May-21",
+    "Date_YMD": "14/05/2021",
+    "Daily Confirmed": 326256,
+    "Total_Confirmed": 24372268,
+    "Daily Recovered": 353200,
+    "Total Recovered": 20426442,
+    "Daily Deceased": 3889,
+    "Total Deceased": 265651
+  },
+  {
+    "Date": "15-May-21",
+    "Date_YMD": "15/05/2021",
+    "Daily Confirmed": 310757,
+    "Total_Confirmed": 24683025,
+    "Daily Recovered": 362548,
+    "Total Recovered": 20788990,
+    "Daily Deceased": 4077,
+    "Total Deceased": 269728
+  },
+  {
+    "Date": "16-May-21",
+    "Date_YMD": "16/05/2021",
+    "Daily Confirmed": 281683,
+    "Total_Confirmed": 24964708,
+    "Daily Recovered": 378388,
+    "Total Recovered": 21167378,
+    "Daily Deceased": 4092,
+    "Total Deceased": 273820
+  }
+]

@@ -1,0 +1,87 @@
+[
+  {
+    "Monthly": "Jan-20",
+    "Total_Confirmed": 1,
+    "Total _Deceased": 0
+  },
+  {
+    "Monthly": "Feb-20",
+    "Total_Confirmed": 3,
+    "Total _Deceased": 0
+  },
+  {
+    "Monthly": "Mar-20",
+    "Total_Confirmed": 1326,
+    "Total _Deceased": 41
+  },
+  {
+    "Monthly": "Apr-20",
+    "Total_Confirmed": 34866,
+    "Total _Deceased": 1154
+  },
+  {
+    "Monthly": "May-20",
+    "Total_Confirmed": 190649,
+    "Total _Deceased": 5406
+  },
+  {
+    "Monthly": "Jun-20",
+    "Total_Confirmed": 585795,
+    "Total _Deceased": 17411
+  },
+  {
+    "Monthly": "Jul-20",
+    "Total_Confirmed": 1697068,
+    "Total _Deceased": 36566
+  },
+  {
+    "Monthly": "Aug-20",
+    "Total_Confirmed": 3687953,
+    "Total _Deceased": 64629
+  },
+  {
+    "Monthly": "Sep-20",
+    "Total_Confirmed": 6310276,
+    "Total _Deceased": 98122
+  },
+  {
+    "Monthly": "Oct-20",
+    "Total_Confirmed": 8183317,
+    "Total _Deceased": 121559
+  },
+  {
+    "Monthly": "Nov-20",
+    "Total_Confirmed": 9463178,
+    "Total _Deceased": 137068
+  },
+  {
+    "Monthly": "Dec-20",
+    "Total_Confirmed": 10286234,
+    "Total _Deceased": 148127
+  },
+  {
+    "Monthly": "Jan-21",
+    "Total_Confirmed": 10758551,
+    "Total _Deceased": 153721
+  },
+  {
+    "Monthly": "Feb-21",
+    "Total_Confirmed": 11111978,
+    "Total _Deceased": 156603
+  },
+  {
+    "Monthly": "Mar-21",
+    "Total_Confirmed": 12220634,
+    "Total _Deceased": 162369
+  },
+  {
+    "Monthly": "Apr-21",
+    "Total_Confirmed": 19156979,
+    "Total _Deceased": 211248
+  },
+  {
+    "Monthly": "May-21",
+    "Total_Confirmed": 24964708,
+    "Total _Deceased": 273820
+  }
+]
