@@ -8,7 +8,6 @@ highcharts3d(Highcharts);
 function ComparisonGraphPg1(props) {
   //console.log(props);
   const { monthlyData = [] } = props;
-  console.log(monthlyData);
   const x_category = [];
   const seriesArray = [];
   const confirmArray = [];
@@ -16,8 +15,8 @@ function ComparisonGraphPg1(props) {
 
   monthlyData.forEach((item) => {
     x_category.push(item.Monthly);
-    confirmArray.push(item.Total_Confirmed);
-    deathArray.push(item["Total _Deceased"]);
+    confirmArray.push(Math.log10(item.Total_Confirmed));
+    deathArray.push(Math.log10(item["Total _Deceased"]));
   });
 
   seriesArray.push({
@@ -38,9 +37,7 @@ function ComparisonGraphPg1(props) {
     title: {
       text: null,
     },
-    subtitle: {
-      text: "Source: Wikipedia.org",
-    },
+
     xAxis: {
       categories: x_category,
       tickmarkPlacement: "on",
@@ -53,9 +50,12 @@ function ComparisonGraphPg1(props) {
         text: "Billions",
       },
       labels: {
-        formatter: function () {
-          return this.value / 1000;
-        },
+        // formatter: function () {
+        //   return this.value / 1000;
+        // },
+        // formatter: function () {
+        //   return "" + this.value + ": " + Math.round(Math.pow(10, this.y));
+        // },
       },
     },
     tooltip: {
@@ -143,16 +143,16 @@ function ComparisonGraphPg1(props) {
       },
     },
     title: {
-      text: "Visual comparison of Mountains Panorama",
+      text: "",
     },
     yAxis: {
       title: {
-        text: "Height Above Sea Level",
-        x: -40,
+        // text: "Height Above Sea Level",
+        //x: -40,
       },
-      labels: {
-        format: "{value:,.0f} MAMSL",
-      },
+      // labels: {
+      //   format: "{value:,.0f} MAMSL",
+      // },
       gridLineDashStyle: "Dash",
     },
     xAxis: [
@@ -165,6 +165,7 @@ function ComparisonGraphPg1(props) {
       {
         visible: false,
       },
+      // categories: x_category,
     ],
     plotOptions: {
       area: {
@@ -180,9 +181,52 @@ function ComparisonGraphPg1(props) {
       },
     },
     tooltip: {
-      valueSuffix: " MAMSL",
+      formatter: function () {
+        return Math.round(Math.pow(10, this.y));
+      },
     },
     series: seriesArray,
+  };
+
+  const option5 = {
+    title: {
+      text: "",
+    },
+
+    yAxis: {
+      title: {
+        text: "Cases",
+      },
+    },
+
+    xAxis: {
+      categories: x_category,
+    },
+
+    legend: {
+      layout: "vertical",
+      align: "right",
+      verticalAlign: "middle",
+    },
+
+    series: seriesArray,
+
+    responsive: {
+      rules: [
+        {
+          condition: {
+            maxWidth: 500,
+          },
+          chartOptions: {
+            legend: {
+              layout: "horizontal",
+              align: "center",
+              verticalAlign: "bottom",
+            },
+          },
+        },
+      ],
+    },
   };
 
   return (

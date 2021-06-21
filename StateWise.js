@@ -1,5 +1,5 @@
 import React from "react";
-import { Card } from "antd";
+import { Divider } from "antd";
 import { Select } from "antd";
 
 import { DatePicker, Space } from "antd";
@@ -15,13 +15,75 @@ import Donut from "./Page2Donut";
 import DistrictData from "./assets/districts.json";
 import StateData from "./assets/state_wise_daily.json";
 import States from "./assets/districts.json";
-import { groupBy as _groupBy } from "lodash";
+import {
+  groupBy as _groupBy,
+  sumBy as _sumBy,
+  sum as _sum,
+  sortBy as _sortBy,
+} from "lodash";
+import IndiaMap from "./IndiaMap";
+import HighchartsReact from "highcharts-react-official";
+import Highcharts from "highcharts";
 
 const { Option } = Select;
 
 function getConfirmedArray(grouped_data, selectedState, type) {
   const confirmArray = [];
+  const barChartArray = [];
   for (var key of Object.keys(grouped_data)) {
+    if (key === selectedState) {
+      const district_grouped_data = _groupBy(grouped_data[key], "District");
+      for (var key1 of Object.keys(district_grouped_data)) {
+        district_grouped_data[key1].confirmSum = 0;
+        district_grouped_data[key1].deathSum = 0;
+        district_grouped_data[key1].testSum = 0;
+        district_grouped_data[key1].recoverSum = 0;
+        district_grouped_data[key1].forEach((item) => {
+          district_grouped_data[key1].confirmSum += Number(item.Confirmed);
+          district_grouped_data[key1].deathSum += Number(item.Deceased);
+          district_grouped_data[key1].recoverSum += Number(item.Recovered);
+          if (item.Tested === "") {
+            district_grouped_data[key1].testSum += 0;
+          } else {
+            district_grouped_data[key1].testSum += Number(item.Tested);
+          }
+        });
+      }
+      const confirmSorted = _sortBy(district_grouped_data, [
+        function (o) {
+          return o.confirmSum;
+        },
+      ]);
+      const obj1 = {
+        name: confirmSorted[0][0].District,
+        confirmSum: confirmSorted[0].confirmSum || 0,
+        deathSum: confirmSorted[0].deathSum || 0,
+        testSum: confirmSorted[0].testSum || 0,
+        recoverSum: confirmSorted[0].recoverSum || 0,
+      };
+      barChartArray.push(obj1);
+      if (confirmSorted.length > 1) {
+        const obj2 = {
+          name: confirmSorted[1][0].District,
+          confirmSum: confirmSorted[1].confirmSum || 0,
+          deathSum: confirmSorted[1].deathSum || 0,
+          testSum: confirmSorted[1].testSum || 0,
+          recoverSum: confirmSorted[1].recoverSum || 0,
+        };
+        barChartArray.push(obj2);
+      }
+      if (confirmSorted.length > 2) {
+        const obj3 = {
+          name: confirmSorted[2][0].District,
+          confirmSum: confirmSorted[2].confirmSum || 0,
+          deathSum: confirmSorted[2].deathSum || 0,
+          testSum: confirmSorted[2].testSum || 0,
+          recoverSum: confirmSorted[2].recoverSum || 0,
+        };
+        barChartArray.push(obj3);
+      }
+    }
+
     if (key === selectedState && type === 1) {
       grouped_data[key].forEach((item) => {
         confirmArray.push(Number(item.Confirmed));
@@ -36,7 +98,7 @@ function getConfirmedArray(grouped_data, selectedState, type) {
       });
     }
   }
-  return confirmArray;
+  return { confirmArray, barChartArray };
 }
 
 function StateWise(props) {
@@ -48,33 +110,97 @@ function StateWise(props) {
     "Andaman and Nicobar Islands"
   );
   const [confirmCasesArray, updateConfirmCases] = React.useState(
-    getConfirmedArray(grouped_data, selectedState, 1)
+    getConfirmedArray(grouped_data, selectedState, 1).confirmArray
   );
   const [recoveredArray, updateRecoveredCases] = React.useState(
-    getConfirmedArray(grouped_data, selectedState, 2)
+    getConfirmedArray(grouped_data, selectedState, 2).confirmArray
   );
   const [deathsArray, updateDeathCases] = React.useState(
-    getConfirmedArray(grouped_data, selectedState, 3)
+    getConfirmedArray(grouped_data, selectedState, 3).confirmArray
   );
-
+  const [barData, updateBarData] = React.useState(
+    getConfirmedArray(grouped_data, selectedState, 1).barChartArray
+  );
   React.useEffect(() => {
     (async () => {
       // updateConfirmCases(confirm_array);
     })();
   });
+
   const handleChange = (value) => {
+    updateSelectedState(value);
     const new_confirm_array = getConfirmedArray(grouped_data, value, 1);
     const new_recovered_array = getConfirmedArray(grouped_data, value, 2);
     const new_deaths_array = getConfirmedArray(grouped_data, value, 3);
-    console.log(new_confirm_array);
-    console.log(new_recovered_array);
-    console.log(new_deaths_array);
-    updateConfirmCases(new_confirm_array);
-    updateRecoveredCases(new_recovered_array);
-    updateDeathCases(new_deaths_array);
+    updateBarData(new_confirm_array.barChartArray);
+    updateConfirmCases(new_confirm_array.confirmArray);
+    updateRecoveredCases(new_recovered_array.confirmArray);
+    updateDeathCases(new_deaths_array.confirmArray);
   };
 
   const { RangePicker } = DatePicker;
+
+  var data = [
+    ["in-5390", 0],
+    ["in-py", 1],
+    ["in-ld", 2],
+    ["in-an", 3],
+    ["in-wb", 4],
+    ["in-or", 5],
+    ["in-br", 6],
+    ["in-sk", 7],
+    ["in-ct", 8],
+    ["in-tn", 9],
+    ["in-mp", 10],
+    ["in-2984", 11],
+    ["in-ga", 12],
+    ["in-nl", 13],
+    ["in-mn", 14],
+    ["in-ar", 15],
+    ["in-mz", 16],
+    ["in-tr", 17],
+    ["in-3464", 18],
+    ["in-dl", 19],
+    ["in-hr", 20],
+    ["in-ch", 21],
+    ["in-hp", 22],
+    ["in-jk", 23],
+    ["in-kl", 24],
+    ["in-ka", 25],
+    ["in-dn", 26],
+    ["in-mh", 27],
+    ["in-as", 28],
+    ["in-ap", 29],
+    ["in-ml", 30],
+    ["in-pb", 31],
+    ["in-rj", 32],
+    ["in-up", 33],
+    ["in-ut", 34],
+    ["in-jh", 35],
+  ];
+
+  const mapOptions = {
+    title: {
+      text: "",
+    },
+    colorAxis: {
+      min: 0,
+      stops: [
+        [0.4, "#ffff00"],
+        [0.65, "#bfff00"],
+        [1, "	#40ff00"],
+      ],
+    },
+
+    series: [
+      {
+        mapData: IndiaMap,
+        name: "Asia",
+        data: data,
+      },
+    ],
+  };
+
   return (
     <>
       <div className="App">
@@ -85,7 +211,7 @@ function StateWise(props) {
         <div className="d-inline-flex">
           <Select
             defaultValue="Select a state"
-            style={{ width: 120 }}
+            style={{ width: 160 }}
             onChange={handleChange}
             value={selectedState}
           >
@@ -131,89 +257,65 @@ function StateWise(props) {
             <Option value="West Bengal">West Bengal</Option>
           </Select>
 
-          <div className="margin-bet"></div>
-          <RangePicker className="ml-5" />
+          {/* <div className="margin-bet"></div>
+          <RangePicker className="ml-5" /> */}
         </div>
       </div>
 
       <div className="row">
-        <div className="col-md-4">
-          <div className="card border-primary mb-3">
-            <div class="card-body text-primary">
-              <h5 class="card-title text-primary">Confirmed Cases: 123456</h5>
-            </div>
-          </div>{" "}
-          <ConfirmedGraph
-            StateData={StateData}
-            confirmArray={confirmCasesArray}
-          />{" "}
-          <div className="card border-success mb-3">
-            <div class="card-body text-success">
-              <h5 class="card-title text-success">Recovered Cases: 123456</h5>
-            </div>
-          </div>
-          <Recovered StateData={StateData} recoveredArray={recoveredArray} />
-          <div className="card border-danger mb-3">
-            <div class="card-body text-danger">
-              <h5 class="card-title text-danger">Deceased Cases: 123456</h5>
-            </div>
-          </div>
-          <Deceased StateData={StateData} deathsArray={deathsArray} />{" "}
-        </div>
-        <div className="col-md-4"></div>
-        <div className="col-md-4">
-          {" "}
-          <Bar Data={Data} />
-          <Donut />
-        </div>
-      </div>
-      <div className="row">
         <div className="col-md-8">
-          <Comparison StateData={StateData} />
-        </div>{" "}
-        <div className="col-md-4">
-          <Select
-            mode="multiple"
-            style={{ width: "100%" }}
-            placeholder="select one country"
-            defaultValue={["china"]}
-            onChange={handleChange}
-            optionLabelProp="label"
-          >
-            <Option value="china" label="China">
-              <div className="demo-option-label-item">
-                <span role="img" aria-label="China">
-                  🇨🇳
-                </span>
-                China (中国)
+          <div className="row w-100">
+            <div className="col-md-12">
+              {" "}
+              <Bar Data={Data} barData={barData} />
+            </div>
+            <div className="col-md-4">
+              <div className="card border-primary mb-3">
+                <div class="card-body text-primary">
+                  <h5 class="card-title text-primary">
+                    <small>Confirmed Cases: {_sum(confirmCasesArray)}</small>
+                  </h5>
+                </div>
+              </div>{" "}
+              <ConfirmedGraph
+                StateData={StateData}
+                confirmArray={confirmCasesArray}
+              />{" "}
+            </div>
+            <div className="col-md-4">
+              <div className="card border-success mb-3">
+                <div class="card-body text-success">
+                  <h5 class="card-title text-success">
+                    <small>Recovered Cases: {_sum(recoveredArray)}</small>
+                  </h5>
+                </div>
               </div>
-            </Option>
-            <Option value="usa" label="USA">
-              <div className="demo-option-label-item">
-                <span role="img" aria-label="USA">
-                  🇺🇸
-                </span>
-                USA (美国)
+              <Recovered
+                StateData={StateData}
+                recoveredArray={recoveredArray}
+              />
+            </div>
+            <div className="col-md-4">
+              <div className="card border-danger mb-3">
+                <div class="card-body text-danger">
+                  <h5 class="card-title text-danger">
+                    <small>Deceased Cases: {_sum(deathsArray)}</small>
+                  </h5>
+                </div>
               </div>
-            </Option>
-            <Option value="japan" label="Japan">
-              <div className="demo-option-label-item">
-                <span role="img" aria-label="Japan">
-                  🇯🇵
-                </span>
-                Japan (日本)
-              </div>
-            </Option>
-            <Option value="korea" label="Korea">
-              <div className="demo-option-label-item">
-                <span role="img" aria-label="Korea">
-                  🇰🇷
-                </span>
-                Korea (韩国)
-              </div>
-            </Option>
-          </Select>
-          <RangePicker className="ml-5" />
+              <Deceased StateData={StateData} deathsArray={deathsArray} />{" "}
+            </div>
+          </div>
+        </div>
+
+        <div className="col-md-4" style={{ borderLeft: "1px solid" }}>
+          {" "}
+          <HighchartsReact
+            options={mapOptions}
+            constructorType={"mapChart"}
+            highcharts={Highcharts}
+          />{" "}
+          <Donut />
         </div>
       </div>
     </>

@@ -18,12 +18,13 @@ import { DatePicker, Space } from "antd";
 import StateWise from "./StateWise";
 import { Card } from "antd";
 import monthlyData from "./assets/monthly data.json";
-import Page3 from "./Page3TV";
 import VaccineDataState from "./assets/cowin_vaccine_data_districtwise.json";
 import StackedData from "./assets/districts.json";
 import Bubble from "./BubbleChart";
-import Page3TV from "./Page3TV";
-import Vaccine from "./Vaccine";
+import Vaccination from "./Vaccination";
+import Testing from "./Testing";
+import Comparison from "./Page5Comparison";
+import vaccineDataPg1 from "./assets/vaccination data page1.json";
 
 function App() {
   //console.log(Data);
@@ -32,7 +33,7 @@ function App() {
   return (
     <>
       <Tabs defaultActiveKey="1" onChange={callback}>
-        <TabPane tab="Cummulative" key="1">
+        <TabPane tab="Home" key="1">
           {/* <div className="w-100 text-center mb-3">
             <Space direction="vertical" size={12}>
               <RangePicker />
@@ -55,7 +56,7 @@ function App() {
 
               <div className="row">
                 <div className="col-md-6">
-                  <Card3 vaccineData={vaccineData} />
+                  <Card3 vaccineDataPg1={vaccineDataPg1} />
                 </div>
                 <div className="col-md-6">
                   <Card4 confirmedData={confirmedData} />
@@ -73,10 +74,13 @@ function App() {
           <StateWise StackedData={StackedData} />
         </TabPane>
         <TabPane tab="Testing" key="3">
-          <Page3TV />
+          <Testing />
         </TabPane>
         <TabPane tab="Vaccination" key="4">
-          <Vaccine />
+          <Vaccination />
+        </TabPane>
+        <TabPane tab="Comparison" key="5">
+          <Comparison />
         </TabPane>
       </Tabs>
     </>

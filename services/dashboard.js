@@ -19,3 +19,8 @@ export const getVaccinated = async () => {
   const response = await get(nodeBaseUrl + "/confirm-vaccinated");
   return response;
 };
+
+export const getStackData = async () => {
+  const response = await get(nodeBaseUrl + "/stack-wise-district-data");
+  return response;
+};

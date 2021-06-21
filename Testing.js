@@ -1,114 +1,174 @@
 import React from "react";
 import Highcharts from "highcharts";
 import HighchartsReact from "highcharts-react-official";
-import { groupBy as _groupBy } from "lodash";
-import { Card, Col, Row } from "antd";
-import { Select } from "antd";
 import { DatePicker, Space } from "antd";
-import addTreemapModule from "highcharts/modules/treemap";
-import highcharts3d from "highcharts/highcharts-3d";
-import Map from "./IndiaMap";
-
-require("highcharts/modules/map")(Highcharts);
-
-highcharts3d(Highcharts);
-addTreemapModule(Highcharts);
+import { Select } from "antd";
+import IndiaMap from "./IndiaMap";
+import { groupBy as _groupBy, filter as _filter } from "lodash";
+import { Card, Col, Row, Tabs } from "antd";
+import * as moment from "moment";
+//file for data manipulation
+import testing_data from "./assets/statewise_tested_numbers_data.json";
+import Page5 from "./Page5Comparison";
 
 const { Option } = Select;
+const { TabPane } = Tabs;
 
-function handleChange(value) {
-  console.log(`selected ${value}`);
+function getStateTestingData(selectedState) {
+  const selectedStateData = _filter(testing_data, function (td) {
+    return td.State === selectedState;
+  });
+  return selectedStateData;
 }
 
-function Page3TV() {
+function Vaccine() {
   const { RangePicker } = DatePicker;
+  const [selectedState, updateSelectedState] = React.useState(
+    "Andaman and Nicobar Islands"
+  );
 
+  const [selectedStateData, updateSelectedStateData] = React.useState(
+    getStateTestingData(selectedState)
+  );
+
+  const handleChange = (value) => {
+    updateSelectedState(value);
+    updateSelectedStateData(getStateTestingData(value));
+  };
+  let positveCases = 0;
+  let negativeCases = 0;
+  let unconfirmedCases = 0;
+  selectedStateData.forEach((item) => {
+    item.mmYYYY = moment(item["Updated On"], "DD/MM/YYYY").format("YYYY/MM");
+    if (item.Positive === "") {
+      positveCases += 0;
+    } else {
+      positveCases += Number(item.Positive);
+    }
+
+    if (item.Negative === "") {
+      negativeCases += 0;
+    } else {
+      negativeCases += Number(item.Negative);
+    }
+    if (item.Unconfirmed === "") {
+      unconfirmedCases += 0;
+    } else {
+      unconfirmedCases += Number(item.Unconfirmed);
+    }
+    if (item["Total Tested"] === "") {
+      item.tillDateTested = 0;
+    } else {
+      item.tillDateTested = Number(item["Total Tested"]);
+    }
+  });
+  const grouped_data = _groupBy(selectedStateData, "mmYYYY");
+  const x_categories = [];
+  const seriesData = [];
+  for (var key of Object.keys(grouped_data)) {
+    x_categories.push(key);
+    const maximum = Math.max.apply(
+      Math,
+      grouped_data[key].map(function (o) {
+        return o.tillDateTested;
+      })
+    );
+    seriesData.push(maximum);
+  }
   const option = {
     chart: {
-      type: "bar",
+      type: "area",
     },
     title: {
-      text: "Historic World Population by Region",
+      text: "Historic and Estimated Worldwide Population Growth by Region",
     },
     subtitle: {
-      text: 'Source: <a href="https://en.wikipedia.org/wiki/World_population">Wikipedia.org</a>',
+      text: "Source: Wikipedia.org",
     },
     xAxis: {
-      categories: ["Africa", "America", "Asia", "Europe", "Oceania"],
+      categories: x_categories,
+      tickmarkPlacement: "on",
       title: {
-        text: null,
+        enabled: false,
       },
     },
     yAxis: {
-      min: 0,
       title: {
-        text: "Population (millions)",
-        align: "high",
+        text: "Billions",
       },
       labels: {
-        overflow: "justify",
-      },
-    },
-    tooltip: {
-      valueSuffix: " millions",
-    },
-    plotOptions: {
-      bar: {
-        dataLabels: {
-          enabled: true,
+        formatter: function () {
+          return this.value / 1000;
         },
       },
     },
-    legend: {
-      layout: "vertical",
-      align: "right",
-      verticalAlign: "top",
-      x: -40,
-      y: 80,
-      floating: true,
-      borderWidth: 1,
-      backgroundColor:
-        Highcharts.defaultOptions.legend.backgroundColor || "#FFFFFF",
-      shadow: true,
+    tooltip: {
+      split: true,
+      valueSuffix: " millions",
     },
-    credits: {
-      enabled: false,
+    plotOptions: {
+      area: {
+        stacking: "normal",
+        lineColor: "#666666",
+        lineWidth: 1,
+        marker: {
+          lineWidth: 1,
+          lineColor: "#666666",
+        },
+      },
     },
     series: [
       {
-        name: "Year 1800",
-        data: [107, 31, 635, 203, 2],
-      },
-      {
-        name: "Year 1900",
-        data: [133, 156, 947, 408, 6],
-      },
-      {
-        name: "Year 2000",
-        data: [814, 841, 3714, 727, 31],
-      },
-      {
-        name: "Year 2016",
-        data: [1216, 1001, 4436, 738, 40],
+        name: "Test Numbers",
+        data: seriesData,
       },
     ],
   };
 
   const option2 = {
+    chart: {
+      plotBackgroundColor: null,
+      plotBorderWidth: 0,
+      plotShadow: false,
+    },
+    title: {
+      text: `Result`,
+      align: "center",
+      verticalAlign: "middle",
+      y: 60,
+    },
+    // tooltip: {
+    //   pointFormat: "{series.name}: <b>{point.percentage:.1f}%</b>",
+    // },
+    // accessibility: {
+    //   point: {
+    //     valueSuffix: "%",
+    //   },
+    // },
+    plotOptions: {
+      pie: {
+        dataLabels: {
+          enabled: true,
+          distance: -50,
+          style: {
+            fontWeight: "bold",
+            color: "white",
+          },
+        },
+        startAngle: -90,
+        endAngle: 90,
+        center: ["50%", "75%"],
+        size: "110%",
+      },
+    },
     series: [
       {
-        type: "treemap",
-        allowDrillToNode: true,
-        layoutAlgorithm: "squarified",
+        type: "pie",
+        innerSize: "50%",
         data: [
-          { id: 1, name: "foo", value: Math.random() * 3 },
-          { id: 2, name: "child of foo", value: Math.random() * 3, parent: 1 },
-          {
-            id: 3,
-            name: "another child of foo",
-            value: Math.random() * 3,
-            parent: 1,
-          },
+          ["Positive", positveCases],
+          ["Negative", negativeCases],
+          ["Unconfirmed", unconfirmedCases],
         ],
       },
     ],
@@ -323,7 +383,6 @@ function Page3TV() {
     ["in-ut", 34],
     ["in-jh", 35],
   ];
-
   const mapOptions = {
     title: {
       text: "",
@@ -339,7 +398,7 @@ function Page3TV() {
 
     series: [
       {
-        mapData: Map,
+        mapData: IndiaMap,
         name: "Asia",
         data: data,
       },
@@ -353,11 +412,11 @@ function Page3TV() {
           <div className="card border-success mb-3" bordered={true}>
             <div class="card-header">
               <h4 class="card-title text-success">
-                <center>Uttar Pradesh</center>
+                <center> Maharashtra</center>
               </h4>
             </div>
             <h5 class="card-title text-success">
-              <center>53608270</center>
+              <center>262228293</center>
             </h5>
           </div>
         </Col>
@@ -365,11 +424,11 @@ function Page3TV() {
           <div className="card border-primary mb-3" bordered={true}>
             <div class="card-header">
               <h4 class="card-title text-primary">
-                <center>Maharashtra</center>
+                <center>Uttar Pradesh</center>
               </h4>
             </div>
             <h5 class="card-title text-primary">
-              <center>38215492</center>
+              <center>23412988</center>
             </h5>
           </div>
         </Col>
@@ -377,11 +436,11 @@ function Page3TV() {
           <div className="card border-danger mb-3" bordered={true}>
             <div class="card-header">
               <h4 class="card-title text-danger">
-                <center> Karnataka</center>
+                <center> Gujarat</center>
               </h4>
             </div>
             <h5 class="card-title text-danger">
-              <center>31791001</center>
+              <center>20567167</center>
             </h5>
           </div>
         </Col>
@@ -389,11 +448,11 @@ function Page3TV() {
           <div className="card border-warning mb-3" bordered={true}>
             <div class="card-header">
               <h4 class="card-title text-warning">
-                <center> Bihar</center>
+                <center> Rajasthan</center>
               </h4>
             </div>
             <h5 class="card-title text-warning">
-              <center>31429145</center>
+              <center>19888081</center>
             </h5>
           </div>
         </Col>
@@ -401,11 +460,11 @@ function Page3TV() {
           <div className="card border-dark mb-3" bordered={true}>
             <div class="card-header">
               <h4 class="card-title text-dark">
-                <center> Tamil Nadu</center>
+                <center> West Bengal</center>
               </h4>
             </div>
             <h5 class="card-title text-dark">
-              <center>30138294</center>
+              <center>17854448</center>
             </h5>
           </div>
         </Col>
@@ -413,76 +472,94 @@ function Page3TV() {
           <div className="card border-info mb-3" bordered={true}>
             <div class="card-header">
               <h4 class="card-title text-info">
-                <center> Gujarat</center>
+                <center> Karnataka</center>
               </h4>
             </div>
             <h5 class="card-title text-info">
-              <center>22794305</center>
+              <center>17243110</center>
             </h5>
           </div>
         </Col>
       </Row>
+      <Tabs defaultActiveKey="1">
+        <TabPane tab="State" key="2">
+          <div className="w-100">
+            <HighchartsReact
+              options={mapOptions}
+              constructorType={"mapChart"}
+              highcharts={Highcharts}
+            />
+          </div>
+        </TabPane>
+        <TabPane tab="Testing" key="3">
+          <div className="w-100 text-center mb-3 ">
+            <div className="d-inline-flex">
+              <Select
+                defaultValue="Select a state"
+                style={{ width: 240 }}
+                onChange={handleChange}
+                value={selectedState}
+              >
+                <Option value="Andaman and Nicobar Islands">
+                  {" "}
+                  Andaman and Nicobar Islands
+                </Option>
+                <Option value="Andhra Pradesh"> Andhra Pradesh </Option>
+                <Option value="Arunachal Pradesh">Arunachal Pradesh</Option>
+                <Option value="Assam">Assam</Option>
+                <Option value="Bihar">Bihar</Option>
+                <Option value="Chandigarh">Chandigarh</Option>
+                <Option value="Chhattisgarh">Chhattisgarh</Option>
+                <Option value="Dadra n Nagar Haveli">
+                  Dadra and Nagar Haveli
+                </Option>
+                <Option value="Daman and Diu"> Daman and Diu</Option>
+                <Option value="Delhi">Delhi</Option>
+                <Option value="Goa">Goa</Option>
+                <Option value="Gujarat">Gujarat</Option>
+                <Option value="Haryana">Haryana</Option>
+                <Option value="Himachal Pradesh">Himachal Pradesh</Option>
+                <Option value="Jammu and Kashmir">Jammu and Kashmir</Option>
+                <Option value="Jharkhand">Jharkhand</Option>
+                <Option value="Karnataka">Karnataka</Option>
+                <Option value="Kerala">Kerala</Option>
+                <Option value="Ladakh">Ladakh</Option>
+                <Option value="Lakshadweep">Lakshadweep</Option>
+                <Option value="Madhya Pradesh">Madhya Pradesh</Option>
+                <Option value="Maharashtra">Maharashtra</Option>
+                <Option value="Manipur">Manipur</Option>
+                <Option value="Meghalaya">Meghalaya</Option>
+                <Option value="Mizoram">Mizoram</Option>
+                <Option value="Nagaland">Nagaland</Option>
+                <Option value="Odisha">Odisha</Option>
+                <Option value="Puducherry">Puducherry</Option>
+                <Option value="Punjab">Punjab</Option>
+                <Option value="Rajasthan">Rajasthan</Option>
+                <Option value="Sikkim">Sikkim</Option>
+                <Option value="Tamil Nadu">Tamil Nadu</Option>
+                <Option value="Telengana">Telengana</Option>
+                <Option value="Tripura">Tripura</Option>
+                <Option value="Uttar Pradesh">Uttar Pradesh</Option>
+                <Option value="Uttarakhand">Uttarakhand</Option>
+                <Option value="West Bengal">West Bengal</Option>
+              </Select>
 
-      <div className="row">
-        <div className="col-md-6">
-          <HighchartsReact
-            options={mapOptions}
-            constructorType={"mapChart"}
-            highcharts={Highcharts}
-          />
-        </div>
-        <div className="col-md-6">
-          <HighchartsReact highcharts={Highcharts} options={option} />
-          <HighchartsReact highcharts={Highcharts} options={option2} />
-        </div>
-      </div>
-      <div className="row">
-        <HighchartsReact highcharts={Highcharts} options={option3} />
-      </div>
-      <Select
-        mode="multiple"
-        style={{ width: "100%" }}
-        placeholder="select one country"
-        defaultValue={["china"]}
-        onChange={handleChange}
-        optionLabelProp="label"
-      >
-        <Option value="china" label="China">
-          <div className="demo-option-label-item">
-            <span role="img" aria-label="China">
-              🇨🇳
-            </span>
-            China (中国)
+              {/* <div className="margin-bet"></div>
+              <RangePicker className="ml-5" /> */}
+            </div>
           </div>
-        </Option>
-        <Option value="usa" label="USA">
-          <div className="demo-option-label-item">
-            <span role="img" aria-label="USA">
-              🇺🇸
-            </span>
-            USA (美国)
+
+          <div className="row">
+            <div className="col-md-6">
+              <HighchartsReact highcharts={Highcharts} options={option} />
+            </div>
+            <div className="col-md-6">
+              <HighchartsReact highcharts={Highcharts} options={option2} />
+            </div>
           </div>
-        </Option>
-        <Option value="japan" label="Japan">
-          <div className="demo-option-label-item">
-            <span role="img" aria-label="Japan">
-              🇯🇵
-            </span>
-            Japan (日本)
-          </div>
-        </Option>
-        <Option value="korea" label="Korea">
-          <div className="demo-option-label-item">
-            <span role="img" aria-label="Korea">
-              🇰🇷
-            </span>
-            Korea (韩国)
-          </div>
-        </Option>
-      </Select>
-      <RangePicker className="ml-5" />
+        </TabPane>
+      </Tabs>
     </>
   );
 }
-
-export default Page3TV;
+export default Vaccine;

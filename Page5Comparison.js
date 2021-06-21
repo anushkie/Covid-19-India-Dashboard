@@ -13,7 +13,7 @@ import TestingData from "./assets/statewise_tested_numbers_data.json";
 //data for
 import stateData from "./assets/state_wise_daily.json";
 import StackedData from "./assets/districts.json";
-
+import * as moment from "moment";
 const { Option } = Select;
 
 function getStatesData(selectedStates, type) {

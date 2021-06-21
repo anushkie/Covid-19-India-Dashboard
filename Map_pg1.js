@@ -1,34 +1,18 @@
 import React from "react";
 import Highcharts from "highcharts";
 import HighchartsReact from "highcharts-react-official";
-import { groupBy as _groupBy } from "lodash";
+import { getStackData } from "../src/services/dashboard";
 
-function Map_pg1(props) {
-  const { StackedData = [] } = props;
-  const grouped_data = _groupBy(StackedData, "State");
-  const x_categories = [];
-  const deaths_array = [];
-  const confirm_array = [];
-  const series_array = [];
-  for (var key of Object.keys(grouped_data)) {
-    x_categories.push(key);
-    let state_confirm = 0;
-    let state_deaths = 0;
-    grouped_data[key].forEach((item) => {
-      state_confirm = +item.Confirmed;
-      state_deaths = +item.Deceased;
-    });
-    confirm_array.push(Math.log10(state_confirm));
-    deaths_array.push(Math.log10(state_deaths));
-  }
-  series_array.push({
-    name: "Active",
-    data: confirm_array,
-  });
-  series_array.push({
-    name: "Deaths",
-    data: deaths_array,
-  });
+function Map_pg1() {
+  const [StackedData, updateStackedData] = React.useState([]);
+  React.useEffect(() => {
+    (async () => {
+      await Promise.all([getStackData()]).then((values) => {
+        updateStackedData(values[0]);
+      });
+    })();
+  }, []);
+  console.log(StackedData);
 
   const stackOptions = {
     chart: {
@@ -39,10 +23,11 @@ function Map_pg1(props) {
       text: "Active V/S Deceased",
     },
     xAxis: {
-      categories: x_categories,
+      categories: StackedData.x_categories,
     },
     yAxis: {
       min: 0,
+      gridLineWidth: 0,
       title: {
         text: null,
         gridLines: {
@@ -50,6 +35,11 @@ function Map_pg1(props) {
         },
       },
       color: "#000000",
+    },
+    tooltip: {
+      formatter: function () {
+        return "" + this.series.name + ": " + Math.round(Math.pow(10, this.y));
+      },
     },
     legend: {
       reversed: false,
@@ -60,7 +50,7 @@ function Map_pg1(props) {
         // color: "#FF0000",
       },
     },
-    series: series_array,
+    series: StackedData.series_array,
   };
   return (
     <>

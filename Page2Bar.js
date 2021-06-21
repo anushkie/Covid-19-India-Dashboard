@@ -4,94 +4,60 @@ import HighchartsReact from "highcharts-react-official";
 import { groupBy as _groupBy } from "lodash";
 
 function Page2Bar(props, selectedState) {
-  const { Data = [] } = props;
-  console.log(Data);
-  console.log(selectedState);
-
-  const stateArray = _groupBy(Data, "State");
-  console.log(stateArray);
-
-  const option = {
+  const { barData = [] } = props;
+  const categories = [];
+  const confirm = [];
+  const deaths = [];
+  const recover = [];
+  const tests = [];
+  barData.forEach((element) => {
+    categories.push(element.name);
+    confirm.push(Math.log10(element.confirmSum));
+    deaths.push(Math.log10(element.deathSum));
+    recover.push(Math.log10(element.recoverSum));
+    tests.push(Math.log10(element.testSum));
+  });
+  const option1 = {
     chart: {
       type: "column",
     },
     title: {
-      text: "Efficiency Optimization by Branch",
+      text: "Top 3 States",
     },
     xAxis: {
-      categories: ["Seattle HQ", "San Francisco", "Tokyo"],
+      categories: categories,
     },
-    yAxis: [
-      {
-        min: 0,
-        title: {
-          text: "Employees",
-        },
-      },
-      {
-        title: {
-          text: "Profit (millions)",
-        },
-        opposite: true,
-      },
-    ],
-    legend: {
-      shadow: false,
+    yAxis: {
+      min: 0,
+      gridLineWidth: 0,
     },
     tooltip: {
-      shared: true,
-    },
-    plotOptions: {
-      column: {
-        grouping: false,
-        shadow: false,
-        borderWidth: 0,
+      formatter: function () {
+        return "" + this.series.name + ": " + Math.round(Math.pow(10, this.y));
       },
     },
     series: [
       {
-        name: "Employees",
-        color: "rgba(165,170,217,1)",
-        data: [150, 73, 20],
-        pointPadding: 0.3,
-        pointPlacement: -0.2,
+        name: "Confirmed",
+        data: confirm,
       },
       {
-        name: "Employees Optimized",
-        color: "rgba(126,86,134,.9)",
-        data: [140, 90, 40],
-        pointPadding: 0.4,
-        pointPlacement: -0.2,
+        name: "Deaths",
+        data: deaths,
       },
       {
-        name: "Profit",
-        color: "rgba(248,161,63,1)",
-        data: [183.6, 178.8, 198.5],
-        tooltip: {
-          valuePrefix: "$",
-          valueSuffix: " M",
-        },
-        pointPadding: 0.3,
-        pointPlacement: 0.2,
-        yAxis: 1,
+        name: "Recovered",
+        data: recover,
       },
       {
-        name: "Profit Optimized",
-        color: "rgba(186,60,61,.9)",
-        data: [203.6, 198.8, 208.5],
-        tooltip: {
-          valuePrefix: "$",
-          valueSuffix: " M",
-        },
-        pointPadding: 0.4,
-        pointPlacement: 0.2,
-        yAxis: 1,
+        name: "Tested",
+        data: tests,
       },
     ],
   };
   return (
     <>
-      <HighchartsReact highcharts={Highcharts} options={option} />;
+      <HighchartsReact highcharts={Highcharts} options={option1} />;
     </>
   );
 }
