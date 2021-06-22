@@ -11,13 +11,13 @@ function Page2confirmed(props) {
       text: null,
     },
 
-    xAxis: {
-      tickInterval: 1,
-      // type: "logarithmic",
-      accessibility: {
-        rangeDescription: "Range: 1 to 10",
-      },
-    },
+    // xAxis: {
+    //   tickInterval: 1,
+    //   // type: "logarithmic",
+    //   accessibility: {
+    //     rangeDescription: "Range: 1 to 10",
+    //   },
+    // },
 
     // yAxis: {
     //   type: "logarithmic",

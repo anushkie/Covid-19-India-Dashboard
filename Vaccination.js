@@ -26,7 +26,20 @@ function getStateTestingData(selectedState) {
   return selectedStateData;
 }
 
+function getDateTestingData(state, lowerLimit, upperLimit) {
+  const selectedStateData = _filter(vaccine_data, function (td) {
+    return (
+      td.State === state &&
+      moment(td["Updated On"], "DD/MM/YYYY") >= lowerLimit &&
+      moment(td["Updated On"], "DD/MM/YYYY") <= upperLimit
+    );
+  });
+  return selectedStateData;
+}
+
 function Page3TV() {
+  const { RangePicker } = DatePicker;
+
   const [selectedState, updateSelectedState] = React.useState(
     "Andaman and Nicobar Islands"
   );
@@ -38,9 +51,17 @@ function Page3TV() {
     updateSelectedState(value);
     updateSelectedStateData(getStateTestingData(value));
   };
+  const handleDateChange = (value) => {
+    if (value == null) {
+      return;
+    }
+    updateSelectedStateData(
+      getDateTestingData(selectedState, value[0], value[1])
+    );
+  };
 
   selectedStateData.forEach((item) => {
-    item.mmYYYY = moment(item["Updated On"], "DD/MM/YYYY").format("YYYY/MM");
+    item.mmYYYY = moment(item["Updated On"], "DD/MM/YYYY").format("DD/MM/YYYY");
   });
 
   const first_doses = Math.max.apply(
@@ -367,8 +388,8 @@ function Page3TV() {
                 <Option value="West Bengal">West Bengal</Option>
               </Select>
 
-              {/* <div className="margin-bet"></div>
-              <RangePicker className="ml-5" /> */}
+              <div className="margin-bet"></div>
+              <RangePicker className="ml-5" onChange={handleDateChange} />
             </div>
           </div>
 

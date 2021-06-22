@@ -64,7 +64,7 @@ function Page1VaccineGraph(props) {
           },
           stops: [
             [0, Highcharts.getOptions().colors[0]],
-            [1, Highcharts.color("#FF0000").setOpacity(0).get("#FF0000")],
+            [1, Highcharts.color("#FFE600").setOpacity(0).get("#FFE600")],
           ],
         },
         marker: {
@@ -85,7 +85,7 @@ function Page1VaccineGraph(props) {
         type: "area",
         name: "Cases:",
         data: seriesArray,
-        color: "#FF0000",
+        color: "#FFE600",
       },
     ],
   };
@@ -102,7 +102,7 @@ function Page1VaccineGraph(props) {
             style={{ width: 600 }}
           >
             <div class="card-header">
-              <h3 class="card-title text-warning">Vaccinated: 3455666 </h3>
+              <h3 class="card-title text-warning">Vaccinated: 141764335 </h3>
             </div>
             <HighchartsReact highcharts={Highcharts} options={option2} />
           </div>

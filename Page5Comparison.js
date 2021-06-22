@@ -15,6 +15,7 @@ import stateData from "./assets/state_wise_daily.json";
 import StackedData from "./assets/districts.json";
 import * as moment from "moment";
 const { Option } = Select;
+const { RangePicker } = DatePicker;
 
 function getStatesData(selectedStates, type) {
   const selectedStateData = _filter(StackedData, function (td) {
@@ -35,6 +36,27 @@ function getStateVaccinationData(selectedStates) {
     return td.State === selectedStates[0] || td.State === selectedStates[1];
   });
   return selectedStatesData;
+}
+
+function getDateTestingData(selectedStates, lowerLimit, upperLimit, type) {
+  var dataToUse = null;
+
+  if (type === "Testing") {
+    dataToUse = TestingData;
+  } else if (type === "Vaccination") {
+    dataToUse = VaccineData;
+  } else {
+    dataToUse = StackedData;
+  }
+
+  const selectedStateData = _filter(dataToUse, function (td) {
+    return (
+      (td.State === selectedStates[0] || td.State === selectedStates[1]) &&
+      moment(td["Date"], "YYYY-MM-DD") >= lowerLimit &&
+      moment(td["Date"], "YYYY-MM-DD") <= upperLimit
+    );
+  });
+  return selectedStateData;
 }
 
 function Page5Comparison() {
@@ -62,13 +84,24 @@ function Page5Comparison() {
     }
   };
 
+  const handleDateChange = (value) => {
+    if (value == null) {
+      return;
+    }
+    if (value.length > 1) {
+      updateSelectedStatesData(
+        getDateTestingData(selectedStates, value[0], value[1], type)
+      );
+    }
+  };
+
   const handleTypeChange = (value) => {
     updateType(value);
   };
   const statesSeriesArray = [];
   const x_categories = [];
   selectedStatesData.forEach((item) => {
-    item.mmYYYY = moment(item["Date"], "YYYY-MM-DD").format("YYYY/MM");
+    item.mmYYYY = moment(item["Date"], "YYYY-MM-DD").format("YYYY/MM/DD");
     if (item.Confirmed === "") {
       item.Confirmed = 0;
     } else {
@@ -735,6 +768,9 @@ function Page5Comparison() {
             <Option value="Recovered"> Recovered Cases </Option>
             <Option value="Deceased"> Deceased Cases </Option>
           </Select>
+
+          <div className="margin-bet"></div>
+          <RangePicker className="ml-5" onChange={handleDateChange} />
         </div>
       </div>
 

@@ -106,9 +106,7 @@ function StateWise(props) {
   const grouped_data = _groupBy(StackedData, "State");
 
   // console.log(grouped_data);
-  const [selectedState, updateSelectedState] = React.useState(
-    "Andaman and Nicobar Islands"
-  );
+  const [selectedState, updateSelectedState] = React.useState("Punjab");
   const [confirmCasesArray, updateConfirmCases] = React.useState(
     getConfirmedArray(grouped_data, selectedState, 1).confirmArray
   );
@@ -211,7 +209,7 @@ function StateWise(props) {
         <div className="d-inline-flex">
           <Select
             defaultValue="Select a state"
-            style={{ width: 160 }}
+            style={{ width: 250 }}
             onChange={handleChange}
             value={selectedState}
           >

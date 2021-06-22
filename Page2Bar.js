@@ -22,7 +22,7 @@ function Page2Bar(props, selectedState) {
       type: "column",
     },
     title: {
-      text: "Top 3 States",
+      text: "Top 3 Districts",
     },
     xAxis: {
       categories: categories,
