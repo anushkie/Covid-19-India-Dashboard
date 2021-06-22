@@ -7,43 +7,75 @@ function Page2Deceased(props) {
   const { StateData = [] } = props;
   const timeSeriesArray = [];
 
-  const option = {
+  var data = _groupBy(props.deathsArray, function (n) {
+    return n[0];
+  });
+
+  var seriesData = [];
+
+  var dateList = [];
+
+  for (let date in data) {
+    let value = data[date];
+    var sum = 0;
+
+    value.forEach((a) => {
+      sum += a[1];
+    });
+
+    dateList.push(date);
+    seriesData.push(sum);
+  }
+
+  const option1 = {
     title: {
-      text: null,
+      text: "",
     },
 
-    // xAxis: {
-    //   tickInterval: 1,
-    //   type: "logarithmic",
-    //   accessibility: {
-    //     rangeDescription: "Range: 1 to 10",
-    //   },
-    // },
+    yAxis: {
+      title: {
+        text: "Cases",
+      },
+    },
 
-    // yAxis: {
-    //   type: "logarithmic",
-    //   minorTickInterval: 0.1,
-    //   accessibility: {
-    //     rangeDescription: "Range: 0.1 to 1000",
-    //   },
-    // },
+    xAxis: {
+      categories: dateList,
+    },
 
-    // tooltip: {
-    //   headerFormat: "<b>{series.name}</b><br />",
-    //   pointFormat: "x = {point.x}, y = {point.y}",
-    // },
+    legend: {
+      layout: "vertical",
+      align: "right",
+      verticalAlign: "middle",
+    },
 
     series: [
       {
-        data: props.deathsArray,
-        // pointStart: 1,
+        name: "Deceased",
+        data: seriesData,
       },
     ],
+
+    responsive: {
+      rules: [
+        {
+          condition: {
+            maxWidth: 500,
+          },
+          chartOptions: {
+            legend: {
+              layout: "horizontal",
+              align: "center",
+              verticalAlign: "bottom",
+            },
+          },
+        },
+      ],
+    },
   };
 
   return (
     <>
-      <HighchartsReact highcharts={Highcharts} options={option} />;
+      <HighchartsReact highcharts={Highcharts} options={option1} />;
     </>
   );
 }

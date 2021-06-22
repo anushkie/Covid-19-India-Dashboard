@@ -12,7 +12,7 @@ import Bar from "./Page2Bar";
 import Comparison from "./Page2Comparison.js";
 import Map from "./Page2Map";
 import Donut from "./Page2Donut";
-import DistrictData from "./assets/districts.json";
+import * as moment from "moment";
 import StateData from "./assets/state_wise_daily.json";
 import States from "./assets/districts.json";
 import {
@@ -86,15 +86,24 @@ function getConfirmedArray(grouped_data, selectedState, type) {
 
     if (key === selectedState && type === 1) {
       grouped_data[key].forEach((item) => {
-        confirmArray.push(Number(item.Confirmed));
+        confirmArray.push([
+          moment(item["Date"], "YYYY-MM-DD").format("DD-MM-YYYY"),
+          Number(item.Confirmed),
+        ]);
       });
     } else if (key === selectedState && type === 2) {
       grouped_data[key].forEach((item) => {
-        confirmArray.push(Number(item.Recovered));
+        confirmArray.push([
+          moment(item["Date"], "YYYY-MM-DD").format("DD-MM-YYYY"),
+          Number(item.Recovered),
+        ]);
       });
     } else if (key === selectedState && type === 3) {
       grouped_data[key].forEach((item) => {
-        confirmArray.push(Number(item.Deceased));
+        confirmArray.push([
+          moment(item["Date"], "YYYY-MM-DD").format("DD-MM-YYYY"),
+          Number(item.Deceased),
+        ]);
       });
     }
   }
@@ -271,7 +280,13 @@ function StateWise(props) {
               <div className="card border-primary mb-3">
                 <div class="card-body text-primary">
                   <h5 class="card-title text-primary">
-                    <small>Confirmed Cases: {_sum(confirmCasesArray)}</small>
+                    <small>
+                      Confirmed Cases:{" "}
+                      {confirmCasesArray.reduce(
+                        (accum, item) => accum + item[1],
+                        0
+                      )}
+                    </small>
                   </h5>
                 </div>
               </div>{" "}
@@ -284,7 +299,13 @@ function StateWise(props) {
               <div className="card border-success mb-3">
                 <div class="card-body text-success">
                   <h5 class="card-title text-success">
-                    <small>Recovered Cases: {_sum(recoveredArray)}</small>
+                    <small>
+                      Recovered Cases:{" "}
+                      {recoveredArray.reduce(
+                        (accum, item) => accum + item[1],
+                        0
+                      )}
+                    </small>
                   </h5>
                 </div>
               </div>
@@ -297,7 +318,10 @@ function StateWise(props) {
               <div className="card border-danger mb-3">
                 <div class="card-body text-danger">
                   <h5 class="card-title text-danger">
-                    <small>Deceased Cases: {_sum(deathsArray)}</small>
+                    <small>
+                      Deceased Cases:{" "}
+                      {deathsArray.reduce((accum, item) => accum + item[1], 0)}
+                    </small>
                   </h5>
                 </div>
               </div>
